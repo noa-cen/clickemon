@@ -1,0 +1,161 @@
+[{
+    "id": 1,
+    "name": "Pokéball",
+    "type": "ball",
+    "image": "assets/images/shop/pokeball-1.png",
+    "cost": 200,
+    "description": "low capture rate",
+    "captureRate": 1.0
+},
+{
+    "id": 2,
+    "name": "greatball",
+    "image": "assets/images/shop/greatball-1.png",
+    "cost": "600",
+    "description": "medium capture rate",
+    "quantity": 0
+},
+{
+    "id": 3,
+    "name": "ultraball",
+    "image": "assets/images/shop/ultraball-1.png",
+    "cost": "1200",
+    "description": "high capture rate",
+    "quantity": 0
+},
+{
+    "id": 4,
+    "name": "leaf stone",
+    "image": "assets/images/shop/leafStone.png",
+    "cost": "2100",
+    "description": "used to evolve some Pokémon",
+    "quantity": 0
+},
+{
+    "id": 5,
+    "name": "thunder stone",
+    "image": "assets/images/shop/thunderStone.png",
+    "cost": "2100",
+    "description": "used to evolve some Pokémon",
+    "quantity": 0
+},
+{
+    "id": 6,
+    "name": "water stone",
+    "image": "assets/images/shop/waterStone.png",
+    "cost": "2100",
+    "description": "used to evolve some Pokémon",
+    "quantity": 0
+},
+{
+    "id": 7,
+    "name": "moon stone",
+    "image": "assets/images/shop/moonStone.png",
+    "cost": "2100",
+    "description": "used to evolve some Pokémon",
+    "quantity": 0
+},
+{
+    "id": 8,
+    "name": "fire stone",
+    "image": "assets/images/shop/fireStone.png",
+    "cost": "2100",
+    "description": "used to evolve some Pokémon",
+    "quantity": 0
+},
+{
+    "id": 9,
+    "name": "rare candy",
+    "image": "assets/images/shop/rareCandy.png",
+    "cost": "2100",
+    "description": "boost experience",
+    "quantity": 0
+},
+{
+    "id": 10,
+    "name": "multi-exp",
+    "image": "assets/images/shop/multi-exp.png",
+    "cost": "4000",
+    "description": "automatic experience gain",
+    "quantity": 1
+},
+{
+  "id": 10,
+  "name": "Multi-Exp",
+  "type": "autoclick",
+  "target": "xp",
+  "value": 1,
+  "interval": 1000,
+  "cost": 4000,
+  "description": "automatic experience gain",
+  "quantity": 1
+},
+{
+    "id": 11,
+    "name": "pokeflute",
+    "image": "assets/images/shop/pokeflute.png",
+    "cost": "5000",
+    "description": "wakes up a Pokémon",
+    "quantity": 0
+},
+{
+    "id": 12,
+    "name": "itemFinder",
+    "image": "assets/images/shop/itemsFinder.png",
+    "cost": "10000",
+    "description": "reveals surprise items",
+    "quantity": 1,
+    "items": [
+        {
+            "id": 14,
+            "name": "masterball",
+            "image": "assets/images/shop/masterball-1.png",
+            "weight": 1
+        },
+        {
+            "id": 15,
+            "name": "bike voucher",
+            "image": "assets/images/shop/bikeVoucher.png",
+            "weight": 3
+        },
+        {
+            "id": 16,
+            "name": "nugget",
+            "image": "assets/images/shop/nugget.png",
+            "weight": 15
+        },
+        {
+            "id": 17,
+            "name": "pokeball",
+            "image": "assets/images/shop/pokeball-1.png",
+            "weight": 30
+        },
+        {
+            "id": 18,
+            "name": "greatball",
+            "image": "assets/images/shop/greatball-1.png",
+            "weight": 20
+        },
+        {
+            "id": 19,
+            "name": "ultraball",
+            "image": "assets/images/shop/ultraball-1.png",
+            "weight": 10
+        },
+        {
+            "id": 20,
+            "name": "pokeflute",
+            "image": "assets/images/shop/pokeflute.png",
+            "weight": 20
+        }
+    ]
+},
+{
+    "id": 13,
+    "name": "bicycle",
+    "image": "assets/images/shop/bicycle.png",
+    "cost": "1000000",
+    "description": "play at double speed",
+    "quantity": 1
+}
+]

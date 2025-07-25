@@ -1,3241 +1,1361 @@
 [
-  {
-    "id": 1,
-    "name": "Bulbizarre",
-    "type": [],
-    "baseXp": 100,
-    "rarity": "starter",
-    "evolution": null,
-    "sprite": "bulbizarre.png"
-  },
-  {
-    "id": 2,
-    "name": "Herbizarre",
-    "type": [],
-    "baseXp": 102,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "herbizarre.png"
-  },
-  {
-    "id": 3,
-    "name": "Florizarre",
-    "type": [],
-    "baseXp": 103,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "florizarre.png"
-  },
-  {
-    "id": 4,
-    "name": "Salamèche",
-    "type": [],
-    "baseXp": 104,
-    "rarity": "starter",
-    "evolution": null,
-    "sprite": "salamèche.png"
-  },
-  {
-    "id": 5,
-    "name": "Reptincel",
-    "type": [],
-    "baseXp": 105,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "reptincel.png"
-  },
-  {
-    "id": 6,
-    "name": "Dracaufeu",
-    "type": [],
-    "baseXp": 106,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "dracaufeu.png"
-  },
-  {
-    "id": 7,
-    "name": "Carapuce",
-    "type": [],
-    "baseXp": 107,
-    "rarity": "starter",
-    "evolution": null,
-    "sprite": "carapuce.png"
-  },
-  {
-    "id": 8,
-    "name": "Carabaffe",
-    "type": [],
-    "baseXp": 108,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "carabaffe.png"
-  },
-  {
-    "id": 9,
-    "name": "Tortank",
-    "type": [],
-    "baseXp": 109,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tortank.png"
-  },
-  {
-    "id": 10,
-    "name": "Chenipan",
-    "type": [],
-    "baseXp": 110,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "chenipan.png"
-  },
-  {
-    "id": 11,
-    "name": "Chrysacier",
-    "type": [],
-    "baseXp": 111,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "chrysacier.png"
-  },
-  {
-    "id": 12,
-    "name": "Papilusion",
-    "type": [],
-    "baseXp": 112,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "papilusion.png"
-  },
-  {
-    "id": 13,
-    "name": "Aspicot",
-    "type": [],
-    "baseXp": 113,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "aspicot.png"
-  },
-  {
-    "id": 14,
-    "name": "Coconfort",
-    "type": [],
-    "baseXp": 114,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "coconfort.png"
-  },
-  {
-    "id": 15,
-    "name": "Dardargnan",
-    "type": [],
-    "baseXp": 115,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "dardargnan.png"
-  },
-  {
-    "id": 16,
-    "name": "Roucool",
-    "type": [],
-    "baseXp": 116,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "roucool.png"
-  },
-  {
-    "id": 17,
-    "name": "Roucoups",
-    "type": [],
-    "baseXp": 117,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "roucoups.png"
-  },
-  {
-    "id": 18,
-    "name": "Roucarnage",
-    "type": [],
-    "baseXp": 118,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "roucarnage.png"
-  },
-  {
-    "id": 19,
-    "name": "Rattata",
-    "type": [],
-    "baseXp": 119,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "rattata.png"
-  },
-  {
-    "id": 20,
-    "name": "Rattatac",
-    "type": [],
-    "baseXp": 120,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "rattatac.png"
-  },
-  {
-    "id": 21,
-    "name": "Piafabec",
-    "type": [],
-    "baseXp": 121,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "piafabec.png"
-  },
-  {
-    "id": 22,
-    "name": "Rapasdepic",
-    "type": [],
-    "baseXp": 122,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "rapasdepic.png"
-  },
-  {
-    "id": 23,
-    "name": "Abo",
-    "type": [],
-    "baseXp": 123,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "abo.png"
-  },
-  {
-    "id": 24,
-    "name": "Arbok",
-    "type": [],
-    "baseXp": 124,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "arbok.png"
-  },
-  {
-    "id": 25,
-    "name": "Pikachu",
-    "type": [],
-    "baseXp": 125,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "pikachu.png"
-  },
-  {
-    "id": 26,
-    "name": "Raichu",
-    "type": [],
-    "baseXp": 126,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "raichu.png"
-  },
-  {
-    "id": 27,
-    "name": "Sabelette",
-    "type": [],
-    "baseXp": 127,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "sabelette.png"
-  },
-  {
-    "id": 28,
-    "name": "Sablaireau",
-    "type": [],
-    "baseXp": 128,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "sablaireau.png"
-  },
-  {
-    "id": 29,
-    "name": "Nidoran♀",
-    "type": [],
-    "baseXp": 129,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nidoranf.png"
-  },
-  {
-    "id": 30,
-    "name": "Nidorina",
-    "type": [],
-    "baseXp": 130,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nidorina.png"
-  },
-  {
-    "id": 31,
-    "name": "Nidoqueen",
-    "type": [],
-    "baseXp": 131,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nidoqueen.png"
-  },
-  {
-    "id": 32,
-    "name": "Nidoran♂",
-    "type": [],
-    "baseXp": 132,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nidoranm.png"
-  },
-  {
-    "id": 33,
-    "name": "Nidorino",
-    "type": [],
-    "baseXp": 133,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nidorino.png"
-  },
-  {
-    "id": 34,
-    "name": "Nidoking",
-    "type": [],
-    "baseXp": 134,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nidoking.png"
-  },
-  {
-    "id": 35,
-    "name": "Mélofée",
-    "type": [],
-    "baseXp": 135,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "mélofée.png"
-  },
-  {
-    "id": 36,
-    "name": "Mélodelfe",
-    "type": [],
-    "baseXp": 136,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "mélodelfe.png"
-  },
-  {
-    "id": 37,
-    "name": "Goupix",
-    "type": [],
-    "baseXp": 137,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "goupix.png"
-  },
-  {
-    "id": 38,
-    "name": "Feunard",
-    "type": [],
-    "baseXp": 138,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "feunard.png"
-  },
-  {
-    "id": 39,
-    "name": "Rondoudou",
-    "type": [],
-    "baseXp": 139,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "rondoudou.png"
-  },
-  {
-    "id": 40,
-    "name": "Grodoudou",
-    "type": [],
-    "baseXp": 140,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "grodoudou.png"
-  },
-  {
-    "id": 41,
-    "name": "Nosferapti",
-    "type": [],
-    "baseXp": 141,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nosferapti.png"
-  },
-  {
-    "id": 42,
-    "name": "Nosferalto",
-    "type": [],
-    "baseXp": 142,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "nosferalto.png"
-  },
-  {
-    "id": 43,
-    "name": "Mystherbe",
-    "type": [],
-    "baseXp": 143,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "mystherbe.png"
-  },
-  {
-    "id": 44,
-    "name": "Ortide",
-    "type": [],
-    "baseXp": 144,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ortide.png"
-  },
-  {
-    "id": 45,
-    "name": "Rafflesia",
-    "type": [],
-    "baseXp": 145,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "rafflesia.png"
-  },
-  {
-    "id": 46,
-    "name": "Paras",
-    "type": [],
-    "baseXp": 146,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "paras.png"
-  },
-  {
-    "id": 47,
-    "name": "Parasect",
-    "type": [],
-    "baseXp": 147,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "parasect.png"
-  },
-  {
-    "id": 48,
-    "name": "Mimitoss",
-    "type": [],
-    "baseXp": 148,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "mimitoss.png"
-  },
-  {
-    "id": 49,
-    "name": "Aéromite",
-    "type": [],
-    "baseXp": 149,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "aéromite.png"
-  },
-  {
-    "id": 50,
-    "name": "Taupiqueur",
-    "type": [],
-    "baseXp": 150,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "taupiqueur.png"
-  },
-  {
-    "id": 51,
-    "name": "Triopikeur",
-    "type": [],
-    "baseXp": 151,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "triopikeur.png"
-  },
-  {
-    "id": 52,
-    "name": "Miaouss",
-    "type": [],
-    "baseXp": 152,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "miaouss.png"
-  },
-  {
-    "id": 53,
-    "name": "Persian",
-    "type": [],
-    "baseXp": 153,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "persian.png"
-  },
-  {
-    "id": 54,
-    "name": "Psykokwak",
-    "type": [],
-    "baseXp": 154,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "psykokwak.png"
-  },
-  {
-    "id": 55,
-    "name": "Akwakwak",
-    "type": [],
-    "baseXp": 155,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "akwakwak.png"
-  },
-  {
-    "id": 56,
-    "name": "Férosinge",
-    "type": [],
-    "baseXp": 156,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "férosinge.png"
-  },
-  {
-    "id": 57,
-    "name": "Colossinge",
-    "type": [],
-    "baseXp": 157,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "colossinge.png"
-  },
-  {
-    "id": 58,
-    "name": "Caninos",
-    "type": [],
-    "baseXp": 158,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "caninos.png"
-  },
-  {
-    "id": 59,
-    "name": "Arcanin",
-    "type": [],
-    "baseXp": 159,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "arcanin.png"
-  },
-  {
-    "id": 60,
-    "name": "Ptitard",
-    "type": [],
-    "baseXp": 160,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ptitard.png"
-  },
-  {
-    "id": 61,
-    "name": "Têtarte",
-    "type": [],
-    "baseXp": 161,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "têtarte.png"
-  },
-  {
-    "id": 62,
-    "name": "Tartard",
-    "type": [],
-    "baseXp": 162,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tartard.png"
-  },
-  {
-    "id": 63,
-    "name": "Abra",
-    "type": [],
-    "baseXp": 163,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "abra.png"
-  },
-  {
-    "id": 64,
-    "name": "Kadabra",
-    "type": [],
-    "baseXp": 164,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "kadabra.png"
-  },
-  {
-    "id": 65,
-    "name": "Alakazam",
-    "type": [],
-    "baseXp": 165,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "alakazam.png"
-  },
-  {
-    "id": 66,
-    "name": "Machoc",
-    "type": [],
-    "baseXp": 166,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "machoc.png"
-  },
-  {
-    "id": 67,
-    "name": "Machopeur",
-    "type": [],
-    "baseXp": 167,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "machopeur.png"
-  },
-  {
-    "id": 68,
-    "name": "Mackogneur",
-    "type": [],
-    "baseXp": 168,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "mackogneur.png"
-  },
-  {
-    "id": 69,
-    "name": "Chétiflor",
-    "type": [],
-    "baseXp": 169,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "chétiflor.png"
-  },
-  {
-    "id": 70,
-    "name": "Boustiflor",
-    "type": [],
-    "baseXp": 170,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "boustiflor.png"
-  },
-  {
-    "id": 71,
-    "name": "Empiflor",
-    "type": [],
-    "baseXp": 171,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "empiflor.png"
-  },
-  {
-    "id": 72,
-    "name": "Tentacool",
-    "type": [],
-    "baseXp": 172,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tentacool.png"
-  },
-  {
-    "id": 73,
-    "name": "Tentacruel",
-    "type": [],
-    "baseXp": 173,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tentacruel.png"
-  },
-  {
-    "id": 74,
-    "name": "Racaillou",
-    "type": [],
-    "baseXp": 174,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "racaillou.png"
-  },
-  {
-    "id": 75,
-    "name": "Gravalanch",
-    "type": [],
-    "baseXp": 175,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "gravalanch.png"
-  },
-  {
-    "id": 76,
-    "name": "Grolem",
-    "type": [],
-    "baseXp": 176,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "grolem.png"
-  },
-  {
-    "id": 77,
-    "name": "Ponyta",
-    "type": [],
-    "baseXp": 177,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ponyta.png"
-  },
-  {
-    "id": 78,
-    "name": "Galopa",
-    "type": [],
-    "baseXp": 178,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "galopa.png"
-  },
-  {
-    "id": 79,
-    "name": "Ramoloss",
-    "type": [],
-    "baseXp": 179,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ramoloss.png"
-  },
-  {
-    "id": 80,
-    "name": "Flagadoss",
-    "type": [],
-    "baseXp": 180,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "flagadoss.png"
-  },
-  {
-    "id": 81,
-    "name": "Magnéti",
-    "type": [],
-    "baseXp": 181,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "magnéti.png"
-  },
-  {
-    "id": 82,
-    "name": "Magnéton",
-    "type": [],
-    "baseXp": 182,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "magnéton.png"
-  },
-  {
-    "id": 83,
-    "name": "Canarticho",
-    "type": [],
-    "baseXp": 183,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "canarticho.png"
-  },
-  {
-    "id": 84,
-    "name": "Doduo",
-    "type": [],
-    "baseXp": 184,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "doduo.png"
-  },
-  {
-    "id": 85,
-    "name": "Dodrio",
-    "type": [],
-    "baseXp": 185,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "dodrio.png"
-  },
-  {
-    "id": 86,
-    "name": "Otaria",
-    "type": [],
-    "baseXp": 186,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "otaria.png"
-  },
-  {
-    "id": 87,
-    "name": "Lamantine",
-    "type": [],
-    "baseXp": 187,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "lamantine.png"
-  },
-  {
-    "id": 88,
-    "name": "Tadmorv",
-    "type": [],
-    "baseXp": 188,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tadmorv.png"
-  },
-  {
-    "id": 89,
-    "name": "Grotadmorv",
-    "type": [],
-    "baseXp": 189,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "grotadmorv.png"
-  },
-  {
-    "id": 90,
-    "name": "Kokiyas",
-    "type": [],
-    "baseXp": 190,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "kokiyas.png"
-  },
-  {
-    "id": 91,
-    "name": "Crustabri",
-    "type": [],
-    "baseXp": 191,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "crustabri.png"
-  },
-  {
-    "id": 92,
-    "name": "Fantominus",
-    "type": [],
-    "baseXp": 192,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "fantominus.png"
-  },
-  {
-    "id": 93,
-    "name": "Spectrum",
-    "type": [],
-    "baseXp": 193,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "spectrum.png"
-  },
-  {
-    "id": 94,
-    "name": "Ectoplasma",
-    "type": [],
-    "baseXp": 194,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "ectoplasma.png"
-  },
-  {
-    "id": 95,
-    "name": "Onix",
-    "type": [],
-    "baseXp": 195,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "onix.png"
-  },
-  {
-    "id": 96,
-    "name": "Soporifik",
-    "type": [],
-    "baseXp": 196,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "soporifik.png"
-  },
-  {
-    "id": 97,
-    "name": "Hypnomade",
-    "type": [],
-    "baseXp": 197,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "hypnomade.png"
-  },
-  {
-    "id": 98,
-    "name": "Krabby",
-    "type": [],
-    "baseXp": 198,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "krabby.png"
-  },
-  {
-    "id": 99,
-    "name": "Krabboss",
-    "type": [],
-    "baseXp": 199,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "krabboss.png"
-  },
-  {
-    "id": 100,
-    "name": "Voltorbe",
-    "type": [],
-    "baseXp": 200,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "voltorbe.png"
-  },
-  {
-    "id": 101,
-    "name": "Électrode",
-    "type": [],
-    "baseXp": 201,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "électrode.png"
-  },
-  {
-    "id": 102,
-    "name": "Noeunoeuf",
-    "type": [],
-    "baseXp": 202,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "noeunoeuf.png"
-  },
-  {
-    "id": 103,
-    "name": "Noadkoko",
-    "type": [],
-    "baseXp": 203,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "noadkoko.png"
-  },
-  {
-    "id": 104,
-    "name": "Osselait",
-    "type": [],
-    "baseXp": 204,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "osselait.png"
-  },
-  {
-    "id": 105,
-    "name": "Ossatueur",
-    "type": [],
-    "baseXp": 205,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ossatueur.png"
-  },
-  {
-    "id": 106,
-    "name": "Kicklee",
-    "type": [],
-    "baseXp": 206,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "kicklee.png"
-  },
-  {
-    "id": 107,
-    "name": "Tygnon",
-    "type": [],
-    "baseXp": 207,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tygnon.png"
-  },
-  {
-    "id": 108,
-    "name": "Excelangue",
-    "type": [],
-    "baseXp": 208,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "excelangue.png"
-  },
-  {
-    "id": 109,
-    "name": "Smogo",
-    "type": [],
-    "baseXp": 209,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "smogo.png"
-  },
-  {
-    "id": 110,
-    "name": "Smogogo",
-    "type": [],
-    "baseXp": 210,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "smogogo.png"
-  },
-  {
-    "id": 111,
-    "name": "Rhinocorne",
-    "type": [],
-    "baseXp": 211,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "rhinocorne.png"
-  },
-  {
-    "id": 112,
-    "name": "Rhinoféros",
-    "type": [],
-    "baseXp": 212,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "rhinoféros.png"
-  },
-  {
-    "id": 113,
-    "name": "Leveinard",
-    "type": [],
-    "baseXp": 213,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "leveinard.png"
-  },
-  {
-    "id": 114,
-    "name": "Saquedeneu",
-    "type": [],
-    "baseXp": 214,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "saquedeneu.png"
-  },
-  {
-    "id": 115,
-    "name": "Kangourex",
-    "type": [],
-    "baseXp": 215,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "kangourex.png"
-  },
-  {
-    "id": 116,
-    "name": "Hypotrempe",
-    "type": [],
-    "baseXp": 216,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "hypotrempe.png"
-  },
-  {
-    "id": 117,
-    "name": "Hypocéan",
-    "type": [],
-    "baseXp": 217,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "hypocéan.png"
-  },
-  {
-    "id": 118,
-    "name": "Poissirène",
-    "type": [],
-    "baseXp": 218,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "poissirène.png"
-  },
-  {
-    "id": 119,
-    "name": "Poissoroy",
-    "type": [],
-    "baseXp": 219,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "poissoroy.png"
-  },
-  {
-    "id": 120,
-    "name": "Stari",
-    "type": [],
-    "baseXp": 220,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "stari.png"
-  },
-  {
-    "id": 121,
-    "name": "Staross",
-    "type": [],
-    "baseXp": 221,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "staross.png"
-  },
-  {
-    "id": 122,
-    "name": "M. Mime",
-    "type": [],
-    "baseXp": 222,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "m_mime.png"
-  },
-  {
-    "id": 123,
-    "name": "Insécateur",
-    "type": [],
-    "baseXp": 223,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "insécateur.png"
-  },
-  {
-    "id": 124,
-    "name": "Lippoutou",
-    "type": [],
-    "baseXp": 224,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "lippoutou.png"
-  },
-  {
-    "id": 125,
-    "name": "Élektek",
-    "type": [],
-    "baseXp": 225,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "élektek.png"
-  },
-  {
-    "id": 126,
-    "name": "Magmar",
-    "type": [],
-    "baseXp": 226,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "magmar.png"
-  },
-  {
-    "id": 127,
-    "name": "Scarabrute",
-    "type": [],
-    "baseXp": 227,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "scarabrute.png"
-  },
-  {
-    "id": 128,
-    "name": "Tauros",
-    "type": [],
-    "baseXp": 228,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "tauros.png"
-  },
-  {
-    "id": 129,
-    "name": "Magicarpe",
-    "type": [],
-    "baseXp": 229,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "magicarpe.png"
-  },
-  {
-    "id": 130,
-    "name": "Léviator",
-    "type": [],
-    "baseXp": 230,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "léviator.png"
-  },
-  {
-    "id": 131,
-    "name": "Lokhlass",
-    "type": [],
-    "baseXp": 231,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "lokhlass.png"
-  },
-  {
-    "id": 132,
-    "name": "Métamorph",
-    "type": [],
-    "baseXp": 232,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "métamorph.png"
-  },
-  {
-    "id": 133,
-    "name": "Évoli",
-    "type": [],
-    "baseXp": 233,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "évoli.png"
-  },
-  {
-    "id": 134,
-    "name": "Aquali",
-    "type": [],
-    "baseXp": 234,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "aquali.png"
-  },
-  {
-    "id": 135,
-    "name": "Voltali",
-    "type": [],
-    "baseXp": 235,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "voltali.png"
-  },
-  {
-    "id": 136,
-    "name": "Pyroli",
-    "type": [],
-    "baseXp": 236,
-    "rarity": "rare",
-    "evolution": null,
-    "sprite": "pyroli.png"
-  },
-  {
-    "id": 137,
-    "name": "Porygon",
-    "type": [],
-    "baseXp": 237,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "porygon.png"
-  },
-  {
-    "id": 138,
-    "name": "Amonita",
-    "type": [],
-    "baseXp": 238,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "amonita.png"
-  },
-  {
-    "id": 139,
-    "name": "Amonistar",
-    "type": [],
-    "baseXp": 239,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "amonistar.png"
-  },
-  {
-    "id": 140,
-    "name": "Kabuto",
-    "type": [],
-    "baseXp": 240,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "kabuto.png"
-  },
-  {
-    "id": 141,
-    "name": "Kabutops",
-    "type": [],
-    "baseXp": 241,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "kabutops.png"
-  },
-  {
-    "id": 142,
-    "name": "Ptéra",
-    "type": [],
-    "baseXp": 242,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ptéra.png"
-  },
-  {
-    "id": 143,
-    "name": "Ronflex",
-    "type": [],
-    "baseXp": 243,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "ronflex.png"
-  },
-  {
-    "id": 144,
-    "name": "Artikodin",
-    "type": [],
-    "baseXp": 244,
-    "rarity": "legendary",
-    "evolution": null,
-    "sprite": "artikodin.png"
-  },
-  {
-    "id": 145,
-    "name": "Électhor",
-    "type": [],
-    "baseXp": 245,
-    "rarity": "legendary",
-    "evolution": null,
-    "sprite": "électhor.png"
-  },
-  {
-    "id": 146,
-    "name": "Sulfura",
-    "type": [],
-    "baseXp": 246,
-    "rarity": "legendary",
-    "evolution": null,
-    "sprite": "sulfura.png"
-  },
-  {
-    "id": 147,
-    "name": "Minidraco",
-    "type": [],
-    "baseXp": 247,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "minidraco.png"
-  },
-  {
-    "id": 148,
-    "name": "Draco",
-    "type": [],
-    "baseXp": 248,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "draco.png"
-  },
-  {
-    "id": 149,
-    "name": "Dracolosse",
-    "type": [],
-    "baseXp": 249,
-    "rarity": "common",
-    "evolution": null,
-    "sprite": "dracolosse.png"
-  },
-  {
-    "id": 150,
-    "name": "Mewtwo",
-    "type": [],
-    "baseXp": 250,
-    "rarity": "legendary",
-    "evolution": null,
-    "sprite": "mewtwo.png"
-  },
-  {
-    "id": 151,
-    "name": "Mew",
-    "type": [],
-    "baseXp": 251,
-    "rarity": "legendary",
-    "evolution": null,
-    "sprite": "mew.png"
-  }
-]
-
-
-[{
-		"id": 1,
-		"number": "001",
-		"name": {
-			"english": "Bulbasaur",
-			"french": "Bulbizarre"
-		},
-		"image": "assets/images/pokemon/1.png",
-		"type": [
-			"grass", 
-			" poison "
-		]
-	},
-	{
-		"id": 2,
-		"number": "002",
-		"name": {
-			"english": "Ivysaur",
-			"french": "Herbizarre"
-		},
-		"image": "assets/images/pokemon/2.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 3,
-		"number": "003",
-		"name": {
-			"english": "Venusaur",
-			"french": "Florizarre"
-		},
-		"image": "assets/images/pokemon/3.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 4,
-		"number": "004",
-		"name": {
-			"english": "Charmander",
-			"french": "Salamèche"
-		},
-		"image": "assets/images/pokemon/4.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 5,
-		"number": "005",
-		"name": {
-			"english": "Charmeleon",
-			"french": "Reptincel"
-		},
-		"image": "assets/images/pokemon/5.png",
-		"type": [
-			"fire "
-		],
-		"call": {
-			"HP": 58,
-			"Attack": 64,
-			"Defense": 58,
-			"Sp. Attack": 80,
-			"Sp. Defense": 65,
-			"Speed": 80
-		}
-	},
-	{
-		"id": 6,
-		"number": "006",
-		"name": {
-			"english": "Charizard",
-			"french": "Dracaufeu"
-		},
-		"image": "assets/images/pokemon/6.png",
-		"type": [
-			"fire",
-			" flying "
-		]
-	},
-	{
-		"id": 7,
-		"number": "007",
-		"name": {
-			"english": "Squirtle",
-			"french": "Carapuce"
-		},
-		"image": "assets/images/pokemon/7.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 8,
-		"number": "008",
-		"name": {
-			"english": "Wartortle",
-			"french": "Carabaffe"
-		},
-		"image": "assets/images/pokemon/8.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 9,
-		"number": "009",
-		"name": {
-			"english": "Blastoise",
-			"french": "Tortank"
-		},
-		"image": "assets/images/pokemon/9.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 10,
-		"number": "010",
-		"name": {
-			"english": "Caterpie",
-			"french": "Chenipan"
-		},
-		"image": "assets/images/pokemon/10.png",
-		"type": [
-			"bug "
-		]
-	},
-	{
-		"id": 11,
-		"number": "011",
-		"name": {
-			"english": "Metapod",
-			"french": "Chrysacier"
-		},
-		"image": "assets/images/pokemon/11.png",
-		"type": [
-			"bug "
-		]
-	},
-	{
-		"id": 12,
-		"number": "012",
-		"name": {
-			"english": "Butterfree",
-			"french": "Papilusion"
-		},
-		"image": "assets/images/pokemon/12.png",
-		"type": [
-			"bug",
-			" flying "
-		]
-	},
-	{
-		"id": 13,
-		"number": "013",
-		"name": {
-			"english": "Weedle",
-			"french": "Aspicot"
-		},
-		"image": "assets/images/pokemon/13.png",
-		"type": [
-			"bug",
-			" poison "
-		]
-	},
-	{
-		"id": 14,
-		"number": "014",
-		"name": {
-			"english": "Kakuna",
-			"french": "Coconfort"
-		},
-		"image": "assets/images/pokemon/14.png",
-		"type": [
-			"bug",
-			" poison "
-		]
-	},
-	{
-		"id": 15,
-		"number": "015",
-		"name": {
-			"english": "Beedrill",
-			"french": "Dardargnan"
-		},
-		"image": "assets/images/pokemon/15.png",
-		"type": [
-			"bug",
-			" poison "
-		]
-		},
-		{
-		"id": 16,
-		"number": "016",
-		"name": {
-			"english": "Pidgey",
-			"french": "Roucool"
-		},
-		"image": "assets/images/pokemon/16.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-		},
-		{
-		"id": 17,
-		"number": "017",
-		"name": {
-			"english": "Pidgeotto",
-			"french": "Roucoups"
-		},
-		"image": "assets/images/pokemon/17.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-		},
-		{
-		"id": 18,
-		"number": "018",
-		"name": {
-			"english": "Pidgeot",
-			"french": "Roucarnage"
-		},
-		"image": "assets/images/pokemon/18.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-		},
-		{
-		"id": 19,
-		"number": "019",
-		"name": {
-			"english": "Rattata",
-			"french": "Rattata"
-		},
-		"image": "assets/images/pokemon/19.png",
-		"type": [
-			"normal "
-		]
-		},
-		{
-		"id": 20,
-		"number": "020",
-		"name": {
-			"english": "Raticate",
-			"french": "Rattatac"
-		},
-		"image": "assets/images/pokemon/20.png",
-		"type": [
-			"normal "
-		]
-		},
-		{
-		"id": 21,
-		"number": "021",
-		"name": {
-			"english": "Spearow",
-			"french": "Piafabec"
-		},
-		"image": "assets/images/pokemon/21.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-		},
-		{
-		"id": 22,
-		"number": "022",
-		"name": {
-			"english": "Fearow",
-			"french": "Rapasdepic"
-		},
-		"image": "assets/images/pokemon/22.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-		},
-		{
-		"id": 23,
-		"number": "023",
-		"name": {
-			"english": "Ekans",
-			"french": "Abo"
-		},
-		"image": "assets/images/pokemon/23.png",
-		"type": [
-			"poison "
-		]
-		},
-		{
-		"id": 24,
-		"number": "024",
-		"name": {
-			"english": "Arbok",
-			"french": "Arbok"
-		},
-		"image": "assets/images/pokemon/24.png",
-		"type": [
-			"poison "
-		]
-	},
-	{
-		"id": 25,
-		"number": "025",
-		"name": {
-			"english": "Pikachu",
-			"french": "Pikachu"
-		},
-		"image": "assets/images/pokemon/25.png",
-		"type": [
-			"electric "
-		]
-	},
-	{
-		"id": 26,
-		"number": "026",
-		"name": {
-			"english": "Raichu",
-			"french": "Raichu"
-		},
-		"image": "assets/images/pokemon/26.png",
-		"type": [
-			"electric "
-		]
-	},
-	{
-		"id": 27,
-		"number": "027",
-		"name": {
-			"english": "Sandshrew",
-			"french": "Sabelette"
-		},
-		"image": "assets/images/pokemon/27.png",
-		"type": [
-			"ground "
-		]
-	},
-	{
-		"id": 28,
-		"number": "028",
-		"name": {
-			"english": "Sandslash",
-			"french": "Sablaireau"
-		},
-		"image": "assets/images/pokemon/28.png",
-		"type": [
-			"ground "
-		]
-	},
-	{
-		"id": 29,
-		"number": "029",
-		"name": {
-			"english": "Nidoran♀",
-			"french": "Nidoran♀"
-		},
-		"image": "assets/images/pokemon/29.png",
-		"type": [
-			"poison "
-		]
-	},
-	{
-		"id": 30,
-		"number": "030",
-		"name": {
-			"english": "Nidorina",
-			"french": "Nidorina"
-		},
-		"image": "assets/images/pokemon/30.png",
-		"type": [
-			"poison "
-		]
-	},
-	{
-		"id": 31,
-		"number": "031",
-		"name": {
-			"english": "Nidoqueen",
-			"french": "Nidoqueen"
-		},
-		"image": "assets/images/pokemon/31.png",
-		"type": [
-			"poison",
-			" ground "
-		]
-	},
-	{
-		"id": 32,
-		"number": "032",
-		"name": {
-			"english": "Nidoran♂",
-			"french": "Nidoran♂"
-		},
-		"image": "assets/images/pokemon/32.png",
-		"type": [
-			"poison "
-		]
-	},
-	{
-		"id": 33,
-		"number": "033",
-		"name": {
-			"english": "Nidorino",
-			"french": "Nidorino"
-		},
-		"image": "assets/images/pokemon/33.png",
-		"type": [
-			"poison "
-		]
-	},
-	{
-		"id": 34,
-		"number": "034",
-		"name": {
-			"english": "Nidoking",
-			"french": "Nidoking"
-		},
-		"image": "assets/images/pokemon/34.png",
-		"type": [
-			"poison",
-			" ground "
-		]
-	},
-	{
-		"id": 35,
-		"number": "035",
-		"name": {
-			"english": "Clefairy",
-			"french": "Mélofée"
-		},
-		"image": "assets/images/pokemon/35.png",
-		"type": [
-			"fairy "
-		]
-	},
-	{
-		"id": 36,
-		"number": "036",
-		"name": {
-			"english": "Clefable",
-			"french": "Mélodelfe"
-		},
-		"image": "assets/images/pokemon/36.png",
-		"type": [
-			"fairy "
-		]
-	},
-	{
-		"id": 37,
-		"number": "037",
-		"name": {
-			"english": "Vulpix",
-			"french": "Goupix"
-		},
-		"image": "assets/images/pokemon/37.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 38,
-		"number": "038",
-		"name": {
-			"english": "Ninetales",
-			"french": "Feunard"
-		},
-		"image": "assets/images/pokemon/38.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 39,
-		"number": "039",
-		"name": {
-			"english": "Jigglypuff",
-			"french": "Rondoudou"
-		},
-		"image": "assets/images/pokemon/39.png",
-		"type": [
-			"normal",
-			" fairy "
-		]
-	},
-	{
-		"id": 40,
-		"number": "040",
-		"name": {
-			"english": "Wigglytuff",
-			"french": "Grodoudou"
-		},
-		"image": "assets/images/pokemon/40.png",
-		"type": [
-			"normal",
-			" fairy "
-		]
-	},
-	{
-		"id": 41,
-		"number": "041",
-		"name": {
-			"english": "Zubat",
-			"french": "Nosferapti"
-		},
-		"image": "assets/images/pokemon/41.png",
-		"type": [
-			"poison",
-			" flying "
-		]
-	},
-	{
-		"id": 42,
-		"number": "042",
-		"name": {
-			"english": "Golbat",
-			"french": "Nosferalto"
-		},
-		"image": "assets/images/pokemon/42.png",
-		"type": [
-			"poison",
-			" flying "
-		]
-	},
-	{
-		"id": 43,
-		"number": "043",
-		"name": {
-			"english": "Oddish",
-			"french": "Mystherbe"
-		},
-		"image": "assets/images/pokemon/43.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 44,
-		"number": "044",
-		"name": {
-			"english": "Gloom",
-			"french": "Ortide"
-		},
-		"image": "assets/images/pokemon/44.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 45,
-		"number": "045",
-		"name": {
-			"english": "Vileplume",
-			"french": "Rafflesia"
-		},
-		"image": "assets/images/pokemon/45.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 46,
-		"number": "046",
-		"name": {
-			"english": "Paras",
-			"french": "Paras"
-		},
-		"image": "assets/images/pokemon/46.png",
-		"type": [
-			"bug",
-			" grass "
-		]
-	},
-	{
-		"id": 47,
-		"number": "047",
-		"name": {
-			"english": "Parasect",
-			"french": "Parasect"
-		},
-		"image": "assets/images/pokemon/47.png",
-		"type": [
-			"bug",
-			" grass "
-		]
-	},
-	{
-		"id": 48,
-		"number": "048",
-		"name": {
-			"english": "Venonat",
-			"french": "Mimitoss"
-		},
-		"image": "assets/images/pokemon/48.png",
-		"type": [
-			"bug",
-			" poison "
-		]
-	},
-	{
-		"id": 49,
-		"number": "049",
-		"name": {
-			"english": "Venomoth",
-			"french": "Aéromite"
-		},
-		"image": "assets/images/pokemon/49.png",
-		"type": [
-			"bug",
-			" poison "
-		]
-	},
-	{
-		"id": 50,
-		"number": "050",
-		"name": {
-			"english": "Diglett",
-			"french": "Taupiqueur"
-		},
-		"image": "assets/images/pokemon/50.png",
-		"type": [
-			"ground "
-		]
-	},
-	{
-		"id": 51,
-		"number": "051",
-		"name": {
-			"english": "Dugtrio",
-			"french": "Triopikeur"
-		},
-		"image": "assets/images/pokemon/51.png",
-		"type": [
-			"ground "
-		]
-	},
-	{
-		"id": 52,
-		"number": "052",
-		"name": {
-			"english": "Meowth",
-			"french": "Miaouss"
-		},
-		"image": "assets/images/pokemon/52.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 53,
-		"number": "053",
-		"name": {
-			"english": "Persian",
-			"french": "Persian"
-		},
-		"image": "assets/images/pokemon/53.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 54,
-		"number": "054",
-		"name": {
-			"english": "Psyduck",
-			"french": "Psykokwak"
-		},
-		"image": "assets/images/pokemon/54.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 55,
-		"number": "055",
-		"name": {
-			"english": "Golduck",
-			"french": "Akwakwak"
-		},
-		"image": "assets/images/pokemon/55.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 56,
-		"number": "056",
-		"name": {
-			"english": "Mankey",
-			"french": "Férosinge"
-		},
-		"image": "assets/images/pokemon/56.png",
-		"type": [
-			"fighting "
-		]
-	},
-	{
-		"id": 57,
-		"number": "057",
-		"name": {
-			"english": "Primeape",
-			"french": "Colossinge"
-		},
-		"image": "assets/images/pokemon/57.png",
-		"type": [
-			"fighting "
-		]
-	},
-	{
-		"id": 58,
-		"number": "058",
-		"name": {
-			"english": "Growlithe",
-			"french": "Caninos"
-		},
-		"image": "assets/images/pokemon/58.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 59,
-		"number": "059",
-		"name": {
-			"english": "Arcanine",
-			"french": "Arcanin"
-		},
-		"image": "assets/images/pokemon/59.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 60,
-		"number": "060",
-		"name": {
-			"english": "Poliwag",
-			"french": "Ptitard"
-		},
-		"image": "assets/images/pokemon/60.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 61,
-		"number": "061",
-		"name": {
-			"english": "Poliwhirl",
-			"french": "Têtarte"
-		},
-		"image": "assets/images/pokemon/61.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 62,
-		"number": "062",
-		"name": {
-			"english": "Poliwrath",
-			"french": "Tartard"
-		},
-		"image": "assets/images/pokemon/62.png",
-		"type": [
-			"water",
-			" fighting "
-		]
-	},
-	{
-		"id": 63,
-		"number": "063",
-		"name": {
-			"english": "Abra",
-			"french": "Abra"
-		},
-		"image": "assets/images/pokemon/63.png",
-		"type": [
-			"psychic "
-		]
-	},
-	{
-		"id": 64,
-		"number": "064",
-		"name": {
-			"english": "Kadabra",
-			"french": "Kadabra"
-		},
-		"image": "assets/images/pokemon/64.png",
-		"type": [
-			"psychic "
-		]
-	},
-	{
-		"id": 65,
-		"number": "065",
-		"name": {
-			"english": "Alakazam",
-			"french": "Alakazam"
-		},
-		"image": "assets/images/pokemon/65.png",
-		"type": [
-			"psychic "
-		]
-	},
-	{
-		"id": 66,
-		"number": "066",
-		"name": {
-			"english": "Machop",
-			"french": "Machoc"
-		},
-		"image": "assets/images/pokemon/66.png",
-		"type": [
-			"fighting "
-		]
-	},
-	{
-		"id": 67,
-		"number": "067",
-		"name": {
-			"english": "Machoke",
-			"french": "Machopeur"
-		},
-		"image": "assets/images/pokemon/67.png",
-		"type": [
-			"fighting "
-		]
-	},
-	{
-		"id": 68,
-		"number": "068",
-		"name": {
-			"english": "Machamp",
-			"french": "Mackogneur"
-		},
-		"image": "assets/images/pokemon/68.png",
-		"type": [
-			"fighting "
-		]
-	},
-	{
-		"id": 69,
-		"number": "069",
-		"name": {
-			"english": "Bellsprout",
-			"french": "Chétiflor"
-		},
-		"image": "assets/images/pokemon/69.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 70,
-		"number": "070",
-		"name": {
-			"english": "Weepinbell",
-			"french": "Boustiflor"
-		},
-		"image": "assets/images/pokemon/70.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 71,
-		"number": "071",
-		"name": {
-			"english": "Victreebel",
-			"french": "Empiflor"
-		},
-		"image": "assets/images/pokemon/71.png",
-		"type": [
-			"grass",
-			" poison "
-		]
-	},
-	{
-		"id": 72,
-		"number": "072",
-		"name": {
-			"english": "Tentacool",
-			"french": "Tentacool"
-		},
-		"image": "assets/images/pokemon/72.png",
-		"type": [
-			"water",
-			" poison "
-		]
-	},
-	{
-		"id": 73,
-		"number": "073",
-		"name": {
-			"english": "Tentacruel",
-			"french": "Tentacruel"
-		},
-		"image": "assets/images/pokemon/73.png",
-		"type": [
-			"water",
-			" poison "
-		]
-	},
-	{
-		"id": 74,
-		"number": "074",
-		"name": {
-			"english": "Geodude",
-			"french": "Racaillou"
-		},
-		"image": "assets/images/pokemon/74.png",
-		"type": [
-			"rock",
-			" ground "
-		]
-	},
-	{
-		"id": 75,
-		"number": "075",
-		"name": {
-			"english": "Graveler",
-			"french": "Gravalanch"
-		},
-		"image": "assets/images/pokemon/75.png",
-		"type": [
-			"rock",
-			" ground "
-		]
-	},
-	{
-		"id": 76,
-		"number": "076",
-		"name": {
-			"english": "Golem",
-			"french": "Grolem"
-		},
-		"image": "assets/images/pokemon/76.png",
-		"type": [
-			"rock",
-			" ground "
-		]
-	},
-	{
-		"id": 77,
-		"number": "077",
-		"name": {
-			"english": "Ponyta",
-			"french": "Ponyta"
-		},
-		"image": "assets/images/pokemon/77.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 78,
-		"number": "078",
-		"name": {
-			"english": "Rapidash",
-			"french": "Galopa"
-		},
-		"image": "assets/images/pokemon/78.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 79,
-		"number": "079",
-		"name": {
-			"english": "Slowpoke",
-			"french": "Ramoloss"
-		},
-		"image": "assets/images/pokemon/79.png",
-		"type": [
-			"water",
-			" psychic "
-		]
-	},
-	{
-		"id": 80,
-		"number": "080",
-		"name": {
-			"english": "Slowbro",
-			"french": "Flagadoss"
-		},
-		"image": "assets/images/pokemon/80.png",
-		"type": [
-			"water",
-			" psychic "
-		]
-	},
-	{
-		"id": 81,
-		"number": "081",
-		"name": {
-			"english": "Magnemite",
-			"french": "Magnéti"
-		},
-		"image": "assets/images/pokemon/81.png",
-		"type": [
-			"electric",
-			" steel "
-		]
-	},
-	{
-		"id": 82,
-		"number": "082",
-		"name": {
-			"english": "Magneton",
-			"french": "Magnéton"
-		},
-		"image": "assets/images/pokemon/82.png",
-		"type": [
-			"electric",
-			" steel "
-		]
-	},
-	{
-		"id": 83,
-		"number": "083",
-		"name": {
-			"english": "Farfetch'd",
-			"french": "Canarticho"
-		},
-		"image": "assets/images/pokemon/83.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-	},
-	{
-		"id": 84,
-		"number": "084",
-		"name": {
-			"english": "Doduo",
-			"french": "Doduo"
-		},
-		"image": "assets/images/pokemon/84.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-	},
-	{
-		"id": 85,
-		"number": "085",
-		"name": {
-			"english": "Dodrio",
-			"french": "Dodrio"
-		},
-		"image": "assets/images/pokemon/85.png",
-		"type": [
-			"normal",
-			" flying "
-		]
-	},
-	{
-		"id": 86,
-		"number": "086",
-		"name": {
-			"english": "Seel",
-			"french": "Otaria"
-		},
-		"image": "assets/images/pokemon/86.png",
-		"type": [
-			"water "
-			]
-	},
-	{
-		"id": 87,
-		"number": "087",
-		"name": {
-			"english": "Dewgong",
-			"french": "Lamantine"
-		},
-		"image": "assets/images/pokemon/87.png",
-		"type": [
-			"water", " ice "
-			]
-	},
-	{
-		"id": 88,
-		"number": "088",
-		"name": {
-			"english": "Grimer",
-			"french": "Tadmorv"
-		},
-		"image": "assets/images/pokemon/88.png",
-		"type": [
-			"poison "
-			]
-	},
-	{
-		"id": 89,
-		"number": "089",
-		"name": {
-			"english": "Muk",
-			"french": "Grotadmorv"
-		},
-		"image": "assets/images/pokemon/89.png",
-		"type": [
-			"poison "
-			]
-	},
-	{
-		"id": 90,
-		"number": "090",
-		"name": {
-			"english": "Shellder",
-			"french": "Kokiyas"
-		},
-		"image": "assets/images/pokemon/90.png",
-		"type": [
-			"water "
-			]
-	},
-	{
-		"id": 91,
-		"number": "091",
-		"name": {
-			"english": "Cloyster",
-			"french": "Crustabri"
-		},
-		"image": "assets/images/pokemon/91.png",
-		"type": [
-			"water", " ice "
-			]
-	},
-	{
-		"id": 92,
-		"number": "092",
-		"name": {
-			"english": "Gastly",
-			"french": "Fantominus"
-		},
-		"image": "assets/images/pokemon/92.png",
-		"type": [
-			"ghost", " poison "
-			]
-	},
-	{
-		"id": 93,
-		"number": "093",
-		"name": {
-			"english": "Haunter",
-			"french": "Spectrum"
-		},
-		"image": "assets/images/pokemon/93.png",
-		"type": [
-			"ghost", " poison "
-			]
-	},
-	{
-		"id": 94,
-		"number": "094",
-		"name": {
-			"english": "Gengar",
-			"french": "Ectoplasma"
-		},
-		"image": "assets/images/pokemon/94.png",
-		"type": [
-			"ghost", " poison "
-			]
-	},
-	{
-		"id": 95,
-		"number": "095",
-		"name": {
-			"english": "Onix",
-			"french": "Onix"
-		},
-		"image": "assets/images/pokemon/95.png",
-		"type": [
-			"rock", " ground "
-			]
-	},
-	{
-		"id": 96,
-		"number": "096",
-		"name": {
-			"english": "Drowzee",
-			"french": "Soporifik"
-		},
-		"image": "assets/images/pokemon/96.png",
-		"type": [
-			"psychic "
-		]
-	},
-	{
-		"id": 97,
-		"number": "097",
-		"name": {
-			"english": "Hypno",
-			"french": "Hypnomade"
-		},
-		"image": "assets/images/pokemon/97.png",
-		"type": [
-			"psychic "
-		]
-	},
-	{
-		"id": 98,
-		"number": "098",
-		"name": {
-			"english": "Krabby",
-			"french": "Krabby"
-		},
-		"image": "assets/images/pokemon/98.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 99,
-		"number": "099",
-		"name": {
-			"english": "Kingler",
-			"french": "Krabboss"
-		},
-		"image": "assets/images/pokemon/99.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 100,
-		"number": "100",
-		"name": {
-			"english": "Voltorb",
-			"french": "Voltorbe"
-		},
-		"image": "assets/images/pokemon/100.png",
-		"type": [
-			"electric "
-			]
-	},
-	{
-		"id": 101,
-		"number": "101",
-		"name": {
-			"english": "Electrode",
-			"french": "Électrode"
-		},
-		"image": "assets/images/pokemon/101.png",
-		"type": [
-			"electric "
-			]
-	},
-	{
-		"id": 102,
-		"number": "102",
-		"name": {
-			"english": "Exeggcute",
-			"french": "Noeunoeuf"
-		},
-		"image": "assets/images/pokemon/102.png",
-		"type": [
-			"grass", " psychic "
-			]
-	},
-	{
-		"id": 103,
-		"number": "103",
-		"name": {
-			"english": "Exeggutor",
-			"french": "Noadkoko"
-		},
-		"image": "assets/images/pokemon/103.png",
-		"type": [
-			"grass", " psychic "
-			]
-	},
-	{
-		"id": 104,
-		"number": "104",
-		"name": {
-			"english": "Cubone",
-			"french": "Osselait"
-		},
-		"image": "assets/images/pokemon/104.png",
-		"type": [
-			"ground "
-			]
-	},
-	{
-		"id": 105,
-		"number": "105",
-		"name": {
-			"english": "Marowak",
-			"french": "Ossatueur"
-		},
-		"image": "assets/images/pokemon/105.png",
-		"type": [
-			"ground "
-			]
-	},
-	{
-		"id": 106,
-		"number": "106",
-		"name": {
-			"english": "Hitmonlee",
-			"french": "Kicklee"
-		},
-		"image": "assets/images/pokemon/106.png",
-		"type": [
-			"fighting "
-			]
-	},
-	{
-		"id": 107,
-		"number": "107",
-		"name": {
-			"english": "Hitmonchan",
-			"french": "Tygnon"
-		},
-		"image": "assets/images/pokemon/107.png",
-		"type": [
-			"fighting "
-			]
-	},
-	{
-		"id": 108,
-		"number": "108",
-		"name": {
-			"english": "Lickitung",
-			"french": "Excelangue"
-		},
-		"image": "assets/images/pokemon/108.png",
-		"type": [
-			"normal "
-			]
-	},
-	{
-		"id": 109,
-		"number": "109",
-		"name": {
-			"english": "Koffing",
-			"french": "Smogo"
-		},
-		"image": "assets/images/pokemon/109.png",
-		"type": [
-			"poison "
-			]
-	},
-	{
-		"id": 110,
-		"number": "110",
-		"name": {
-			"english": "Weezing",
-			"french": "Smogogo"
-		},
-		"image": "assets/images/pokemon/110.png",
-		"type": [
-			"poison "
-			]
-	},
-	{
-		"id": 111,
-		"number": "111",
-		"name": {
-			"english": "Rhyhorn",
-			"french": "Rhinocorne"
-		},
-		"image": "assets/images/pokemon/111.png",
-		"type": [
-			"ground", " rock "
-			]
-	},
-	{
-		"id": 112,
-		"number": "112",
-		"name": {
-			"english": "Rhydon",
-			"french": "Rhinoféros"
-		},
-		"image": "assets/images/pokemon/112.png",
-		"type": [
-			"ground", " rock "
-			]
-	},
-	{
-		"id": 113,
-		"number": "113",
-		"name": {
-			"english": "Chansey",
-			"french": "Leveinard"
-		},
-		"image": "assets/images/pokemon/113.png",
-		"type": [
-			"normal "
-			]
-	},
-	{
-		"id": 114,
-		"number": "114",
-		"name": {
-			"english": "Tangela",
-			"french": "Saquedeneu"
-		},
-		"image": "assets/images/pokemon/114.png",
-		"type": [
-			"grass "
-			]
-	},
-	{
-		"id": 115,
-		"number": "115",
-		"name": {
-			"english": "Kangaskhan",
-			"french": "Kangourex"
-		},
-		"image": "assets/images/pokemon/115.png",
-		"type": [
-			"normal "
-			]
-	},
-	{
-		"id": 116,
-		"number": "116",
-		"name": {
-			"english": "Horsea",
-			"french": "Hypocéan"
-		},
-		"image": "assets/images/pokemon/116.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 117,
-		"number": "117",
-		"name": {
-			"english": "Seadra",
-			"french": "Hypocéan"
-		},
-		"image": "assets/images/pokemon/117.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 118,
-		"number": "118",
-		"name": {
-			"english": "Goldeen",
-			"french": "Poissirène"
-		},
-		"image": "assets/images/pokemon/118.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 119,
-		"number": "119",
-		"name": {
-			"english": "Seaking",
-			"french": "Poissoroy"
-		},
-		"image": "assets/images/pokemon/119.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 120,
-		"number": "120",
-		"name": {
-			"english": "Staryu",
-			"french": "Stari"
-		},
-		"image": "assets/images/pokemon/120.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 121,
-		"number": "121",
-		"name": {
-			"english": "Starmie",
-			"french": "Staross"
-		},
-		"image": "assets/images/pokemon/121.png",
-		"type": [
-			"water",
-			" psychic "
-		]
-	},
-	{
-		"id": 122,
-		"number": "122",
-		"name": {
-			"english": "Mr. Mime",
-			"french": "M. Mime"
-		},
-		"image": "assets/images/pokemon/122.png",
-		"type": [
-			"psychic",
-			" fairy "
-		]
-	},
-	{
-		"id": 123,
-		"number": "123",
-		"name": {
-			"english": "Scyther",
-			"french": "Insécateur"
-		},
-		"image": "assets/images/pokemon/123.png",
-		"type": [
-			"bug",
-			" flying "
-		]
-	},
-	{
-		"id": 124,
-		"number": "124",
-		"name": {
-			"english": "Jynx",
-			"french": "Lippoutou"
-		},
-		"image": "assets/images/pokemon/124.png",
-		"type": [
-			"ice",
-			" psychic "
-		]
-	},
-	{
-		"id": 125,
-		"number": "125",
-		"name": {
-			"english": "Electabuzz",
-			"french": "Élektek"
-		},
-		"image": "assets/images/pokemon/125.png",
-		"type": [
-			"electric "
-		]
-	},
-	{
-		"id": 126,
-		"number": "126",
-		"name": {
-			"english": "Magmar",
-			"french": "Magmar"
-		},
-		"image": "assets/images/pokemon/126.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 127,
-		"number": "127",
-		"name": {
-			"english": "Pinsir",
-			"french": "Scarabrute"
-		},
-		"image": "assets/images/pokemon/127.png",
-		"type": [
-			"bug "
-		]
-	},
-	{
-		"id": 128,
-		"number": "128",
-		"name": {
-			"english": "Tauros",
-			"french": "Tauros"
-		},
-		"image": "assets/images/pokemon/128.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 129,
-		"number": "129",
-		"name": {
-			"english": "Magikarp",
-			"french": "Magicarpe"
-		},
-		"image": "assets/images/pokemon/129.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 130,
-		"number": "130",
-		"name": {
-			"english": "Gyarados",
-			"french": "Léviator"
-		},
-		"image": "assets/images/pokemon/130.png",
-		"type": [
-			"water",
-			" flying "
-		]
-	},
-	{
-		"id": 131,
-		"number": "131",
-		"name": {
-			"english": "Lapras",
-			"french": "Lokhlass"
-		},
-		"image": "assets/images/pokemon/131.png",
-		"type": [
-			"water",
-			" ice "
-		]
-	},
-	{
-		"id": 132,
-		"number": "132",
-		"name": {
-			"english": "Ditto",
-			"french": "Métamorph"
-		},
-		"image": "assets/images/pokemon/132.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 133,
-		"number": "133",
-		"name": {
-			"english": "Eevee",
-			"french": "Évoli"
-		},
-		"image": "assets/images/pokemon/133.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 134,
-		"number": "134",
-		"name": {
-			"english": "Vaporeon",
-			"french": "Aquali"
-		},
-		"image": "assets/images/pokemon/134.png",
-		"type": [
-			"water "
-		]
-	},
-	{
-		"id": 135,
-		"number": "135",
-		"name": {
-			"english": "Jolteon",
-			"french": "Voltali"
-		},
-		"image": "assets/images/pokemon/135.png",
-		"type": [
-			"electric "
-		]
-	},
-	{
-		"id": 136,
-		"number": "136",
-		"name": {
-			"english": "Flareon",
-			"french": "Pyroli"
-		},
-		"image": "assets/images/pokemon/136.png",
-		"type": [
-			"fire "
-		]
-	},
-	{
-		"id": 137,
-		"number": "137",
-		"name": {
-			"english": "Porygon",
-			"french": "Porygon"
-		},
-		"image": "assets/images/pokemon/137.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 138,
-		"number": "138",
-		"name": {
-			"english": "Omanyte",
-			"french": "Amonita"
-		},
-		"image": "assets/images/pokemon/138.png",
-		"type": [
-			"rock",
-			" water "
-		]
-	},
-	{
-		"id": 139,
-		"number": "139",
-		"name": {
-			"english": "Omastar",
-			"french": "Amonistar"
-		},
-		"image": "assets/images/pokemon/139.png",
-		"type": [
-			"rock",
-			" water "
-		]
-	},
-	{
-		"id": 140,
-		"number": "140",
-		"name": {
-			"english": "Kabuto",
-			"french": "Kabuto"
-		},
-		"image": "assets/images/pokemon/140.png",
-		"type": [
-			"rock",
-			" water "
-		]
-	},
-	{
-		"id": 141,
-		"number": "141",
-		"name": {
-			"english": "Kabutops",
-			"french": "Kabutops"
-		},
-		"image": "assets/images/pokemon/141.png",
-		"type": [
-			"rock",
-			" water "
-		]
-	},
-	{
-		"id": 142,
-		"number": "142",
-		"name": {
-			"english": "Aerodactyl",
-			"french": "Ptéra"
-		},
-		"image": "assets/images/pokemon/142.png",
-		"type": [
-			"rock",
-			" flying "
-		]
-	},
-	{
-		"id": 143,
-		"number": "143",
-		"name": {
-			"english": "Snorlax",
-			"french": "Ronflex"
-		},
-		"image": "assets/images/pokemon/143.png",
-		"type": [
-			"normal "
-		]
-	},
-	{
-		"id": 144,
-		"number": "144",
-		"name": {
-			"english": "Articuno",
-			"french": "Artikodin"
-		},
-		"image": "assets/images/pokemon/144.png",
-		"type": [
-			"ice",
-			" flying "
-		]
-	},
-	{
-		"id": 145,
-		"number": "145",
-		"name": {
-			"english": "Zapdos",
-			"french": "Électhor"
-		},
-		"image": "assets/images/pokemon/145.png",
-		"type": [
-			"electric",
-			" flying "
-		]
-	},
-	{
-		"id": 146,
-		"number": "146",
-		"name": {
-			"english": "Moltres",
-			"french": "Sulfura"
-		},
-		"image": "assets/images/pokemon/146.png",
-		"type": [
-			"fire",
-			" flying "
-		]
-	},
-	{
-		"id": 147,
-		"number": "147",
-		"name": {
-			"english": "Dratini",
-			"french": "Minidraco"
-		},
-		"image": "assets/images/pokemon/147.png",
-		"type": [
-			"dragon "
-		]
-	},
-	{
-		"id": 148,
-		"number": "148",
-		"name": {
-			"english": "dragon air",
-			"french": "Draco"
-		},
-		"image": "assets/images/pokemon/148.png",
-		"type": [
-			"dragon "
-		]
-	},
-	{
-		"id": 149,
-		"number": "149",
-		"name": {
-			"english": "dragon ite",
-			"french": "Dracolosse"
-		},
-		"image": "assets/images/pokemon/149.png",
-		"type": [
-			"dragon",
-			" flying "
-		]
-	},
-	{
-		"id": 150,
-		"number": "150",
-		"name": {
-			"english": "Mewtwo",
-			"french": "Mewtwo"
-		},
-		"image": "assets/images/pokemon/150.png",
-		"type": [
-			"psychic "
-		]
-	},
-	{
-		"id": 151,
-		"number": "151",
-		"name": {
-			"english": "Mew",
-			"french": "Mew"
-		},
-		"image": "assets/images/pokemon/151.png",
-		"type": [
-			"psychic "
-		]
-	}
+{
+	"id": 1,
+	"name": "Bulbasaur",
+	"image": "public/assets/images/pokemon/Bulbasaur - 1.png",
+	"cry": "public/assets/audio/cries/bulbasaur.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "starter",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 2,
+	"name": "Ivysaur",
+	"image": "public/assets/images/pokemon/Ivysaur - 2.png",
+	"cry": "public/assets/audio/cries/ivysaur.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 3,
+	"name": "Venusaur",
+	"image": "public/assets/images/pokemon/Venusaur - 3.png",
+	"cry": "public/assets/audio/cries/venusaur.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 4,
+	"name": "Charmander",
+	"image": "public/assets/images/pokemon/Charmander - 4.png",
+	"cry": "public/assets/audio/cries/charmander.mp3",
+	"type": ["Fire"],
+	"rarity": "starter",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 5,
+	"name": "Charmeleon",
+	"image": "public/assets/images/pokemon/Charmeleon - 5.png",
+	"cry": "public/assets/audio/cries/charmeleon.mp3",
+	"type": ["Fire"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 6,
+	"name": "Charizard",
+	"image": "public/assets/images/pokemon/Charizard - 6.png",
+	"cry": "public/assets/audio/cries/charizard.mp3",
+	"type": ["Fire", "Flying"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 7,
+	"name": "Squirtle",
+	"image": "public/assets/images/pokemon/Squirtle - 7.png",
+	"cry": "public/assets/audio/cries/squirtle.mp3",
+	"type": ["Water"],
+	"rarity": "starter",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 8,
+	"name": "Wartortle",
+	"image": "public/assets/images/pokemon/Wartortle - 8.png",
+	"cry": "public/assets/audio/cries/wartortle.mp3",
+	"type": ["Water"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 9,
+	"name": "Blastoise",
+	"image": "public/assets/images/pokemon/Blastoise - 9.png",
+	"cry": "public/assets/audio/cries/blastoise.mp3",
+	"type": ["Water"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 10,
+	"name": "Caterpie",
+	"image": "public/assets/images/pokemon/Caterpie - 10.png",
+	"cry": "public/assets/audio/cries/caterpie.mp3",
+	"type": ["Bug"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 11,
+	"name": "Metapod",
+	"image": "public/assets/images/pokemon/Metapod - 11.png",
+	"cry": "public/assets/audio/cries/metapod.mp3",
+	"type": ["Bug"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 12,
+	"name": "Butterfree",
+	"image": "public/assets/images/pokemon/Butterfree - 12.png",
+	"cry": "public/assets/audio/cries/butterfree.mp3",
+	"type": ["Bug", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 13,
+	"name": "Weedle",
+	"image": "public/assets/images/pokemon/Weedle - 13.png",
+	"cry": "public/assets/audio/cries/weedle.mp3",
+	"type": ["Bug", "Poison"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 14,
+	"name": "Kakuna",
+	"image": "public/assets/images/pokemon/Kakuna - 14.png",
+	"cry": "public/assets/audio/cries/kakuna.mp3",
+	"type": ["Bug", "Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 15,
+	"name": "Beedrill",
+	"image": "public/assets/images/pokemon/Beedrill - 15.png",
+	"cry": "public/assets/audio/cries/beedrill.mp3",
+	"type": ["Bug", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 16,
+	"name": "Pidgey",
+	"image": "public/assets/images/pokemon/Pidgey - 16.png",
+	"cry": "public/assets/audio/cries/pidgey.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 17,
+	"name": "Pidgeotto",
+	"image": "public/assets/images/pokemon/Pidgeotto - 17.png",
+	"cry": "public/assets/audio/cries/pidgeotto.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 18,
+	"name": "Pidgeot",
+	"image": "public/assets/images/pokemon/Pidgeot - 18.png",
+	"cry": "public/assets/audio/cries/pidgeot.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 19,
+	"name": "Rattata",
+	"image": "public/assets/images/pokemon/Rattata - 19.png",
+	"cry": "public/assets/audio/cries/rattata.mp3",
+	"type": ["Normal"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 20,
+	"name": "Raticate",
+	"image": "public/assets/images/pokemon/Raticate - 20.png",
+	"cry": "public/assets/audio/cries/raticate.mp3",
+	"type": ["Normal"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 21,
+	"name": "Spearow",
+	"image": "public/assets/images/pokemon/Spearow - 21.png",
+	"cry": "public/assets/audio/cries/spearow.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 22,
+	"name": "Fearow",
+	"image": "public/assets/images/pokemon/Fearow - 22.png",
+	"cry": "public/assets/audio/cries/fearow.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 23,
+	"name": "Ekans",
+	"image": "public/assets/images/pokemon/Ekans - 23.png",
+	"cry": "public/assets/audio/cries/ekans.mp3",
+	"type": ["Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 24,
+	"name": "Arbok",
+	"image": "public/assets/images/pokemon/Arbok - 24.png",
+	"cry": "public/assets/audio/cries/arbok.mp3",
+	"type": ["Poison"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 25,
+	"name": "Pikachu",
+	"image": "public/assets/images/pokemon/Pikachu - 25.png",
+	"cry": "public/assets/audio/cries/pikachu.mp3",
+	"type": ["Electr"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["Thunder stone"]
+},
+{
+	"id": 26,
+	"name": "Raichu",
+	"image": "public/assets/images/pokemon/Raichu - 26.png",
+	"cry": "public/assets/audio/cries/raichu.mp3",
+	"type": ["Electr"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 27,
+	"name": "Sandshrew",
+	"image": "public/assets/images/pokemon/Sandshrew - 27.png",
+	"cry": "public/assets/audio/cries/sandshrew.mp3",
+	"type": ["Ground"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 28,
+	"name": "Sandslash",
+	"image": "public/assets/images/pokemon/Sandslash - 28.png",
+	"cry": "public/assets/audio/cries/sandslash.mp3",
+	"type": ["Ground"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 29,
+	"name": "Nidoran♀",
+	"image": "public/assets/images/pokemon/Nidoran♀ - 29.png",
+	"cry": "public/assets/audio/cries/nidoran♀.mp3",
+	"type": ["Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 30,
+	"name": "Nidorina",
+	"image": "public/assets/images/pokemon/Nidorina - 30.png",
+	"cry": "public/assets/audio/cries/nidorina.mp3",
+	"type": ["Poison"],
+	"rarity": "rare",
+	"evolutionMethod": ["Moon stone"]
+},
+{
+	"id": 31,
+	"name": "Nidoqueen",
+	"image": "public/assets/images/pokemon/Nidoqueen - 31.png",
+	"cry": "public/assets/audio/cries/nidoqueen.mp3",
+	"type": ["Poison", "Ground"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 32,
+	"name": "Nidoran♂",
+	"image": "public/assets/images/pokemon/Nidoran♂ - 32.png",
+	"cry": "public/assets/audio/cries/nidoran♂.mp3",
+	"type": ["Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 33,
+	"name": "Nidorino",
+	"image": "public/assets/images/pokemon/Nidorino - 33.png",
+	"cry": "public/assets/audio/cries/nidorino.mp3",
+	"type": ["Poison"],
+	"rarity": "rare",
+	"evolutionMethod": ["Moon stone"]
+},
+{
+	"id": 34,
+	"name": "Nidoking",
+	"image": "public/assets/images/pokemon/Nidoking - 34.png",
+	"cry": "public/assets/audio/cries/nidoking.mp3",
+	"type": ["Poison", "Ground"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 35,
+	"name": "Clefairy",
+	"image": "public/assets/images/pokemon/Clefairy - 35.png",
+	"cry": "public/assets/audio/cries/clefairy.mp3",
+	"type": ["Fairy"],
+	"rarity": "rare",
+	"evolutionMethod": ["Moon stone"]
+},
+{
+	"id": 36,
+	"name": "Clefable",
+	"image": "public/assets/images/pokemon/Clefable - 36.png",
+	"cry": "public/assets/audio/cries/clefable.mp3",
+	"type": ["Fairy"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 37,
+	"name": "Vulpix",
+	"image": "public/assets/images/pokemon/Vulpix - 37.png",
+	"cry": "public/assets/audio/cries/vulpix.mp3",
+	"type": ["Fire"],
+	"rarity": "rare",
+	"evolutionMethod": ["Fire stone"]
+},
+{
+	"id": 38,
+	"name": "Ninetales",
+	"image": "public/assets/images/pokemon/Ninetales - 38.png",
+	"cry": "public/assets/audio/cries/ninetales.mp3",
+	"type": ["Fire"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 39,
+	"name": "Jigglypuff",
+	"image": "public/assets/images/pokemon/Jigglypuff - 39.png",
+	"cry": "public/assets/audio/cries/jigglypuff.mp3",
+	"type": ["Normal", "Fairy"],
+	"rarity": "rare",
+	"evolutionMethod": ["Moon stone"]
+},
+{
+	"id": 40,
+	"name": "Wigglytuff",
+	"image": "public/assets/images/pokemon/Wigglytuff - 40.png",
+	"cry": "public/assets/audio/cries/wigglytuff.mp3",
+	"type": ["Normal", "Fairy"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 41,
+	"name": "Zubat",
+	"image": "public/assets/images/pokemon/Zubat - 41.png",
+	"cry": "public/assets/audio/cries/zubat.mp3",
+	"type": ["Poison", "Flying"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 42,
+	"name": "Golbat",
+	"image": "public/assets/images/pokemon/Golbat - 42.png",
+	"cry": "public/assets/audio/cries/golbat.mp3",
+	"type": ["Poison", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 43,
+	"name": "Oddish",
+	"image": "public/assets/images/pokemon/Oddish - 43.png",
+	"cry": "public/assets/audio/cries/oddish.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 44,
+	"name": "Gloom",
+	"image": "public/assets/images/pokemon/Gloom - 44.png",
+	"cry": "public/assets/audio/cries/gloom.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": ["Leaf stone"]
+},
+{
+	"id": 45,
+	"name": "Vileplume",
+	"image": "public/assets/images/pokemon/Vileplume - 45.png",
+	"cry": "public/assets/audio/cries/vileplume.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 46,
+	"name": "Paras",
+	"image": "public/assets/images/pokemon/Paras - 46.png",
+	"cry": "public/assets/audio/cries/paras.mp3",
+	"type": ["Bug", "Grass"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 47,
+	"name": "Parasect",
+	"image": "public/assets/images/pokemon/Parasect - 47.png",
+	"cry": "public/assets/audio/cries/parasect.mp3",
+	"type": ["Bug", "Grass"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 48,
+	"name": "Venonat",
+	"image": "public/assets/images/pokemon/Venonat - 48.png",
+	"cry": "public/assets/audio/cries/venonat.mp3",
+	"type": ["Bug", "Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 49,
+	"name": "Venomoth",
+	"image": "public/assets/images/pokemon/Venomoth - 49.png",
+	"cry": "public/assets/audio/cries/venomoth.mp3",
+	"type": ["Bug", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 50,
+	"name": "Diglett",
+	"image": "public/assets/images/pokemon/Diglett - 50.png",
+	"cry": "public/assets/audio/cries/diglett.mp3",
+	"type": ["Ground"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 51,
+	"name": "Dugtrio",
+	"image": "public/assets/images/pokemon/Dugtrio - 51.png",
+	"cry": "public/assets/audio/cries/dugtrio.mp3",
+	"type": ["Ground"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 52,
+	"name": "Meowth",
+	"image": "public/assets/images/pokemon/Meowth - 52.png",
+	"cry": "public/assets/audio/cries/meowth.mp3",
+	"type": ["Normal"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 53,
+	"name": "Persian",
+	"image": "public/assets/images/pokemon/Persian - 53.png",
+	"cry": "public/assets/audio/cries/persian.mp3",
+	"type": ["Normal"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 54,
+	"name": "Psyduck",
+	"image": "public/assets/images/pokemon/Psyduck - 54.png",
+	"cry": "public/assets/audio/cries/psyduck.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 55,
+	"name": "Golduck",
+	"image": "public/assets/images/pokemon/Golduck - 55.png",
+	"cry": "public/assets/audio/cries/golduck.mp3",
+	"type": ["Water"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 56,
+	"name": "Mankey",
+	"image": "public/assets/images/pokemon/Mankey - 56.png",
+	"cry": "public/assets/audio/cries/mankey.mp3",
+	"type": ["Fight"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 57,
+	"name": "Primeape",
+	"image": "public/assets/images/pokemon/Primeape - 57.png",
+	"cry": "public/assets/audio/cries/primeape.mp3",
+	"type": ["Fight"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 58,
+	"name": "Growlithe",
+	"image": "public/assets/images/pokemon/Growlithe - 58.png",
+	"cry": "public/assets/audio/cries/growlithe.mp3",
+	"type": ["Fire"],
+	"rarity": "rare",
+	"evolutionMethod": ["Fire stone"]
+},
+{
+	"id": 59,
+	"name": "Arcanine",
+	"image": "public/assets/images/pokemon/Arcanine - 59.png",
+	"cry": "public/assets/audio/cries/arcanine.mp3",
+	"type": ["Fire"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 60,
+	"name": "Poliwag",
+	"image": "public/assets/images/pokemon/Poliwag - 60.png",
+	"cry": "public/assets/audio/cries/poliwag.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 61,
+	"name": "Poliwhirl",
+	"image": "public/assets/images/pokemon/Poliwhirl - 61.png",
+	"cry": "public/assets/audio/cries/poliwhirl.mp3",
+	"type": ["Water"],
+	"rarity": "rare",
+	"evolutionMethod": ["Water stone"]
+},
+{
+	"id": 62,
+	"name": "Poliwrath",
+	"image": "public/assets/images/pokemon/Poliwrath - 62.png",
+	"cry": "public/assets/audio/cries/poliwrath.mp3",
+	"type": ["Water", "Fight"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 63,
+	"name": "Abra",
+	"image": "public/assets/images/pokemon/Abra - 63.png",
+	"cry": "public/assets/audio/cries/abra.mp3",
+	"type": ["Psychc"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 64,
+	"name": "Kadabra",
+	"image": "public/assets/images/pokemon/Kadabra - 64.png",
+	"cry": "public/assets/audio/cries/kadabra.mp3",
+	"type": ["Psychc"],
+	"rarity": "epic",
+	"evolutionMethod": ["Linking cord"]
+},
+{
+	"id": 65,
+	"name": "Alakazam",
+	"image": "public/assets/images/pokemon/Alakazam - 65.png",
+	"cry": "public/assets/audio/cries/alakazam.mp3",
+	"type": ["Psychc"],
+	"rarity": "legendary",
+	"evolutionMethod": []
+},
+{
+	"id": 66,
+	"name": "Machop",
+	"image": "public/assets/images/pokemon/Machop - 66.png",
+	"cry": "public/assets/audio/cries/machop.mp3",
+	"type": ["Fight"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 67,
+	"name": "Machoke",
+	"image": "public/assets/images/pokemon/Machoke - 67.png",
+	"cry": "public/assets/audio/cries/machoke.mp3",
+	"type": ["Fight"],
+	"rarity": "rare",
+	"evolutionMethod": ["Linking cord"]
+},
+{
+	"id": 68,
+	"name": "Machamp",
+	"image": "public/assets/images/pokemon/Machamp - 68.png",
+	"cry": "public/assets/audio/cries/machamp.mp3",
+	"type": ["Fight"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 69,
+	"name": "Bellsprout",
+	"image": "public/assets/images/pokemon/Bellsprout - 69.png",
+	"cry": "public/assets/audio/cries/bellsprout.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 70,
+	"name": "Weepinbell",
+	"image": "public/assets/images/pokemon/Weepinbell - 70.png",
+	"cry": "public/assets/audio/cries/weepinbell.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": ["Leaf stone"]
+},
+{
+	"id": 71,
+	"name": "Victreebel",
+	"image": "public/assets/images/pokemon/Victreebel - 71.png",
+	"cry": "public/assets/audio/cries/victreebel.mp3",
+	"type": ["Grass", "Poison"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 72,
+	"name": "Tentacool",
+	"image": "public/assets/images/pokemon/Tentacool - 72.png",
+	"cry": "public/assets/audio/cries/tentacool.mp3",
+	"type": ["Water", "Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 73,
+	"name": "Tentacruel",
+	"image": "public/assets/images/pokemon/Tentacruel - 73.png",
+	"cry": "public/assets/audio/cries/tentacruel.mp3",
+	"type": ["Water", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 74,
+	"name": "Geodude",
+	"image": "public/assets/images/pokemon/Geodude - 74.png",
+	"cry": "public/assets/audio/cries/geodude.mp3",
+	"type": ["Rock", "Ground"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 75,
+	"name": "Graveler",
+	"image": "public/assets/images/pokemon/Graveler - 75.png",
+	"cry": "public/assets/audio/cries/graveler.mp3",
+	"type": ["Rock", "Ground"],
+	"rarity": "rare",
+	"evolutionMethod": ["Linking cord"]
+},
+{
+	"id": 76,
+	"name": "Golem",
+	"image": "public/assets/images/pokemon/Golem - 76.png",
+	"cry": "public/assets/audio/cries/golem.mp3",
+	"type": ["Rock", "Ground"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 77,
+	"name": "Ponyta",
+	"image": "public/assets/images/pokemon/Ponyta - 77.png",
+	"cry": "public/assets/audio/cries/ponyta.mp3",
+	"type": ["Fire"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 78,
+	"name": "Rapidash",
+	"image": "public/assets/images/pokemon/Rapidash - 78.png",
+	"cry": "public/assets/audio/cries/rapidash.mp3",
+	"type": ["Fire"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 79,
+	"name": "Slowpoke",
+	"image": "public/assets/images/pokemon/Slowpoke - 79.png",
+	"cry": "public/assets/audio/cries/slowpoke.mp3",
+	"type": ["Water", "Psychc"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 80,
+	"name": "Slowbro",
+	"image": "public/assets/images/pokemon/Slowbro - 80.png",
+	"cry": "public/assets/audio/cries/slowbro.mp3",
+	"type": ["Water", "Psychc"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 81,
+	"name": "Magnemite",
+	"image": "public/assets/images/pokemon/Magnemite - 81.png",
+	"cry": "public/assets/audio/cries/magnemite.mp3",
+	"type": ["Electr", "Steel"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 82,
+	"name": "Magneton",
+	"image": "public/assets/images/pokemon/Magneton - 82.png",
+	"cry": "public/assets/audio/cries/magneton.mp3",
+	"type": ["Electr", "Steel"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 83,
+	"name": "Farfetch'd",
+	"image": "public/assets/images/pokemon/Farfetch'd - 83.png",
+	"cry": "public/assets/audio/cries/farfetch'd.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 84,
+	"name": "Doduo",
+	"image": "public/assets/images/pokemon/Doduo - 84.png",
+	"cry": "public/assets/audio/cries/doduo.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 85,
+	"name": "Dodrio",
+	"image": "public/assets/images/pokemon/Dodrio - 85.png",
+	"cry": "public/assets/audio/cries/dodrio.mp3",
+	"type": ["Normal", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 86,
+	"name": "Seel",
+	"image": "public/assets/images/pokemon/Seel - 86.png",
+	"cry": "public/assets/audio/cries/seel.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 87,
+	"name": "Dewgong",
+	"image": "public/assets/images/pokemon/Dewgong - 87.png",
+	"cry": "public/assets/audio/cries/dewgong.mp3",
+	"type": ["Water", "Ice"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 88,
+	"name": "Grimer",
+	"image": "public/assets/images/pokemon/Grimer - 88.png",
+	"cry": "public/assets/audio/cries/grimer.mp3",
+	"type": ["Poison"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 89,
+	"name": "Muk",
+	"image": "public/assets/images/pokemon/Muk - 89.png",
+	"cry": "public/assets/audio/cries/muk.mp3",
+	"type": ["Poison"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 90,
+	"name": "Shellder",
+	"image": "public/assets/images/pokemon/Shellder - 90.png",
+	"cry": "public/assets/audio/cries/shellder.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["Water stone"]
+},
+{
+	"id": 91,
+	"name": "Cloyster",
+	"image": "public/assets/images/pokemon/Cloyster - 91.png",
+	"cry": "public/assets/audio/cries/cloyster.mp3",
+	"type": ["Water", "Ice"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 92,
+	"name": "Gastly",
+	"image": "public/assets/images/pokemon/Gastly - 92.png",
+	"cry": "public/assets/audio/cries/gastly.mp3",
+	"type": ["Ghost", "Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 93,
+	"name": "Haunter",
+	"image": "public/assets/images/pokemon/Haunter - 93.png",
+	"cry": "public/assets/audio/cries/haunter.mp3",
+	"type": ["Ghost", "Poison"],
+	"rarity": "rare",
+	"evolutionMethod": ["Linking cord"]
+},
+{
+	"id": 94,
+	"name": "Gengar",
+	"image": "public/assets/images/pokemon/Gengar - 94.png",
+	"cry": "public/assets/audio/cries/gengar.mp3",
+	"type": ["Ghost", "Poison"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 95,
+	"name": "Onix",
+	"image": "public/assets/images/pokemon/Onix - 95.png",
+	"cry": "public/assets/audio/cries/onix.mp3",
+	"type": ["Rock", "Ground"],
+	"rarity": "uncommon",
+	"evolutionMethod": []
+},
+{
+	"id": 96,
+	"name": "Drowzee",
+	"image": "public/assets/images/pokemon/Drowzee - 96.png",
+	"cry": "public/assets/audio/cries/drowzee.mp3",
+	"type": ["Psychc"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 97,
+	"name": "Hypno",
+	"image": "public/assets/images/pokemon/Hypno - 97.png",
+	"cry": "public/assets/audio/cries/hypno.mp3",
+	"type": ["Psychc"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 98,
+	"name": "Krabby",
+	"image": "public/assets/images/pokemon/Krabby - 98.png",
+	"cry": "public/assets/audio/cries/krabby.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 99,
+	"name": "Kingler",
+	"image": "public/assets/images/pokemon/Kingler - 99.png",
+	"cry": "public/assets/audio/cries/kingler.mp3",
+	"type": ["Water"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 100,
+	"name": "Voltorb",
+	"image": "public/assets/images/pokemon/Voltorb - 100.png",
+	"cry": "public/assets/audio/cries/voltorb.mp3",
+	"type": ["Electr"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 101,
+	"name": "Electrode",
+	"image": "public/assets/images/pokemon/Electrode - 101.png",
+	"cry": "public/assets/audio/cries/electrode.mp3",
+	"type": ["Electr"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 102,
+	"name": "Exeggcute",
+	"image": "public/assets/images/pokemon/Exeggcute - 102.png",
+	"cry": "public/assets/audio/cries/exeggcute.mp3",
+	"type": ["Grass", "Psychc"],
+	"rarity": "rare",
+	"evolutionMethod": ["Leaf stone"]
+},
+{
+	"id": 103,
+	"name": "Exeggutor",
+	"image": "public/assets/images/pokemon/Exeggutor - 103.png",
+	"cry": "public/assets/audio/cries/exeggutor.mp3",
+	"type": ["Grass", "Psychc"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 104,
+	"name": "Cubone",
+	"image": "public/assets/images/pokemon/Cubone - 104.png",
+	"cry": "public/assets/audio/cries/cubone.mp3",
+	"type": ["Ground"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 105,
+	"name": "Marowak",
+	"image": "public/assets/images/pokemon/Marowak - 105.png",
+	"cry": "public/assets/audio/cries/marowak.mp3",
+	"type": ["Ground"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 106,
+	"name": "Hitmonlee",
+	"image": "public/assets/images/pokemon/Hitmonlee - 106.png",
+	"cry": "public/assets/audio/cries/hitmonlee.mp3",
+	"type": ["Fight"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 107,
+	"name": "Hitmonchan",
+	"image": "public/assets/images/pokemon/Hitmonchan - 107.png",
+	"cry": "public/assets/audio/cries/hitmonchan.mp3",
+	"type": ["Fight"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 108,
+	"name": "Lickitung",
+	"image": "public/assets/images/pokemon/Lickitung - 108.png",
+	"cry": "public/assets/audio/cries/lickitung.mp3",
+	"type": ["Normal"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 109,
+	"name": "Koffing",
+	"image": "public/assets/images/pokemon/Koffing - 109.png",
+	"cry": "public/assets/audio/cries/koffing.mp3",
+	"type": ["Poison"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 110,
+	"name": "Weezing",
+	"image": "public/assets/images/pokemon/Weezing - 110.png",
+	"cry": "public/assets/audio/cries/weezing.mp3",
+	"type": ["Poison"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 111,
+	"name": "Rhyhorn",
+	"image": "public/assets/images/pokemon/Rhyhorn - 111.png",
+	"cry": "public/assets/audio/cries/rhyhorn.mp3",
+	"type": ["Ground", "Rock"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 112,
+	"name": "Rhydon",
+	"image": "public/assets/images/pokemon/Rhydon - 112.png",
+	"cry": "public/assets/audio/cries/rhydon.mp3",
+	"type": ["Ground", "Rock"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 113,
+	"name": "Chansey",
+	"image": "public/assets/images/pokemon/Chansey - 113.png",
+	"cry": "public/assets/audio/cries/chansey.mp3",
+	"type": ["Normal"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 114,
+	"name": "Tangela",
+	"image": "public/assets/images/pokemon/Tangela - 114.png",
+	"cry": "public/assets/audio/cries/tangela.mp3",
+	"type": ["Grass"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 115,
+	"name": "Kangaskhan",
+	"image": "public/assets/images/pokemon/Kangaskhan - 115.png",
+	"cry": "public/assets/audio/cries/kangaskhan.mp3",
+	"type": ["Normal"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 116,
+	"name": "Horsea",
+	"image": "public/assets/images/pokemon/Horsea - 116.png",
+	"cry": "public/assets/audio/cries/horsea.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 117,
+	"name": "Seadra",
+	"image": "public/assets/images/pokemon/Seadra - 117.png",
+	"cry": "public/assets/audio/cries/seadra.mp3",
+	"type": ["Water"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 118,
+	"name": "Goldeen",
+	"image": "public/assets/images/pokemon/Goldeen - 118.png",
+	"cry": "public/assets/audio/cries/goldeen.mp3",
+	"type": ["Water"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 119,
+	"name": "Seaking",
+	"image": "public/assets/images/pokemon/Seaking - 119.png",
+	"cry": "public/assets/audio/cries/seaking.mp3",
+	"type": ["Water"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 120,
+	"name": "Staryu",
+	"image": "public/assets/images/pokemon/Staryu - 120.png",
+	"cry": "public/assets/audio/cries/staryu.mp3",
+	"type": ["Water"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["Water stone"]
+},
+{
+	"id": 121,
+	"name": "Starmie",
+	"image": "public/assets/images/pokemon/Starmie - 121.png",
+	"cry": "public/assets/audio/cries/starmie.mp3",
+	"type": ["Water", "Psychc"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 122,
+	"name": "Mr. Mime",
+	"image": "public/assets/images/pokemon/Mr. Mime - 122.png",
+	"cry": "public/assets/audio/cries/mr. mime.mp3",
+	"type": ["Psychc", "Fairy"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 123,
+	"name": "Scyther",
+	"image": "public/assets/images/pokemon/Scyther - 123.png",
+	"cry": "public/assets/audio/cries/scyther.mp3",
+	"type": ["Bug", "Flying"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 124,
+	"name": "Jynx",
+	"image": "public/assets/images/pokemon/Jynx - 124.png",
+	"cry": "public/assets/audio/cries/jynx.mp3",
+	"type": ["Ice", "Psychc"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 125,
+	"name": "Electabuzz",
+	"image": "public/assets/images/pokemon/Electabuzz - 125.png",
+	"cry": "public/assets/audio/cries/electabuzz.mp3",
+	"type": ["Electr"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 126,
+	"name": "Magmar",
+	"image": "public/assets/images/pokemon/Magmar - 126.png",
+	"cry": "public/assets/audio/cries/magmar.mp3",
+	"type": ["Fire"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 127,
+	"name": "Pinsir",
+	"image": "public/assets/images/pokemon/Pinsir - 127.png",
+	"cry": "public/assets/audio/cries/pinsir.mp3",
+	"type": ["Bug"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 128,
+	"name": "Tauros",
+	"image": "public/assets/images/pokemon/Tauros - 128.png",
+	"cry": "public/assets/audio/cries/tauros.mp3",
+	"type": ["Normal"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 129,
+	"name": "Magikarp",
+	"image": "public/assets/images/pokemon/Magikarp - 129.png",
+	"cry": "public/assets/audio/cries/magikarp.mp3",
+	"type": ["Water"],
+	"rarity": "common",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 130,
+	"name": "Gyarados",
+	"image": "public/assets/images/pokemon/Gyarados - 130.png",
+	"cry": "public/assets/audio/cries/gyarados.mp3",
+	"type": ["Water", "Flying"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 131,
+	"name": "Lapras",
+	"image": "public/assets/images/pokemon/Lapras - 131.png",
+	"cry": "public/assets/audio/cries/lapras.mp3",
+	"type": ["Water", "Ice"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 132,
+	"name": "Ditto",
+	"image": "public/assets/images/pokemon/Ditto - 132.png",
+	"cry": "public/assets/audio/cries/ditto.mp3",
+	"type": ["Normal"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 133,
+	"name": "Eevee",
+	"image": "public/assets/images/pokemon/Eevee - 133.png",
+	"cry": "public/assets/audio/cries/eevee.mp3",
+	"type": ["Normal"],
+	"rarity": "uncommon",
+	"evolutionMethod": ["Water stone", "Thunder stone", "Fire stone"]
+},
+{
+	"id": 134,
+	"name": "Vaporeon",
+	"image": "public/assets/images/pokemon/Vaporeon - 134.png",
+	"cry": "public/assets/audio/cries/vaporeon.mp3",
+	"type": ["Water"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 135,
+	"name": "Jolteon",
+	"image": "public/assets/images/pokemon/Jolteon - 135.png",
+	"cry": "public/assets/audio/cries/jolteon.mp3",
+	"type": ["Electr"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 136,
+	"name": "Flareon",
+	"image": "public/assets/images/pokemon/Flareon - 136.png",
+	"cry": "public/assets/audio/cries/flareon.mp3",
+	"type": ["Fire"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 137,
+	"name": "Porygon",
+	"image": "public/assets/images/pokemon/Porygon - 137.png",
+	"cry": "public/assets/audio/cries/porygon.mp3",
+	"type": ["Normal"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 138,
+	"name": "Omanyte",
+	"image": "public/assets/images/pokemon/Omanyte - 138.png",
+	"cry": "public/assets/audio/cries/omanyte.mp3",
+	"type": ["Rock", "Water"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 139,
+	"name": "Omastar",
+	"image": "public/assets/images/pokemon/Omastar - 139.png",
+	"cry": "public/assets/audio/cries/omastar.mp3",
+	"type": ["Rock", "Water"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 140,
+	"name": "Kabuto",
+	"image": "public/assets/images/pokemon/Kabuto - 140.png",
+	"cry": "public/assets/audio/cries/kabuto.mp3",
+	"type": ["Rock", "Water"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 141,
+	"name": "Kabutops",
+	"image": "public/assets/images/pokemon/Kabutops - 141.png",
+	"cry": "public/assets/audio/cries/kabutops.mp3",
+	"type": ["Rock", "Water"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 142,
+	"name": "Aerodactyl",
+	"image": "public/assets/images/pokemon/Aerodactyl - 142.png",
+	"cry": "public/assets/audio/cries/aerodactyl.mp3",
+	"type": ["Rock", "Flying"],
+	"rarity": "epic",
+	"evolutionMethod": []
+},
+{
+	"id": 143,
+	"name": "Snorlax",
+	"image": "public/assets/images/pokemon/Snorlax - 143.png",
+	"cry": "public/assets/audio/cries/snorlax.mp3",
+	"type": ["Normal"],
+	"rarity": "rare",
+	"evolutionMethod": []
+},
+{
+	"id": 144,
+	"name": "Articuno",
+	"image": "public/assets/images/pokemon/Articuno - 144.png",
+	"cry": "public/assets/audio/cries/articuno.mp3",
+	"type": ["Ice", "Flying"],
+	"rarity": "legendary",
+	"evolutionMethod": []
+},
+{
+	"id": 145,
+	"name": "Zapdos",
+	"image": "public/assets/images/pokemon/Zapdos - 145.png",
+	"cry": "public/assets/audio/cries/zapdos.mp3",
+	"type": ["Electr", "Flying"],
+	"rarity": "legendary",
+	"evolutionMethod": []
+},
+{
+	"id": 146,
+	"name": "Moltres",
+	"image": "public/assets/images/pokemon/Moltres - 146.png",
+	"cry": "public/assets/audio/cries/moltres.mp3",
+	"type": ["Fire", "Flying"],
+	"rarity": "legendary",
+	"evolutionMethod": []
+},
+{
+	"id": 147,
+	"name": "Dratini",
+	"image": "public/assets/images/pokemon/Dratini - 147.png",
+	"cry": "public/assets/audio/cries/dratini.mp3",
+	"type": ["Dragon"],
+	"rarity": "rare",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 148,
+	"name": "Dragonair",
+	"image": "public/assets/images/pokemon/Dragonair - 148.png",
+	"cry": "public/assets/audio/cries/dragonair.mp3",
+	"type": ["Dragon"],
+	"rarity": "epic",
+	"evolutionMethod": ["exp"]
+},
+{
+	"id": 149,
+	"name": "Dragonite",
+	"image": "public/assets/images/pokemon/Dragonite - 149.png",
+	"cry": "public/assets/audio/cries/dragonite.mp3",
+	"type": ["Dragon", "Flying"],
+	"rarity": "legendary",
+	"evolutionMethod": []
+},
+{
+	"id": 150,
+	"name": "Mewtwo",
+	"image": "public/assets/images/pokemon/Mewtwo - 150.png",
+	"cry": "public/assets/audio/cries/mewtwo.mp3",
+	"type": ["Psychc"],
+	"rarity": "legendary",
+	"evolutionMethod": []
+},
+{
+	"id": 151,
+	"name": "Mew",
+	"image": "public/assets/images/pokemon/Mew - 151.png",
+	"cry": "public/assets/audio/cries/mew.mp3",
+	"type": ["Psychc"],
+	"rarity": "mew",
+	"evolutionMethod": []
+}
 ]

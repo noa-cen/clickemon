@@ -128,7 +128,7 @@
     "name": "Rare candy",
     "type": "boost",
     "image": "public/assets/images/pokemart/rare-candy.png",
-    "description": "A mysterious candy that instantly boosts your Pokémon's experience",
+    "description": "A mysterious candy that instantly boosts your Pokémon's XP",
     "boost": {
         "type": "exp",
         "sum": 100
@@ -150,7 +150,7 @@
     "type": "stone",
     "image": "public/assets/images/pokemart/thunder-stone.png",
     "cost": 2100,
-    "description": "A stone with electrical energy, used to evolve certain Pokémon",
+    "description": "A stone with electrical energy used to evolve certain Pokémon",
     "shop": true
 },
 {
@@ -159,7 +159,7 @@
     "type": "stone",
     "image": "public/assets/images/pokemart/water-stone.png",
     "cost": 2100,
-    "description": "A stone with a watery aura, used to evolve certain Pokémon",
+    "description": "A stone with a watery aura used to evolve certain Pokémon",
     "shop": true
 },
 {
@@ -182,11 +182,20 @@
 },
 {
     "id": 18,
+    "name": "Linking cord",
+    "type": "stone",
+    "image": "public/assets/images/pokemart/linking-cord.png",
+    "cost": 2100,
+    "description": "A connecting cord used to evolve certain Pokémon",
+    "shop": true
+},
+{
+    "id": 19,
     "name": "Multi exp",
     "type": "autoclick",
     "image": "public/assets/images/pokemart/multi-exp.png",
     "cost": 10000,
-    "description": "Grants passive experience over time",
+    "description": "Grants passive XP over time",
     "autoclick": {
         "type": "exp",
         "interval": 1000
@@ -194,12 +203,12 @@
     "shop": true
 },
 {
-    "id": 19,
+    "id": 20,
     "name": "Coin case",
     "type": "autoclick",
     "image": "public/assets/images/pokemart/coin-case.png",
     "cost": 10000,
-    "description": "Grants passive income over time",
+    "description": "Grants passive pokédollars over time",
     "autoclick": {
         "type": "pokedollar",
         "interval": 1000
@@ -207,12 +216,12 @@
     "shop": true
 },
 {
-    "id": 20,
+    "id": 21,
     "name": "Item finder",
     "type": "autoclick",
     "image": "public/assets/images/pokemart/item-finder.png",
     "cost": 10000,
-    "description": "Detects and reveals surprise items hidden around you",
+    "description": "Grants surprise items hidden around you",
     "autoclick": {
         "type": "item",
         "interval": 10000
@@ -291,7 +300,7 @@
             "unique": false
         },
         {
-            "itemId": 21,
+            "itemId": 22,
             "name": "Bike voucher",
             "weight": 2,
             "unique": true
@@ -300,7 +309,7 @@
     "shop": true
 },
 {
-    "id": 21,
+    "id": 22,
     "name": "Bike voucher",
     "type": "voucher",
     "image": "public/assets/images/pokemart/bike-voucher.png",
@@ -308,11 +317,10 @@
     "shop": false
 },
 {
-    "id": 22,
+    "id": 23,
     "name": "Bicycle",
     "type": "double",
     "image": "public/assets/images/pokemart/bicycle.png",
-    "description": "Everything goes at double speed",
+    "description": "Everything happens at double speed",
     "shop": false
-}
-]
+}]

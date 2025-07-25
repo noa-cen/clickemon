@@ -2,160 +2,317 @@
     "id": 1,
     "name": "Pokéball",
     "type": "ball",
-    "image": "assets/images/shop/pokeball-1.png",
+    "image": "public/assets/images/pokemart/pokeball.png",
     "cost": 200,
-    "description": "low capture rate",
-    "captureRate": 1.0
+    "description": "A standard Pokéball used to catch wild Pokémon",
+    "captureRate": 0.25,
+    "shop": true
 },
 {
     "id": 2,
-    "name": "greatball",
-    "image": "assets/images/shop/greatball-1.png",
-    "cost": "600",
-    "description": "medium capture rate",
-    "quantity": 0
+    "name": "Greatball",
+    "type": "ball",
+    "image": "public/assets/images/pokemart/greatball.png",
+    "cost": 600,
+    "description": "A stronger version of the Pokéball with better odds",
+    "captureRate": 0.5,
+    "shop": true
 },
 {
     "id": 3,
-    "name": "ultraball",
-    "image": "assets/images/shop/ultraball-1.png",
-    "cost": "1200",
-    "description": "high capture rate",
-    "quantity": 0
+    "name": "Ultraball",
+    "type": "ball",
+    "image": "public/assets/images/pokemart/ultraball.png",
+    "cost": 1200,
+    "description": "A high-grade Pokéball with superior capture power",
+    "captureRate": 0.75,
+    "shop": true
 },
 {
     "id": 4,
-    "name": "leaf stone",
-    "image": "assets/images/shop/leafStone.png",
-    "cost": "2100",
-    "description": "used to evolve some Pokémon",
-    "quantity": 0
+    "name": "Masterball",
+    "type": "ball",
+    "image": "public/assets/images/pokemart/masterball.png",
+    "description": "A unique ball developed by Sylphe SARL, it can't miss",
+    "captureRate": 1.0,
+    "shop": false
 },
 {
     "id": 5,
-    "name": "thunder stone",
-    "image": "assets/images/shop/thunderStone.png",
-    "cost": "2100",
-    "description": "used to evolve some Pokémon",
-    "quantity": 0
+    "name": "Pokéflute",
+    "type": "encounter",
+    "image": "public/assets/images/pokemart/pokeflute.png",
+    "cost": 5000,
+    "description": "Starts a wild encounter with a Pokémon",
+    "shop": true
 },
 {
     "id": 6,
-    "name": "water stone",
-    "image": "assets/images/shop/waterStone.png",
-    "cost": "2100",
-    "description": "used to evolve some Pokémon",
-    "quantity": 0
+    "name": "Rod",
+    "type": "encounter",
+    "image": "public/assets/images/pokemart/rod.png",
+    "cost": 5000,
+    "description": "Starts a wild encounter with an aquatic Pokémon",
+    "shop": true
 },
 {
     "id": 7,
-    "name": "moon stone",
-    "image": "assets/images/shop/moonStone.png",
-    "cost": "2100",
-    "description": "used to evolve some Pokémon",
-    "quantity": 0
+    "name": "Potion",
+    "type": "boost",
+    "image": "public/assets/images/pokemart/potion.png",
+    "cost": 200,
+    "description": "Doubles XP gain for a short time",
+    "boost": {
+        "type": "exp",
+        "multiplier": 2,
+        "duration": 10
+    },
+    "shop": true
 },
 {
     "id": 8,
-    "name": "fire stone",
-    "image": "assets/images/shop/fireStone.png",
-    "cost": "2100",
-    "description": "used to evolve some Pokémon",
-    "quantity": 0
+    "name": "Super potion",
+    "type": "boost",
+    "image": "public/assets/images/pokemart/super-potion.png",
+    "cost": 600,
+    "description": "Doubles XP gain for a medium time",
+    "boost": {
+        "type": "exp",
+        "multiplier": 2,
+        "duration": 30
+    },
+    "shop": true
 },
 {
     "id": 9,
-    "name": "rare candy",
-    "image": "assets/images/shop/rareCandy.png",
-    "cost": "2100",
-    "description": "boost experience",
-    "quantity": 0
+    "name": "Hyper potion",
+    "type": "boost",
+    "image": "public/assets/images/pokemart/hyper-potion.png",
+    "cost": 1200,
+    "description": "Triples XP gain for a medium time",
+    "boost": {
+        "type": "exp",
+        "multiplier": 3,
+        "duration": 30
+    },
+    "shop": true
 },
 {
     "id": 10,
-    "name": "multi-exp",
-    "image": "assets/images/shop/multi-exp.png",
-    "cost": "4000",
-    "description": "automatic experience gain",
-    "quantity": 1
-},
-{
-  "id": 10,
-  "name": "Multi-Exp",
-  "type": "autoclick",
-  "target": "xp",
-  "value": 1,
-  "interval": 1000,
-  "cost": 4000,
-  "description": "automatic experience gain",
-  "quantity": 1
+    "name": "Max potion",
+    "type": "boost",
+    "image": "public/assets/images/pokemart/max-potion.png",
+    "cost": 2300,
+    "description": "Triples XP gain for a long time",
+    "boost": {
+        "type": "exp",
+        "multiplier": 3,
+        "duration": 60
+    },
+    "shop": true
 },
 {
     "id": 11,
-    "name": "pokeflute",
-    "image": "assets/images/shop/pokeflute.png",
-    "cost": "5000",
-    "description": "wakes up a Pokémon",
-    "quantity": 0
+    "name": "Golden nugget",
+    "type": "boost",
+    "image": "public/assets/images/pokemart/golden-nugget.png",
+    "description": "Golden nugget worth 5000 ₽",
+    "boost": {
+        "type": "pokedollar",
+        "sum": 5000
+    },
+    "shop": false
 },
 {
     "id": 12,
-    "name": "itemFinder",
-    "image": "assets/images/shop/itemsFinder.png",
-    "cost": "10000",
-    "description": "reveals surprise items",
-    "quantity": 1,
-    "items": [
-        {
-            "id": 14,
-            "name": "masterball",
-            "image": "assets/images/shop/masterball-1.png",
-            "weight": 1
-        },
-        {
-            "id": 15,
-            "name": "bike voucher",
-            "image": "assets/images/shop/bikeVoucher.png",
-            "weight": 3
-        },
-        {
-            "id": 16,
-            "name": "nugget",
-            "image": "assets/images/shop/nugget.png",
-            "weight": 15
-        },
-        {
-            "id": 17,
-            "name": "pokeball",
-            "image": "assets/images/shop/pokeball-1.png",
-            "weight": 30
-        },
-        {
-            "id": 18,
-            "name": "greatball",
-            "image": "assets/images/shop/greatball-1.png",
-            "weight": 20
-        },
-        {
-            "id": 19,
-            "name": "ultraball",
-            "image": "assets/images/shop/ultraball-1.png",
-            "weight": 10
-        },
-        {
-            "id": 20,
-            "name": "pokeflute",
-            "image": "assets/images/shop/pokeflute.png",
-            "weight": 20
-        }
-    ]
+    "name": "Rare candy",
+    "type": "boost",
+    "image": "public/assets/images/pokemart/rare-candy.png",
+    "description": "A mysterious candy that instantly boosts your Pokémon's experience",
+    "boost": {
+        "type": "exp",
+        "sum": 100
+    },
+    "shop": false
 },
 {
     "id": 13,
-    "name": "bicycle",
-    "image": "assets/images/shop/bicycle.png",
-    "cost": "1000000",
-    "description": "play at double speed",
-    "quantity": 1
+    "name": "Leaf stone",
+    "type": "stone",
+    "image": "public/assets/images/pokemart/leaf-stone.png",
+    "cost": 2100,
+    "description": "A vibrant green stone used to evolve certain Pokémon",
+    "shop": true
+},
+{
+    "id": 14,
+    "name": "Thunder stone",
+    "type": "stone",
+    "image": "public/assets/images/pokemart/thunder-stone.png",
+    "cost": 2100,
+    "description": "A stone with electrical energy, used to evolve certain Pokémon",
+    "shop": true
+},
+{
+    "id": 15,
+    "name": "Water stone",
+    "type": "stone",
+    "image": "public/assets/images/pokemart/water-stone.png",
+    "cost": 2100,
+    "description": "A stone with a watery aura, used to evolve certain Pokémon",
+    "shop": true
+},
+{
+    "id": 16,
+    "name": "Moon stone",
+    "type": "stone",
+    "image": "public/assets/images/pokemart/moon-stone.png",
+    "cost": 2100,
+    "description": "A piece of the moon used to evolve certain Pokémon",
+    "shop": true
+},
+{
+    "id": 17,
+    "name": "Fire stone",
+    "type": "stone",
+    "image": "public/assets/images/pokemart/fire-stone.png",
+    "cost": 2100,
+    "description": "A blazing-hot stone used to evolve certain Pokémon",
+    "shop": true
+},
+{
+    "id": 18,
+    "name": "Multi exp",
+    "type": "autoclick",
+    "image": "public/assets/images/pokemart/multi-exp.png",
+    "cost": 10000,
+    "description": "Grants passive experience over time",
+    "autoclick": {
+        "type": "exp",
+        "interval": 1000
+    },
+    "shop": true
+},
+{
+    "id": 19,
+    "name": "Coin case",
+    "type": "autoclick",
+    "image": "public/assets/images/pokemart/coin-case.png",
+    "cost": 10000,
+    "description": "Grants passive income over time",
+    "autoclick": {
+        "type": "pokedollar",
+        "interval": 1000
+    },
+    "shop": true
+},
+{
+    "id": 20,
+    "name": "Item finder",
+    "type": "autoclick",
+    "image": "public/assets/images/pokemart/item-finder.png",
+    "cost": 10000,
+    "description": "Detects and reveals surprise items hidden around you",
+    "autoclick": {
+        "type": "item",
+        "interval": 10000
+    },
+    "items": [
+        {
+            "itemId": 1,
+            "name": "Pokéball",
+            "weight": 20,
+            "unique": false
+        },
+        {
+            "itemId": 2,
+            "name": "Greatball",
+            "weight": 14,
+            "unique": false
+        },
+        {
+            "itemId": 3,
+            "name": "Ultraball",
+            "weight": 8,
+            "unique": false
+        },
+        {
+            "itemId": 4,
+            "name": "Masterball",
+            "weight": 1,
+            "unique": true
+        },
+        {
+            "itemId": 5,
+            "name": "Pokéflute",
+            "weight": 4,
+            "unique": false
+        },
+        {
+            "itemId": 6,
+            "name": "Rod",
+            "weight": 4,
+            "unique": false
+        },
+        {
+            "itemId": 7,
+            "name": "Potion",
+            "weight": 20,
+            "unique": false
+        },
+        {
+            "itemId": 8,
+            "name": "Super potion",
+            "weight": 14,
+            "unique": false
+        },
+        {
+            "itemId": 9,
+            "name": "Hyper potion",
+            "weight": 8,
+            "unique": false
+        },
+        {
+            "itemId": 10,
+            "name": "Max potion",
+            "weight": 5,
+            "unique": false
+        },
+        {
+            "itemId": 11,
+            "name": "Golden nugget",
+            "weight": 5,
+            "unique": false
+        },
+        {
+            "itemId": 12,
+            "name": "Rare candy",
+            "weight": 5,
+            "unique": false
+        },
+        {
+            "itemId": 21,
+            "name": "Bike voucher",
+            "weight": 2,
+            "unique": true
+        }
+    ],
+    "shop": true
+},
+{
+    "id": 21,
+    "name": "Bike voucher",
+    "type": "voucher",
+    "image": "public/assets/images/pokemart/bike-voucher.png",
+    "description": "A voucher to redeem a bicycle",
+    "shop": false
+},
+{
+    "id": 22,
+    "name": "Bicycle",
+    "type": "double",
+    "image": "public/assets/images/pokemart/bicycle.png",
+    "description": "Everything goes at double speed",
+    "shop": false
 }
 ]

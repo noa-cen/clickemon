@@ -58,3 +58,49 @@
     cursor: pointer;
     font-family: var(--font-family-main);
 }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal-content {
+    background-color: var(--color-white);
+    border-radius: var(--radius-small);
+    border: double 6px var(--color-black);
+    font-size: 20px;
+    height: 250px;
+    width: 700px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.modal-content button {
+    font-family: var(--font-family-main);
+    background-color: var(--color-white);
+    border-radius: var(--radius-small);
+    border: double 6px var(--color-black);
+    font-size: 20px;
+    margin: 24px 24px 0 24px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    transform: scale(1.02);
+    background-color: var(--color-card-bg);
+}

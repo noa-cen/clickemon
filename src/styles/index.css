@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Pokemon Classic';
+  src: url('/assets/fonts/Pokemon Classic.ttf') format('truetype');
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-card-bg: rgba(0, 0, 0, 0.1);
+  --font-family-main: 'Pokemon Classic', sans-serif;
+  --font-size-base: 14px;
+
+  --radius-small: 4px;
+  --radius-medium: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  color: var(--color-black);
+
+  background-image: url('/assets/images/background-game.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

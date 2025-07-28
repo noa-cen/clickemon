@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PokemartItemCard.css';
+import '../styles/ItemCard.css';
 
 export default function PokemartItemCard({ item }) {
   const itemImage = item.image.replace('public/', '/');
@@ -12,10 +12,10 @@ export default function PokemartItemCard({ item }) {
             className="item-image"
         />
         <article className="item-info">
-            <span className="item-name">{item.name}</span>
-            <span className="item-description">{item.description}</span>
+            <h3 className="item-name">{item.name}</h3>
+            <p className="item-description">{item.description}</p>
         </article>
-        <article className="item-price">{item.cost}$</article>
+        <article className="item-number">{item.cost}$</article>
     </section>
   );
 }

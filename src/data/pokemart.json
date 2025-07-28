@@ -116,7 +116,7 @@
     "name": "Golden nugget",
     "type": "boost",
     "image": "public/assets/images/pokemart/golden-nugget.png",
-    "description": "Golden nugget worth 5000 ₽",
+    "description": "Golden nugget worth 5000$",
     "boost": {
         "type": "pokedollar",
         "sum": 5000

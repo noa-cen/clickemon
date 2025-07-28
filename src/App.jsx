@@ -9,7 +9,11 @@ import OverlayModal from './components/OverlayModal';
 export default function App() {
   const [activeMenu, setActiveMenu] = useState(null);
 
-  const handleClose = () => setActiveMenu(null);
+  const handleClose = () => {
+      const clicAudio = new Audio('/assets/audio/sounds/click.mp3');
+      clicAudio.play();
+      setActiveMenu(null);
+  };
 
   return (
     <div className="App">

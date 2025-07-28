@@ -9,11 +9,7 @@ export default function PokemonCard({ pokemon, onSelect }) {
     <section
         className={`pokemon-card ${pokemon.owned ? 'owned' : 'unowned'}`}
         onClick={() => {
-            if (pokemon.owned) {
-            onSelect(pokemon);
-            const cryAudio = new Audio(pokemon.cry.replace('public/', '/'));
-            cryAudio.play();
-            }
+            if (pokemon.owned) { onSelect(pokemon); }
         }}
     >
         <img

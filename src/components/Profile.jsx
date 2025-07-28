@@ -11,50 +11,70 @@ export default function Profile({ onClose }) {
     const clic = parseInt(localStorage.getItem('clic')) || 0;
 
     const handleDeleteAll = () => {
-        localStorage.clear();
+        const clicAudio = new Audio('/assets/audio/sounds/gameOver.mp3');
+        clicAudio.play();
+
+        clicAudio.addEventListener('ended', () => {
+            localStorage.clear();
+            setShowConfirm(false);
+        });
+    };
+
+    const playClickSound = () => {
+        const clicAudio = new Audio('/assets/audio/sounds/click.mp3');
+        clicAudio.play();
+    };
+
+    const handleCloseConfirm = () => {
+        playClickSound();
         setShowConfirm(false);
     };
 
+    const handleOpenConfirm = () => {
+        playClickSound();
+        setShowConfirm(true);
+    };
+
     return (
-    <>
+        <>
         <section className="profile-container">
             <article className="profile-header">
-                <h2>{namePlayer}'s profile</h2>
-                <button className="close-button" onClick={onClose}>X</button>
+            <h2>{namePlayer}'s profile</h2>
+            <button className="close-button" onClick={onClose}>X</button>
             </article>
             <article className="profile-list">
-                <ProfileInfoCard name="Pokédollars" image="/assets/icons/coin.png">
+            <ProfileInfoCard name="Pokédollars" image="/assets/icons/coin.png">
                 {`${pokedollars}$`}
-                </ProfileInfoCard>
+            </ProfileInfoCard>
 
-                <ProfileInfoCard name="Pokémon caught" image="/assets/icons/pokedex.png">
+            <ProfileInfoCard name="Pokémon caught" image="/assets/icons/pokedex.png">
                 {ownedPokemons.length}
-                </ProfileInfoCard>
+            </ProfileInfoCard>
 
-                <ProfileInfoCard name="Total clics" image="/assets/icons/silph-scope.png">
+            <ProfileInfoCard name="Total clics" image="/assets/icons/silph-scope.png">
                 {clic}
-                </ProfileInfoCard>
+            </ProfileInfoCard>
 
-                <ProfileInfoCard
+            <ProfileInfoCard
                 name="Delete all"
                 image="/assets/icons/escape-rope.png"
-                onClick={() => setShowConfirm(true)}
+                onClick={handleOpenConfirm}
                 style={{ cursor: 'pointer' }}
-                />
+            />
             </article>
         </section>
 
         {showConfirm && (
-        <article className="modal-overlay">
+            <article className="modal-overlay">
             <article className="modal-content">
                 <p>Are you sure you want to delete all your data?</p>
                 <article>
-                    <button onClick={handleDeleteAll}>Yes</button>
-                    <button onClick={() => setShowConfirm(false)}>No</button>
+                <button onClick={handleDeleteAll}>Yes</button>
+                <button onClick={handleCloseConfirm}>No</button>
                 </article>
             </article>
-        </article>
+            </article>
         )}
-    </>
+        </>
     );
 }

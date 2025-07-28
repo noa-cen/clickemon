@@ -2,9 +2,14 @@ import React, { useEffect, useState } from 'react';
 import pokemartData from '../data/pokemart.json';
 import BackpackItemCard from './BackpackItemCard';
 import '../styles/Backpack.css';
+import { getInventory } from '../services/pokemart';
 
 export default function Backpack ({ onClose }) {
-    const inventory = JSON.parse(localStorage.getItem('inventory') || '{}');
+    const [inventory, setInventory] = useState({});
+
+    useEffect(() => {
+        setInventory(getInventory());
+    }, []);
 
     return (
         <section className="backpack-container">

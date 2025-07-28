@@ -1,11 +1,16 @@
 import React from 'react';
 import '../styles/ItemCard.css';
 
-export default function PokemartItemCard({ item }) {
+export default function PokemartItemCard({ item, onClick, style, animate }) {
   const itemImage = item.image.replace('public/', '/');
 
   return (
-    <section className="item-card">
+    <section 
+      className={`item-card ${animate ? 'animate-buy' : ''}`}
+      onClick={onClick}
+      style={style}
+      role="button"
+    >
         <img
             src={itemImage}
             alt={item.name}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Menu from './components/Menu';
 import Pokedex from './components/Pokedex';
+import Pokemart from './components/Pokemart';
 import OverlayModal from './components/OverlayModal';
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Menu onSelect={setActiveMenu} />
+      <Menu active={activeMenu} onSelect={setActiveMenu} />
 
       <main>
         {activeMenu === 'pokedex' && (
@@ -19,7 +20,11 @@ export default function App() {
           </OverlayModal>
         )}
 
-        {/* Autres menus à venir */}
+        {activeMenu === 'pokemart' && (
+          <OverlayModal onClose={handleClose}>
+            <Pokemart onClose={handleClose} />
+          </OverlayModal>
+        )}
       </main>
     </div>
   );

@@ -1,4 +1,4 @@
-.pokedex-container {
+.pokemart-container {
     background-color: var(--color-white);
     border-radius: var(--radius-small);
     border: double 6px var(--color-black);
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-.pokedex-header {
+.pokemart-header {
     position: sticky;
     top: 0;
     background-color: var(--color-white);
@@ -25,12 +25,12 @@
     padding-bottom: 8px;
 }
 
-.pokedex-container h2 {
+.pokemart-container h2 {
     margin: 0 0 16px 0;
     text-align: left;
 }
 
-.pokedex-list {
+.pokemart-list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -44,7 +44,7 @@
     -ms-overflow-style: none;  
 }
 
-.pokedex-list::-webkit-scrollbar {
+.pokemart-list::-webkit-scrollbar {
     display: none;
 }
 

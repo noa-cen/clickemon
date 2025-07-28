@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
 import '../styles/Menu.css';
 
-export default function Menu({ onSelect }) {
-  const [active, setActive] = useState(null);
-
+export default function Menu({ active, onSelect }) {
   const items = [
     { id: 'pokedex', icon: '/assets/icons/pokedex.png', label: 'Pokédex' },
-    { id: 'shop', icon: '/assets/icons/shop.png', label: 'Shop' },
+    { id: 'pokemart', icon: '/assets/icons/shop.png', label: 'Pokémart' },
     { id: 'backpack', icon: '/assets/icons/backpack.png', label: 'Backpack' },
-    { id: 'ash', icon: '/assets/icons/ash.png', label: 'Ash' },
+    { id: 'ash', icon: '/assets/icons/ash.png', label: "Ash's profile" },
   ];
 
-  const handleClick = (id) => {
-    setActive(id);
-    if (onSelect) onSelect(id);
-  };
+const handleClick = (id) => {
+  console.log('Menu click:', id, 'active:', active);
+  if (onSelect) onSelect(id === active ? null : id);
+};
+
 
   return (
     <nav className="menu-container">
@@ -34,3 +33,4 @@ export default function Menu({ onSelect }) {
     </nav>
   );
 }
+

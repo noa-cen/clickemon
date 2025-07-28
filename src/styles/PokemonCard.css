@@ -43,7 +43,6 @@
 
 .pokemon-number {
   font-size: var(--font-size-base);
-  opacity: 0.8;
 }
 
 .pokemon-types {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Menu from './components/Menu';
 import Pokedex from './components/Pokedex';
 import Pokemart from './components/Pokemart';
+import Profile from './components/Profile';
 import OverlayModal from './components/OverlayModal';
 
 export default function App() {
@@ -23,6 +24,12 @@ export default function App() {
         {activeMenu === 'pokemart' && (
           <OverlayModal onClose={handleClose}>
             <Pokemart onClose={handleClose} />
+          </OverlayModal>
+        )}
+
+        {activeMenu === 'profile' && (
+          <OverlayModal onClose={handleClose}>
+            <Profile onClose={handleClose} />
           </OverlayModal>
         )}
       </main>

@@ -5,8 +5,7 @@ export default function PokemartItemCard({ item }) {
   const itemImage = item.image.replace('public/', '/');
 
   return (
-    <section
-        className="item-card">
+    <section className="item-card">
         <img
             src={itemImage}
             alt={item.name}

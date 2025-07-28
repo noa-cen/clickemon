@@ -6,14 +6,13 @@ export default function Menu({ active, onSelect }) {
     { id: 'pokedex', icon: '/assets/icons/pokedex.png', label: 'Pokédex' },
     { id: 'pokemart', icon: '/assets/icons/shop.png', label: 'Pokémart' },
     { id: 'backpack', icon: '/assets/icons/backpack.png', label: 'Backpack' },
-    { id: 'ash', icon: '/assets/icons/ash.png', label: "Ash's profile" },
+    { id: 'profile', icon: '/assets/icons/ash.png', label: "Profile" },
   ];
 
 const handleClick = (id) => {
   console.log('Menu click:', id, 'active:', active);
   if (onSelect) onSelect(id === active ? null : id);
 };
-
 
   return (
     <nav className="menu-container">

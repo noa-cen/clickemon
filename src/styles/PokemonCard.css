@@ -9,8 +9,11 @@
 }
 
 /* Hover if owned */
+.pokemon-card.owned:hover .pokemon-image {
+  transform: scale(1.2);
+}
+
 .pokemon-card.owned:hover {
-  transform: scale(1.04);
   cursor: pointer;
 }
 

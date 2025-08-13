@@ -5,6 +5,8 @@ import Pokemart from './components/Pokemart';
 import Backpack from './components/Backpack';
 import Profile from './components/Profile';
 import OverlayModal from './components/OverlayModal';
+import Character from './components/Character';
+import Pokemon from './components/Pokemon';
 
 export default function App() {
   const [activeMenu, setActiveMenu] = useState(null);
@@ -17,6 +19,9 @@ export default function App() {
 
   return (
     <section className="App">
+      <Character />
+      <Pokemon />
+      
       <Menu active={activeMenu} onSelect={setActiveMenu} />
 
       <main>

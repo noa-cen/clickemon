@@ -22,10 +22,10 @@ export default function Pokedex({ onClose }) {
 
   return (
     <section className="pokedex-container">
-      <div className="pokedex-header">
+      <article className="pokedex-header">
         <h2>Pokédex</h2>
         <button className="close-button" onClick={onClose}>X</button>
-      </div>
+      </article>
       <article className="pokedex-list">
         {pokemonsData.map((pokemon) => {
           const isOwned = ownedIds.includes(pokemon.id);

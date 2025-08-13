@@ -49,15 +49,15 @@ export default function Profile({ onClose }) {
             <button className="close-button" onClick={onClose}>X</button>
             </article>
             <article className="profile-list">
-                <ProfileInfoCard name="Pokédollars" image="/assets/icons/coin.png">
+                <ProfileInfoCard name="Pokédollars:" image="/assets/icons/coin.png">
                     {`${pokedollars}$`}
                 </ProfileInfoCard>
 
-                <ProfileInfoCard name="Pokémon caught" image="/assets/icons/pokedex.png">
+                <ProfileInfoCard name="Pokémon caught:" image="/assets/icons/pokedex.png">
                     {ownedPokemons.length}
                 </ProfileInfoCard>
 
-                <ProfileInfoCard name="Total clics" image="/assets/icons/silph-scope.png">
+                <ProfileInfoCard name="Total clics:" image="/assets/icons/silph-scope.png">
                     {clic}
                 </ProfileInfoCard>
 

@@ -15,7 +15,7 @@ export default function BackpackItemCard({ item, quantity }) {
                 <h3 className="item-name">{item.name}</h3>
                 <p className="item-description">{item.description}</p>
             </article>
-            <article className="item-number">x{quantity}</article>
+            <article className="item-number">{quantity}</article>
         </section>
     );
 }

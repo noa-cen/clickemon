@@ -24,7 +24,7 @@ export default function Backpack ({ onClose }) {
                         <BackpackItemCard
                             key={item.id}
                             item={item}
-                            quantity={inventory[item.name]}
+                            quantity={item.unique ? ``: `x${inventory[item.name]}`}
                         />
                     ))}
             </article>

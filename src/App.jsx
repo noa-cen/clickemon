@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Header from './components/Header';
 import Menu from './components/Menu';
 import Pokedex from './components/Pokedex';
 import Pokemart from './components/Pokemart';
@@ -25,6 +26,7 @@ export default function App() {
 
   return (
     <section className="App">
+      <Header />
       <Character />
       <ActivePokemon activePokemon={activePokemon} />
       
@@ -34,9 +36,9 @@ export default function App() {
         {activeMenu === 'pokedex' && (
           <OverlayModal onClose={handleClose}>
             <Pokedex onClose={handleClose} setActivePokemon={(pokemon) => {
-                setActivePokemon(pokemon); // met à jour immédiatement
-                localStorage.setItem('activePokemon', JSON.stringify(pokemon)); // persiste
-                setActiveMenu(null); // ferme le Pokédex
+                setActivePokemon(pokemon);
+                localStorage.setItem('activePokemon', JSON.stringify(pokemon));
+                setActiveMenu(null);
               }} />
           </OverlayModal>
         )}

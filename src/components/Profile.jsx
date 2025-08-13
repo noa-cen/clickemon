@@ -4,6 +4,7 @@ import '../styles/Profile.css';
 
 export default function Profile({ onClose }) {
     const [showConfirm, setShowConfirm] = useState(false);
+    const [isGameOver, setIsGameOver] = useState(false);
 
     const namePlayer = localStorage.getItem('namePlayer');
     const ownedPokemons = JSON.parse(localStorage.getItem('ownedPokemons') || '[]');
@@ -14,10 +15,15 @@ export default function Profile({ onClose }) {
         const clicAudio = new Audio('/assets/audio/sounds/gameOver.mp3');
         clicAudio.play();
 
-        clicAudio.addEventListener('ended', () => {
+        // Start animation
+        setIsGameOver(true);
+
+        setTimeout(() => {
             localStorage.clear();
             setShowConfirm(false);
-        });
+            setIsGameOver(false);
+            window.location.reload();
+        }, 4000); // 4 secondes for complete animation
     };
 
     const playClickSound = () => {
@@ -74,6 +80,14 @@ export default function Profile({ onClose }) {
                 </article>
             </article>
             </article>
+        )}
+
+        {isGameOver && (
+            <section className="game-over-overlay">
+                <article className="game-over-text">
+                    <h2>GAME OVER</h2>
+                </article>
+            </section>
         )}
         </>
     );

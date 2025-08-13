@@ -35,7 +35,6 @@
     padding: 0;
     list-style: none;
     width: 350px;
-
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -101,6 +100,79 @@
 }
 
 .modal-content button:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
     background-color: var(--color-card-bg);
+}
+
+/* Keyframes */
+@keyframes openIris {
+    0% {
+        clip-path: circle(0% at center);
+    }
+    100% {
+        clip-path: circle(100% at center);
+    }
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 
+            2px 2px 4px rgba(0,0,0,0.8),
+            -2px -2px 0px #ff0000,
+            2px -2px 0px #00ff00;
+    }
+    50% {
+        text-shadow: 
+            2px 2px 4px rgba(0,0,0,0.8),
+            -2px 2px 0px #ff0000,
+            2px 2px 0px #0000ff;
+    }
+    100% {
+        text-shadow: 
+            2px 2px 4px rgba(0,0,0,0.8),
+            2px -2px 0px #ff0000,
+            -2px 2px 0px #00ff00;
+    }
+}
+
+/* Overlay Game Over */
+.game-over-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: #000;
+    animation: openIris 3.5s ease-in-out forwards;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texte Game Over */
+.game-over-text {
+    position: relative;
+    z-index: 1001;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    animation: fadeInText 2s ease-in-out 0.5s forwards;
+    font-family: var(--font-family-main);
+}
+
+.game-over-text h2 {
+    font-size: 80px;
+    margin: 0;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    animation: glitch 0.3s ease-in-out 2s infinite alternate;
 }

@@ -16,7 +16,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <section className="App">
       <Menu active={activeMenu} onSelect={setActiveMenu} />
 
       <main>
@@ -44,6 +44,6 @@ export default function App() {
           </OverlayModal>
         )}
       </main>
-    </div>
+    </section>
   );
 }

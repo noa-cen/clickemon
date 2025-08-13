@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+.logo {
+  width: 80%;
+  max-width: 900px;
+  margin-top: 24px;
+}
+
+.home-pokemon {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.home-pokemon .pokemon {
+    width: 200px;
+}

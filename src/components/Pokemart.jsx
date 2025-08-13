@@ -47,7 +47,6 @@ export default function Pokemart({ onClose }) {
                                 key={item.id} 
                                 item={item}
                                 onClick={() => handleBuyItem(item.name, item.cost)}
-                                style={{ cursor: 'pointer' }}
                                 animate={animatedItem === item.name}
                                 owned={isOwned}
                             />

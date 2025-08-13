@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Home from './components/Home';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Pokedex from './components/Pokedex';
@@ -26,6 +27,7 @@ export default function App() {
 
   return (
     <section className="App">
+      {/* <Home /> */}
       <Header />
       <Character />
       <ActivePokemon activePokemon={activePokemon} />

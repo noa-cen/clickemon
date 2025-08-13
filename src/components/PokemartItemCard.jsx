@@ -7,8 +7,7 @@ export default function PokemartItemCard({ item, onClick, style, animate, owned 
   return (
     <section 
       className={`item-card ${animate ? 'animate-buy' : ''}`}
-      onClick={onClick}
-      style={style}
+      onClick={owned ? `` : onClick}
       role="button"
     >
         <img

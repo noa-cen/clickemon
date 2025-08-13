@@ -12,16 +12,23 @@ export default function Pokemart({ onClose }) {
     setInventory(getInventory());
     }, []);
 
-    const handleBuyItem = (itemName) => {
-        buyItem(itemName);
+    const handleBuyItem = (itemName, itemCost) => {
+        const result = buyItem(itemName, itemCost);
 
-        const audio = new Audio('/assets/audio/sounds/buyItem.mp3');
-        audio.play();
+        if (result.success) {
+            const audio = new Audio('/assets/audio/sounds/buyItem.mp3');
+            audio.play();
 
-        setAnimatedItem(itemName);
-        setTimeout(() => {
-            setAnimatedItem(null);
-        }, 600);
+            setAnimatedItem(itemName);
+            setTimeout(() => {
+                setAnimatedItem(null);
+            }, 600);
+
+            setInventory(result.inventory);
+        } else {
+            const audio = new Audio('/assets/audio/sounds/error.mp3');
+            audio.play();
+        }
     };
 
     return (
@@ -33,15 +40,19 @@ export default function Pokemart({ onClose }) {
             <article className="pokemart-list">
                 {pokemartData
                     .filter(item => item.shop === true)
-                    .map((item) => (
-                        <PokemartItemCard
-                            key={item.id} 
-                            item={item}
-                            onClick={() => handleBuyItem(item.name)}
-                            style={{ cursor: 'pointer' }}
-                            animate={animatedItem === item.name}
-                        />
-                    ))}
+                    .map((item) => {
+                        const isOwned = item.unique && inventory[item.name] > 0;
+                        return (
+                            <PokemartItemCard
+                                key={item.id} 
+                                item={item}
+                                onClick={() => handleBuyItem(item.name, item.cost)}
+                                style={{ cursor: 'pointer' }}
+                                animate={animatedItem === item.name}
+                                owned={isOwned}
+                            />
+                        );
+                    })}
             </article>
         </section>
     );

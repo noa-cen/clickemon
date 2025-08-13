@@ -200,7 +200,8 @@
         "type": "exp",
         "interval": 1000
     },
-    "shop": true
+    "shop": true,
+    "unique": true
 },
 {
     "id": 20,
@@ -213,7 +214,8 @@
         "type": "pokedollar",
         "interval": 1000
     },
-    "shop": true
+    "shop": true,
+    "unique": true
 },
 {
     "id": 21,
@@ -306,7 +308,8 @@
             "unique": true
         }
     ],
-    "shop": true
+    "shop": true,
+    "unique": true
 },
 {
     "id": 22,

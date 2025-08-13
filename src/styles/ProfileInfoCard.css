@@ -9,9 +9,9 @@
 }
 
 .profile-card:last-child {
-    margin-top: 36px;
+    margin-top: 56px;
     background-color: rgba(255, 0, 0, 0.1);
-    border: solid 2px red;
+    border: solid 3px red;
 }
 
 .profile-card-image-container {

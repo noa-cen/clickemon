@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Menu from './components/Menu';
 import Pokedex from './components/Pokedex';
 import Pokemart from './components/Pokemart';
@@ -6,10 +6,16 @@ import Backpack from './components/Backpack';
 import Profile from './components/Profile';
 import OverlayModal from './components/OverlayModal';
 import Character from './components/Character';
-import Pokemon from './components/Pokemon';
+import ActivePokemon from './components/ActivePokemon';
 
 export default function App() {
   const [activeMenu, setActiveMenu] = useState(null);
+  const [activePokemon, setActivePokemon] = useState(null);
+
+  useEffect(() => {
+    const storedActive = localStorage.getItem('activePokemon');
+    if (storedActive) setActivePokemon(JSON.parse(storedActive));
+  }, []);
 
   const handleClose = () => {
       const clicAudio = new Audio('/assets/audio/sounds/click.mp3');
@@ -20,14 +26,18 @@ export default function App() {
   return (
     <section className="App">
       <Character />
-      <Pokemon />
+      <ActivePokemon activePokemon={activePokemon} />
       
       <Menu active={activeMenu} onSelect={setActiveMenu} />
 
       <main>
         {activeMenu === 'pokedex' && (
           <OverlayModal onClose={handleClose}>
-            <Pokedex onClose={handleClose} />
+            <Pokedex onClose={handleClose} setActivePokemon={(pokemon) => {
+                setActivePokemon(pokemon); // met à jour immédiatement
+                localStorage.setItem('activePokemon', JSON.stringify(pokemon)); // persiste
+                setActiveMenu(null); // ferme le Pokédex
+              }} />
           </OverlayModal>
         )}
 

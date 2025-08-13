@@ -3,9 +3,8 @@ import pokemonsData from '../data/pokemon.json';
 import PokemonCard from './PokemonCard';
 import '../styles/Pokedex.css';
 
-export default function Pokedex({ onClose }) {
+export default function Pokedex({ onClose, setActivePokemon }) {
   const [ownedIds, setOwnedIds] = useState([]);
-  const [activePokemon, setActivePokemon] = useState(null);
 
   useEffect(() => {
     const stored = localStorage.getItem('ownedPokemons');
@@ -15,9 +14,10 @@ export default function Pokedex({ onClose }) {
   }, []);
 
   const handleSelectPokemon = (pokemon) => {
-    setActivePokemon(pokemon);
     const cryAudio = new Audio(pokemon.cry.replace('public/', '/'));
     cryAudio.play();
+
+    setActivePokemon(pokemon);
   };
 
   return (

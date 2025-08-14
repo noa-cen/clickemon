@@ -9,11 +9,11 @@ export default function Menu({ active, onSelect }) {
         { id: 'profile', icon: '/assets/icons/ash.png', label: "Profile" },
     ];
 
-const handleClick = (id) => {
-    const clicAudio = new Audio('/assets/audio/sounds/click.mp3');
-    clicAudio.play();
-    if (onSelect) onSelect(id === active ? null : id);
-};
+    const handleClick = (id) => {
+        const clicAudio = new Audio('/assets/audio/sounds/click.mp3');
+        clicAudio.play();
+        if (onSelect) onSelect(id === active ? null : id);
+    };
 
     return (
         <nav className="menu-container">

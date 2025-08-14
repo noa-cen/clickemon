@@ -1,6 +1,158 @@
 .pokemon {
     position: fixed;
-    top: 55%;
-    left: 50%;
     width: 400px;
+    transform: translateX(-50%);
 }
+
+/* --- Positions --- */
+.pokemon-bulbasaur { bottom: 2%; left: 63%; }
+.pokemon-ivysaur { bottom: 5%; left: 61%; width: 420px; }
+.pokemon-venusaur { bottom: 6%; left: 60%; width: 500px; }
+.pokemon-charmander { bottom: 4%; left: 63%; }
+.pokemon-charmeleon { bottom: 6%; left: 63%; width: 420px; }
+.pokemon-charizard { bottom: 10%; left: 59%; width: 500px; }
+.pokemon-squirtle { bottom: 3%; left: 63%; }
+.pokemon-wartortle { bottom: 6%; left: 63%; width: 420px; }
+.pokemon-blastoise { bottom: 5%; left: 61%; width: 500px; }
+.pokemon-caterpie { bottom: 5%; left: 64%; width: 350px; }
+.pokemon-metapod { bottom: 3%; left: 64%; }
+.pokemon-butterfree { bottom: 30%; left: 61%; }
+.pokemon-weedle { bottom: 5%; left: 64%; width: 350px; }
+.pokemon-kakuna { bottom: 3%; left: 65%; }
+.pokemon-beedrill { bottom: 30%; left: 61%; }
+.pokemon-pidgey { bottom: 5%; left: 64%; width: 350px; }
+.pokemon-pidgeotto { bottom: 30%; left: 60%; }
+.pokemon-pidgeot { bottom: 8%; left: 63%; width: 420px; }
+.pokemon-rattata { bottom: 3%; left: 64%; width: 350px; }
+.pokemon-raticate { bottom: 5%; left: 62%; }
+.pokemon-spearow { bottom: 4%; left: 64%; width: 350px; }
+.pokemon-fearow { bottom: 30%; left: 60%; }
+.pokemon-ekans { bottom: 4%; left: 63%; }
+.pokemon-arbok { bottom: 6%; left: 62%; width: 500px; }
+.pokemon-pikachu { bottom: 7%; left: 63%; width: 320px; }
+.pokemon-raichu { bottom: 7%; left: 64%; width: 380px; }
+.pokemon-sandshrew { bottom: 2%; left: 63%; }
+.pokemon-sandslash { bottom: 3%; left: 62%; width: 420px; }
+.pokemon-nidoran♀ { bottom: 3%; left: 64%; }
+.pokemon-nidorina { bottom: 3%; left: 62%; width: 420px; }
+.pokemon-nidoqueen { bottom: 7%; left: 61%; width: 470px; }
+.pokemon-nidoran♂ { bottom: 2%; left: 64%; }
+.pokemon-nidorino { bottom: 4%; left: 62%; width: 420px; }
+.pokemon-nidoking { bottom: 7%; left: 60%; width: 470px; }
+.pokemon-clefairy { bottom: 4%; left: 62%; width: 420px; }
+.pokemon-clefable { bottom: 5%; left: 62%; width: 470px; }
+.pokemon-vulpix { bottom: 6%; left: 62%; width: 380px; }
+.pokemon-ninetales { bottom: 8%; left: 61%; }
+.pokemon-jigglypuff { bottom: 2%; left: 63%; }
+.pokemon-wigglytuff { bottom: 6%; left: 62%; width: 420px; }
+.pokemon-zubat { bottom: 35%; left: 62%; }
+.pokemon-golbat { bottom: 32%; left: 60%; width: 420px; }
+.pokemon-oddish { bottom: 3%; left: 63%; }
+.pokemon-gloom { bottom: 5%; left: 62%; }
+.pokemon-vileplume { bottom: 5%; left: 62%; width: 430px; }
+.pokemon-paras { bottom: 3%; left: 63%; width: 360px; }
+.pokemon-parasect { bottom: 5%; left: 62%; }
+.pokemon-venonat { bottom: 5%; left: 62%; }
+.pokemon-venomoth { bottom: 28%; left: 61%; width: 420px; }
+.pokemon-diglett { bottom: 1%; left: 63%; width: 380px; }
+.pokemon-dugtrio { bottom: 2%; left: 62%; }
+.pokemon-meowth { bottom: 5%; left: 63%; width: 380px; }
+.pokemon-persian { bottom: 8%; left: 60%; }
+.pokemon-psyduck { bottom: 3%; left: 63%; width: 420px; }
+.pokemon-golduck { bottom: 5%; left: 62%; width: 480px; }
+.pokemon-mankey { bottom: 4%; left: 61%; }
+.pokemon-primeape { bottom: 5%; left: 62%; }
+.pokemon-growlithe { bottom: 2%; left: 62%; }
+.pokemon-arcanine { bottom: 7%; left: 60%; width: 500px; }
+.pokemon-poliwag { bottom: 3%; left: 62%; }
+.pokemon-poliwhirl { bottom: 4%; left: 61%; }
+.pokemon-poliwrath { bottom: 6%; left: 60%; }
+.pokemon-abra { bottom: 2%; left: 62%; }
+.pokemon-kadabra { bottom: 7%; left: 62%; }
+.pokemon-alakazam { bottom: 6%; left: 61%; width: 450px; }
+.pokemon-machop { bottom: 6%; left: 62%; }
+.pokemon-machoke { bottom: 9%; left: 62%; }
+.pokemon-machamp { bottom: 9%; left: 61%; width: 450px; }
+.pokemon-bellsprout { bottom: 4%; left: 64%; width: 380px; }
+.pokemon-weepinbell { bottom: 5%; left: 63%; }
+.pokemon-victreebel { bottom: 4%; left: 62%; width: 450px; }
+.pokemon-tentacool { bottom: 6%; left: 62%; }
+.pokemon-tentacruel { bottom: 7%; left: 62%; width: 420px; }
+.pokemon-geodude { bottom: 20%; left: 61%; }
+.pokemon-graveler { bottom: 4%; left: 61%; width: 420px; }
+.pokemon-golem { bottom: 7%; left: 61%; width: 420px; }
+.pokemon-ponyta { bottom: 6%; left: 61%; width: 430px; }
+.pokemon-rapidash { bottom: 9%; left: 61%; width: 480px; }
+.pokemon-slowpoke { bottom: 5%; left: 62%; }
+.pokemon-slowbro { bottom: 7%; left: 61%; width: 450px; }
+.pokemon-magnemite { bottom: 30%; left: 62%; }
+.pokemon-magneton { bottom: 30%; left: 61%; }
+.pokemon-farfetch-d { bottom: 5%; left: 63%; }
+.pokemon-doduo { bottom: 3%; left: 61%; width: 500px; }
+.pokemon-dodrio { bottom: 9%; left: 60%; width: 500px; }
+.pokemon-seel { bottom: 5%; left: 60%; }
+.pokemon-dewgong { bottom: 9%; left: 60%; }
+.pokemon-grimer { bottom: 1%; left: 61%; width: 450px; }
+.pokemon-muk { bottom: 6%; left: 59%; width: 450px; }
+.pokemon-shellder { bottom: 1%; left: 63%; }
+.pokemon-cloyster { bottom: 7%; left: 60%; width: 450px; }
+.pokemon-gastly { bottom: 34%; left: 61%; }
+.pokemon-haunter { bottom: 30%; left: 61%; width: 450px; }
+.pokemon-gengar { bottom: 5%; left: 61%; width: 450px; }
+.pokemon-onix { bottom:10%; left: 59%; width: 550px; }
+.pokemon-drowzee { bottom: 5%; left: 61%; }
+.pokemon-hypno { bottom: 6%; left: 61%; width: 450px; }
+.pokemon-krabby { bottom: 3%; left: 62%; width: 370px; }
+.pokemon-kingler { bottom: 7%; left: 60%; }
+.pokemon-voltorb { bottom: 1%; left: 64%; }
+.pokemon-electrode { bottom: 5%; left: 62%; }
+.pokemon-exeggcute { bottom: 2%; left: 61%; width: 380px; }
+.pokemon-exeggutor { bottom: 8%; left: 61%; width: 550px; }
+.pokemon-cubone { bottom: 2%; left: 63%; }
+.pokemon-marowak { bottom: 3%; left: 61%; width: 420px; }
+.pokemon-hitmonlee { bottom: 6%; left: 61%; width: 500px; }
+.pokemon-hitmonchan { bottom: 5%; left: 62%; width: 470px; }
+.pokemon-lickitung { bottom: 6%; left: 61%; width: 420px; }
+.pokemon-koffing { bottom: 23%; left: 62%; }
+.pokemon-weezing { bottom: 30%; left: 60%; }
+.pokemon-rhyhorn { bottom: 5%; left: 61%; }
+.pokemon-rhydon { bottom: 6%; left: 60%; width: 500px; }
+.pokemon-chansey { bottom: 3%; left: 61%; width: 420px; }
+.pokemon-tangela { bottom: 4%; left: 62%; }
+.pokemon-kangaskhan { bottom: 6%; left: 60%; width: 520px; }
+.pokemon-horsea { bottom: 3%; left: 64%; }
+.pokemon-seadra { bottom: 5%; left: 62%; }
+.pokemon-goldeen { bottom: 2%; left: 63%; }
+.pokemon-seaking { bottom: 4%; left: 62%; width: 450px; }
+.pokemon-staryu { bottom: 4%; left: 62%; }
+.pokemon-starmie { bottom: 5%; left: 62%; }
+.pokemon-mr-mime { bottom: 4%; left: 62%; width: 450px; }
+.pokemon-scyther { bottom: 28%; left: 61%; width: 450px; }
+.pokemon-jynx { bottom: 4%; left: 62%; width: 450px; }
+.pokemon-electabuzz { bottom: 6%; left: 62%; }
+.pokemon-magmar { bottom: 5%; left: 62%; width: 480px; }
+.pokemon-pinsir { bottom: 4%; left: 62%; width: 480px; }
+.pokemon-tauros { bottom: 5%; left: 60%; width: 450px; }
+.pokemon-magikarp { bottom: 3%; left: 63%; }
+.pokemon-gyarados { bottom: 26%; left: 60%; width: 500px; }
+.pokemon-lapras { bottom: 7%; left: 60%; width: 480px; }
+.pokemon-ditto { bottom: 2%; left: 63%; width: 360px; }
+.pokemon-eevee { bottom: 6%; left: 63%; width: 350px; }
+.pokemon-vaporeon { bottom: 5%; left: 63%; }
+.pokemon-jolteon { bottom: 4%; left: 63%; }
+.pokemon-flareon { bottom: 5%; left: 63%; }
+.pokemon-porygon { bottom: 1%; left: 63%; }
+.pokemon-omanyte { bottom: 3%; left: 63%; width: 380px; }
+.pokemon-omastar { bottom: 5%; left: 63%; }
+.pokemon-kabuto { bottom: 2%; left: 63%; width: 380px; }
+.pokemon-kabutops { bottom: 6%; left: 61%; }
+.pokemon-aerodactyl { bottom: 30%; left: 60%; width: 450px; }
+.pokemon-snorlax { bottom: 6%; left: 59%; width: 520px; }
+.pokemon-articuno { bottom: 10%; left: 62%; width: 420px; }
+.pokemon-zapdos { bottom: 33%; left: 60%; }
+.pokemon-moltres { bottom: 32%; left: 60%; width: 450px; }
+.pokemon-dratini { bottom: 4%; left: 63%; }
+.pokemon-dragonair { bottom: 6%; left: 61%; width: 500px; }
+.pokemon-dragonite { bottom: 9%; left: 60%; width: 500px; }
+.pokemon-mewtwo { bottom: 6%; left: 58%; width: 550px; }
+.pokemon-mew { bottom: 27%; left: 60%; }

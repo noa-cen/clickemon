@@ -12,6 +12,7 @@ export default function Header() {
         "rarity": "starter",
         "evolutionMethod": ["exp"]
     };
+    const number = String(activePokemon.id).padStart(3, '0');
 
     return (
         <section className='header'>
@@ -20,7 +21,10 @@ export default function Header() {
                 <p>{`${pokedollars}$`}</p>
             </article>
             <article className='header-exp'>
-                <h3>{activePokemon.name}</h3>
+                <article className='header-pokemon-name'>
+                    <h3>{activePokemon.name}</h3>
+                    <p>#{number}</p>
+                </article>
                 <div className="xp-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
                     <span className="xp-bar__fill"></span>
                 </div>

@@ -27,6 +27,11 @@
     gap: 12px;
 }
 
+.header-pokemon-name {
+    display: flex;
+    justify-content: space-between;
+}
+
 .xp-bar {
     --value: 0%;
     width: 100%;

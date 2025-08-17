@@ -2,8 +2,8 @@
 {
 	"id": 1,
 	"name": "Bulbasaur",
-	"image": "public/assets/images/pokemon/Bulbasaur - 1.png",
-	"cry": "public/assets/audio/cries/bulbasaur.mp3",
+	"image": "/assets/images/pokemon/Bulbasaur - 1.png",
+	"cry": "/assets/audio/cries/bulbasaur.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "starter",
 	"evolutionMethod": ["exp"]
@@ -11,8 +11,8 @@
 {
 	"id": 2,
 	"name": "Ivysaur",
-	"image": "public/assets/images/pokemon/Ivysaur - 2.png",
-	"cry": "public/assets/audio/cries/ivysaur.mp3",
+	"image": "/assets/images/pokemon/Ivysaur - 2.png",
+	"cry": "/assets/audio/cries/ivysaur.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -20,8 +20,8 @@
 {
 	"id": 3,
 	"name": "Venusaur",
-	"image": "public/assets/images/pokemon/Venusaur - 3.png",
-	"cry": "public/assets/audio/cries/venusaur.mp3",
+	"image": "/assets/images/pokemon/Venusaur - 3.png",
+	"cry": "/assets/audio/cries/venusaur.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -29,8 +29,8 @@
 {
 	"id": 4,
 	"name": "Charmander",
-	"image": "public/assets/images/pokemon/Charmander - 4.png",
-	"cry": "public/assets/audio/cries/charmander.mp3",
+	"image": "/assets/images/pokemon/Charmander - 4.png",
+	"cry": "/assets/audio/cries/charmander.mp3",
 	"type": ["Fire"],
 	"rarity": "starter",
 	"evolutionMethod": ["exp"]
@@ -38,8 +38,8 @@
 {
 	"id": 5,
 	"name": "Charmeleon",
-	"image": "public/assets/images/pokemon/Charmeleon - 5.png",
-	"cry": "public/assets/audio/cries/charmeleon.mp3",
+	"image": "/assets/images/pokemon/Charmeleon - 5.png",
+	"cry": "/assets/audio/cries/charmeleon.mp3",
 	"type": ["Fire"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -47,8 +47,8 @@
 {
 	"id": 6,
 	"name": "Charizard",
-	"image": "public/assets/images/pokemon/Charizard - 6.png",
-	"cry": "public/assets/audio/cries/charizard.mp3",
+	"image": "/assets/images/pokemon/Charizard - 6.png",
+	"cry": "/assets/audio/cries/charizard.mp3",
 	"type": ["Fire", "Flying"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -56,8 +56,8 @@
 {
 	"id": 7,
 	"name": "Squirtle",
-	"image": "public/assets/images/pokemon/Squirtle - 7.png",
-	"cry": "public/assets/audio/cries/squirtle.mp3",
+	"image": "/assets/images/pokemon/Squirtle - 7.png",
+	"cry": "/assets/audio/cries/squirtle.mp3",
 	"type": ["Water"],
 	"rarity": "starter",
 	"evolutionMethod": ["exp"]
@@ -65,8 +65,8 @@
 {
 	"id": 8,
 	"name": "Wartortle",
-	"image": "public/assets/images/pokemon/Wartortle - 8.png",
-	"cry": "public/assets/audio/cries/wartortle.mp3",
+	"image": "/assets/images/pokemon/Wartortle - 8.png",
+	"cry": "/assets/audio/cries/wartortle.mp3",
 	"type": ["Water"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -74,8 +74,8 @@
 {
 	"id": 9,
 	"name": "Blastoise",
-	"image": "public/assets/images/pokemon/Blastoise - 9.png",
-	"cry": "public/assets/audio/cries/blastoise.mp3",
+	"image": "/assets/images/pokemon/Blastoise - 9.png",
+	"cry": "/assets/audio/cries/blastoise.mp3",
 	"type": ["Water"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -83,8 +83,8 @@
 {
 	"id": 10,
 	"name": "Caterpie",
-	"image": "public/assets/images/pokemon/Caterpie - 10.png",
-	"cry": "public/assets/audio/cries/caterpie.mp3",
+	"image": "/assets/images/pokemon/Caterpie - 10.png",
+	"cry": "/assets/audio/cries/caterpie.mp3",
 	"type": ["Bug"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -92,8 +92,8 @@
 {
 	"id": 11,
 	"name": "Metapod",
-	"image": "public/assets/images/pokemon/Metapod - 11.png",
-	"cry": "public/assets/audio/cries/metapod.mp3",
+	"image": "/assets/images/pokemon/Metapod - 11.png",
+	"cry": "/assets/audio/cries/metapod.mp3",
 	"type": ["Bug"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -101,8 +101,8 @@
 {
 	"id": 12,
 	"name": "Butterfree",
-	"image": "public/assets/images/pokemon/Butterfree - 12.png",
-	"cry": "public/assets/audio/cries/butterfree.mp3",
+	"image": "/assets/images/pokemon/Butterfree - 12.png",
+	"cry": "/assets/audio/cries/butterfree.mp3",
 	"type": ["Bug", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -110,8 +110,8 @@
 {
 	"id": 13,
 	"name": "Weedle",
-	"image": "public/assets/images/pokemon/Weedle - 13.png",
-	"cry": "public/assets/audio/cries/weedle.mp3",
+	"image": "/assets/images/pokemon/Weedle - 13.png",
+	"cry": "/assets/audio/cries/weedle.mp3",
 	"type": ["Bug", "Poison"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -119,8 +119,8 @@
 {
 	"id": 14,
 	"name": "Kakuna",
-	"image": "public/assets/images/pokemon/Kakuna - 14.png",
-	"cry": "public/assets/audio/cries/kakuna.mp3",
+	"image": "/assets/images/pokemon/Kakuna - 14.png",
+	"cry": "/assets/audio/cries/kakuna.mp3",
 	"type": ["Bug", "Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -128,8 +128,8 @@
 {
 	"id": 15,
 	"name": "Beedrill",
-	"image": "public/assets/images/pokemon/Beedrill - 15.png",
-	"cry": "public/assets/audio/cries/beedrill.mp3",
+	"image": "/assets/images/pokemon/Beedrill - 15.png",
+	"cry": "/assets/audio/cries/beedrill.mp3",
 	"type": ["Bug", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -137,8 +137,8 @@
 {
 	"id": 16,
 	"name": "Pidgey",
-	"image": "public/assets/images/pokemon/Pidgey - 16.png",
-	"cry": "public/assets/audio/cries/pidgey.mp3",
+	"image": "/assets/images/pokemon/Pidgey - 16.png",
+	"cry": "/assets/audio/cries/pidgey.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -146,8 +146,8 @@
 {
 	"id": 17,
 	"name": "Pidgeotto",
-	"image": "public/assets/images/pokemon/Pidgeotto - 17.png",
-	"cry": "public/assets/audio/cries/pidgeotto.mp3",
+	"image": "/assets/images/pokemon/Pidgeotto - 17.png",
+	"cry": "/assets/audio/cries/pidgeotto.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -155,8 +155,8 @@
 {
 	"id": 18,
 	"name": "Pidgeot",
-	"image": "public/assets/images/pokemon/Pidgeot - 18.png",
-	"cry": "public/assets/audio/cries/pidgeot.mp3",
+	"image": "/assets/images/pokemon/Pidgeot - 18.png",
+	"cry": "/assets/audio/cries/pidgeot.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -164,8 +164,8 @@
 {
 	"id": 19,
 	"name": "Rattata",
-	"image": "public/assets/images/pokemon/Rattata - 19.png",
-	"cry": "public/assets/audio/cries/rattata.mp3",
+	"image": "/assets/images/pokemon/Rattata - 19.png",
+	"cry": "/assets/audio/cries/rattata.mp3",
 	"type": ["Normal"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -173,8 +173,8 @@
 {
 	"id": 20,
 	"name": "Raticate",
-	"image": "public/assets/images/pokemon/Raticate - 20.png",
-	"cry": "public/assets/audio/cries/raticate.mp3",
+	"image": "/assets/images/pokemon/Raticate - 20.png",
+	"cry": "/assets/audio/cries/raticate.mp3",
 	"type": ["Normal"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -182,8 +182,8 @@
 {
 	"id": 21,
 	"name": "Spearow",
-	"image": "public/assets/images/pokemon/Spearow - 21.png",
-	"cry": "public/assets/audio/cries/spearow.mp3",
+	"image": "/assets/images/pokemon/Spearow - 21.png",
+	"cry": "/assets/audio/cries/spearow.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -191,8 +191,8 @@
 {
 	"id": 22,
 	"name": "Fearow",
-	"image": "public/assets/images/pokemon/Fearow - 22.png",
-	"cry": "public/assets/audio/cries/fearow.mp3",
+	"image": "/assets/images/pokemon/Fearow - 22.png",
+	"cry": "/assets/audio/cries/fearow.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -200,8 +200,8 @@
 {
 	"id": 23,
 	"name": "Ekans",
-	"image": "public/assets/images/pokemon/Ekans - 23.png",
-	"cry": "public/assets/audio/cries/ekans.mp3",
+	"image": "/assets/images/pokemon/Ekans - 23.png",
+	"cry": "/assets/audio/cries/ekans.mp3",
 	"type": ["Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -209,8 +209,8 @@
 {
 	"id": 24,
 	"name": "Arbok",
-	"image": "public/assets/images/pokemon/Arbok - 24.png",
-	"cry": "public/assets/audio/cries/arbok.mp3",
+	"image": "/assets/images/pokemon/Arbok - 24.png",
+	"cry": "/assets/audio/cries/arbok.mp3",
 	"type": ["Poison"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -218,8 +218,8 @@
 {
 	"id": 25,
 	"name": "Pikachu",
-	"image": "public/assets/images/pokemon/Pikachu - 25.png",
-	"cry": "public/assets/audio/cries/pikachu.mp3",
+	"image": "/assets/images/pokemon/Pikachu - 25.png",
+	"cry": "/assets/audio/cries/pikachu.mp3",
 	"type": ["Electr"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["Thunder stone"]
@@ -227,8 +227,8 @@
 {
 	"id": 26,
 	"name": "Raichu",
-	"image": "public/assets/images/pokemon/Raichu - 26.png",
-	"cry": "public/assets/audio/cries/raichu.mp3",
+	"image": "/assets/images/pokemon/Raichu - 26.png",
+	"cry": "/assets/audio/cries/raichu.mp3",
 	"type": ["Electr"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -236,8 +236,8 @@
 {
 	"id": 27,
 	"name": "Sandshrew",
-	"image": "public/assets/images/pokemon/Sandshrew - 27.png",
-	"cry": "public/assets/audio/cries/sandshrew.mp3",
+	"image": "/assets/images/pokemon/Sandshrew - 27.png",
+	"cry": "/assets/audio/cries/sandshrew.mp3",
 	"type": ["Ground"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -245,8 +245,8 @@
 {
 	"id": 28,
 	"name": "Sandslash",
-	"image": "public/assets/images/pokemon/Sandslash - 28.png",
-	"cry": "public/assets/audio/cries/sandslash.mp3",
+	"image": "/assets/images/pokemon/Sandslash - 28.png",
+	"cry": "/assets/audio/cries/sandslash.mp3",
 	"type": ["Ground"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -254,8 +254,8 @@
 {
 	"id": 29,
 	"name": "Nidoran♀",
-	"image": "public/assets/images/pokemon/Nidoran♀ - 29.png",
-	"cry": "public/assets/audio/cries/nidoran♀.mp3",
+	"image": "/assets/images/pokemon/Nidoran♀ - 29.png",
+	"cry": "/assets/audio/cries/nidoran♀.mp3",
 	"type": ["Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -263,8 +263,8 @@
 {
 	"id": 30,
 	"name": "Nidorina",
-	"image": "public/assets/images/pokemon/Nidorina - 30.png",
-	"cry": "public/assets/audio/cries/nidorina.mp3",
+	"image": "/assets/images/pokemon/Nidorina - 30.png",
+	"cry": "/assets/audio/cries/nidorina.mp3",
 	"type": ["Poison"],
 	"rarity": "rare",
 	"evolutionMethod": ["Moon stone"]
@@ -272,8 +272,8 @@
 {
 	"id": 31,
 	"name": "Nidoqueen",
-	"image": "public/assets/images/pokemon/Nidoqueen - 31.png",
-	"cry": "public/assets/audio/cries/nidoqueen.mp3",
+	"image": "/assets/images/pokemon/Nidoqueen - 31.png",
+	"cry": "/assets/audio/cries/nidoqueen.mp3",
 	"type": ["Poison", "Ground"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -281,8 +281,8 @@
 {
 	"id": 32,
 	"name": "Nidoran♂",
-	"image": "public/assets/images/pokemon/Nidoran♂ - 32.png",
-	"cry": "public/assets/audio/cries/nidoran♂.mp3",
+	"image": "/assets/images/pokemon/Nidoran♂ - 32.png",
+	"cry": "/assets/audio/cries/nidoran♂.mp3",
 	"type": ["Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -290,8 +290,8 @@
 {
 	"id": 33,
 	"name": "Nidorino",
-	"image": "public/assets/images/pokemon/Nidorino - 33.png",
-	"cry": "public/assets/audio/cries/nidorino.mp3",
+	"image": "/assets/images/pokemon/Nidorino - 33.png",
+	"cry": "/assets/audio/cries/nidorino.mp3",
 	"type": ["Poison"],
 	"rarity": "rare",
 	"evolutionMethod": ["Moon stone"]
@@ -299,8 +299,8 @@
 {
 	"id": 34,
 	"name": "Nidoking",
-	"image": "public/assets/images/pokemon/Nidoking - 34.png",
-	"cry": "public/assets/audio/cries/nidoking.mp3",
+	"image": "/assets/images/pokemon/Nidoking - 34.png",
+	"cry": "/assets/audio/cries/nidoking.mp3",
 	"type": ["Poison", "Ground"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -308,8 +308,8 @@
 {
 	"id": 35,
 	"name": "Clefairy",
-	"image": "public/assets/images/pokemon/Clefairy - 35.png",
-	"cry": "public/assets/audio/cries/clefairy.mp3",
+	"image": "/assets/images/pokemon/Clefairy - 35.png",
+	"cry": "/assets/audio/cries/clefairy.mp3",
 	"type": ["Fairy"],
 	"rarity": "rare",
 	"evolutionMethod": ["Moon stone"]
@@ -317,8 +317,8 @@
 {
 	"id": 36,
 	"name": "Clefable",
-	"image": "public/assets/images/pokemon/Clefable - 36.png",
-	"cry": "public/assets/audio/cries/clefable.mp3",
+	"image": "/assets/images/pokemon/Clefable - 36.png",
+	"cry": "/assets/audio/cries/clefable.mp3",
 	"type": ["Fairy"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -326,8 +326,8 @@
 {
 	"id": 37,
 	"name": "Vulpix",
-	"image": "public/assets/images/pokemon/Vulpix - 37.png",
-	"cry": "public/assets/audio/cries/vulpix.mp3",
+	"image": "/assets/images/pokemon/Vulpix - 37.png",
+	"cry": "/assets/audio/cries/vulpix.mp3",
 	"type": ["Fire"],
 	"rarity": "rare",
 	"evolutionMethod": ["Fire stone"]
@@ -335,8 +335,8 @@
 {
 	"id": 38,
 	"name": "Ninetales",
-	"image": "public/assets/images/pokemon/Ninetales - 38.png",
-	"cry": "public/assets/audio/cries/ninetales.mp3",
+	"image": "/assets/images/pokemon/Ninetales - 38.png",
+	"cry": "/assets/audio/cries/ninetales.mp3",
 	"type": ["Fire"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -344,8 +344,8 @@
 {
 	"id": 39,
 	"name": "Jigglypuff",
-	"image": "public/assets/images/pokemon/Jigglypuff - 39.png",
-	"cry": "public/assets/audio/cries/jigglypuff.mp3",
+	"image": "/assets/images/pokemon/Jigglypuff - 39.png",
+	"cry": "/assets/audio/cries/jigglypuff.mp3",
 	"type": ["Normal", "Fairy"],
 	"rarity": "rare",
 	"evolutionMethod": ["Moon stone"]
@@ -353,8 +353,8 @@
 {
 	"id": 40,
 	"name": "Wigglytuff",
-	"image": "public/assets/images/pokemon/Wigglytuff - 40.png",
-	"cry": "public/assets/audio/cries/wigglytuff.mp3",
+	"image": "/assets/images/pokemon/Wigglytuff - 40.png",
+	"cry": "/assets/audio/cries/wigglytuff.mp3",
 	"type": ["Normal", "Fairy"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -362,8 +362,8 @@
 {
 	"id": 41,
 	"name": "Zubat",
-	"image": "public/assets/images/pokemon/Zubat - 41.png",
-	"cry": "public/assets/audio/cries/zubat.mp3",
+	"image": "/assets/images/pokemon/Zubat - 41.png",
+	"cry": "/assets/audio/cries/zubat.mp3",
 	"type": ["Poison", "Flying"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -371,8 +371,8 @@
 {
 	"id": 42,
 	"name": "Golbat",
-	"image": "public/assets/images/pokemon/Golbat - 42.png",
-	"cry": "public/assets/audio/cries/golbat.mp3",
+	"image": "/assets/images/pokemon/Golbat - 42.png",
+	"cry": "/assets/audio/cries/golbat.mp3",
 	"type": ["Poison", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -380,8 +380,8 @@
 {
 	"id": 43,
 	"name": "Oddish",
-	"image": "public/assets/images/pokemon/Oddish - 43.png",
-	"cry": "public/assets/audio/cries/oddish.mp3",
+	"image": "/assets/images/pokemon/Oddish - 43.png",
+	"cry": "/assets/audio/cries/oddish.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -389,8 +389,8 @@
 {
 	"id": 44,
 	"name": "Gloom",
-	"image": "public/assets/images/pokemon/Gloom - 44.png",
-	"cry": "public/assets/audio/cries/gloom.mp3",
+	"image": "/assets/images/pokemon/Gloom - 44.png",
+	"cry": "/assets/audio/cries/gloom.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": ["Leaf stone"]
@@ -398,8 +398,8 @@
 {
 	"id": 45,
 	"name": "Vileplume",
-	"image": "public/assets/images/pokemon/Vileplume - 45.png",
-	"cry": "public/assets/audio/cries/vileplume.mp3",
+	"image": "/assets/images/pokemon/Vileplume - 45.png",
+	"cry": "/assets/audio/cries/vileplume.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -407,8 +407,8 @@
 {
 	"id": 46,
 	"name": "Paras",
-	"image": "public/assets/images/pokemon/Paras - 46.png",
-	"cry": "public/assets/audio/cries/paras.mp3",
+	"image": "/assets/images/pokemon/Paras - 46.png",
+	"cry": "/assets/audio/cries/paras.mp3",
 	"type": ["Bug", "Grass"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -416,8 +416,8 @@
 {
 	"id": 47,
 	"name": "Parasect",
-	"image": "public/assets/images/pokemon/Parasect - 47.png",
-	"cry": "public/assets/audio/cries/parasect.mp3",
+	"image": "/assets/images/pokemon/Parasect - 47.png",
+	"cry": "/assets/audio/cries/parasect.mp3",
 	"type": ["Bug", "Grass"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -425,8 +425,8 @@
 {
 	"id": 48,
 	"name": "Venonat",
-	"image": "public/assets/images/pokemon/Venonat - 48.png",
-	"cry": "public/assets/audio/cries/venonat.mp3",
+	"image": "/assets/images/pokemon/Venonat - 48.png",
+	"cry": "/assets/audio/cries/venonat.mp3",
 	"type": ["Bug", "Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -434,8 +434,8 @@
 {
 	"id": 49,
 	"name": "Venomoth",
-	"image": "public/assets/images/pokemon/Venomoth - 49.png",
-	"cry": "public/assets/audio/cries/venomoth.mp3",
+	"image": "/assets/images/pokemon/Venomoth - 49.png",
+	"cry": "/assets/audio/cries/venomoth.mp3",
 	"type": ["Bug", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -443,8 +443,8 @@
 {
 	"id": 50,
 	"name": "Diglett",
-	"image": "public/assets/images/pokemon/Diglett - 50.png",
-	"cry": "public/assets/audio/cries/diglett.mp3",
+	"image": "/assets/images/pokemon/Diglett - 50.png",
+	"cry": "/assets/audio/cries/diglett.mp3",
 	"type": ["Ground"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -452,8 +452,8 @@
 {
 	"id": 51,
 	"name": "Dugtrio",
-	"image": "public/assets/images/pokemon/Dugtrio - 51.png",
-	"cry": "public/assets/audio/cries/dugtrio.mp3",
+	"image": "/assets/images/pokemon/Dugtrio - 51.png",
+	"cry": "/assets/audio/cries/dugtrio.mp3",
 	"type": ["Ground"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -461,8 +461,8 @@
 {
 	"id": 52,
 	"name": "Meowth",
-	"image": "public/assets/images/pokemon/Meowth - 52.png",
-	"cry": "public/assets/audio/cries/meowth.mp3",
+	"image": "/assets/images/pokemon/Meowth - 52.png",
+	"cry": "/assets/audio/cries/meowth.mp3",
 	"type": ["Normal"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -470,8 +470,8 @@
 {
 	"id": 53,
 	"name": "Persian",
-	"image": "public/assets/images/pokemon/Persian - 53.png",
-	"cry": "public/assets/audio/cries/persian.mp3",
+	"image": "/assets/images/pokemon/Persian - 53.png",
+	"cry": "/assets/audio/cries/persian.mp3",
 	"type": ["Normal"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -479,8 +479,8 @@
 {
 	"id": 54,
 	"name": "Psyduck",
-	"image": "public/assets/images/pokemon/Psyduck - 54.png",
-	"cry": "public/assets/audio/cries/psyduck.mp3",
+	"image": "/assets/images/pokemon/Psyduck - 54.png",
+	"cry": "/assets/audio/cries/psyduck.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -488,8 +488,8 @@
 {
 	"id": 55,
 	"name": "Golduck",
-	"image": "public/assets/images/pokemon/Golduck - 55.png",
-	"cry": "public/assets/audio/cries/golduck.mp3",
+	"image": "/assets/images/pokemon/Golduck - 55.png",
+	"cry": "/assets/audio/cries/golduck.mp3",
 	"type": ["Water"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -497,8 +497,8 @@
 {
 	"id": 56,
 	"name": "Mankey",
-	"image": "public/assets/images/pokemon/Mankey - 56.png",
-	"cry": "public/assets/audio/cries/mankey.mp3",
+	"image": "/assets/images/pokemon/Mankey - 56.png",
+	"cry": "/assets/audio/cries/mankey.mp3",
 	"type": ["Fight"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -506,8 +506,8 @@
 {
 	"id": 57,
 	"name": "Primeape",
-	"image": "public/assets/images/pokemon/Primeape - 57.png",
-	"cry": "public/assets/audio/cries/primeape.mp3",
+	"image": "/assets/images/pokemon/Primeape - 57.png",
+	"cry": "/assets/audio/cries/primeape.mp3",
 	"type": ["Fight"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -515,8 +515,8 @@
 {
 	"id": 58,
 	"name": "Growlithe",
-	"image": "public/assets/images/pokemon/Growlithe - 58.png",
-	"cry": "public/assets/audio/cries/growlithe.mp3",
+	"image": "/assets/images/pokemon/Growlithe - 58.png",
+	"cry": "/assets/audio/cries/growlithe.mp3",
 	"type": ["Fire"],
 	"rarity": "rare",
 	"evolutionMethod": ["Fire stone"]
@@ -524,8 +524,8 @@
 {
 	"id": 59,
 	"name": "Arcanine",
-	"image": "public/assets/images/pokemon/Arcanine - 59.png",
-	"cry": "public/assets/audio/cries/arcanine.mp3",
+	"image": "/assets/images/pokemon/Arcanine - 59.png",
+	"cry": "/assets/audio/cries/arcanine.mp3",
 	"type": ["Fire"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -533,8 +533,8 @@
 {
 	"id": 60,
 	"name": "Poliwag",
-	"image": "public/assets/images/pokemon/Poliwag - 60.png",
-	"cry": "public/assets/audio/cries/poliwag.mp3",
+	"image": "/assets/images/pokemon/Poliwag - 60.png",
+	"cry": "/assets/audio/cries/poliwag.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -542,8 +542,8 @@
 {
 	"id": 61,
 	"name": "Poliwhirl",
-	"image": "public/assets/images/pokemon/Poliwhirl - 61.png",
-	"cry": "public/assets/audio/cries/poliwhirl.mp3",
+	"image": "/assets/images/pokemon/Poliwhirl - 61.png",
+	"cry": "/assets/audio/cries/poliwhirl.mp3",
 	"type": ["Water"],
 	"rarity": "rare",
 	"evolutionMethod": ["Water stone"]
@@ -551,8 +551,8 @@
 {
 	"id": 62,
 	"name": "Poliwrath",
-	"image": "public/assets/images/pokemon/Poliwrath - 62.png",
-	"cry": "public/assets/audio/cries/poliwrath.mp3",
+	"image": "/assets/images/pokemon/Poliwrath - 62.png",
+	"cry": "/assets/audio/cries/poliwrath.mp3",
 	"type": ["Water", "Fight"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -560,8 +560,8 @@
 {
 	"id": 63,
 	"name": "Abra",
-	"image": "public/assets/images/pokemon/Abra - 63.png",
-	"cry": "public/assets/audio/cries/abra.mp3",
+	"image": "/assets/images/pokemon/Abra - 63.png",
+	"cry": "/assets/audio/cries/abra.mp3",
 	"type": ["Psychc"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -569,8 +569,8 @@
 {
 	"id": 64,
 	"name": "Kadabra",
-	"image": "public/assets/images/pokemon/Kadabra - 64.png",
-	"cry": "public/assets/audio/cries/kadabra.mp3",
+	"image": "/assets/images/pokemon/Kadabra - 64.png",
+	"cry": "/assets/audio/cries/kadabra.mp3",
 	"type": ["Psychc"],
 	"rarity": "epic",
 	"evolutionMethod": ["Linking cord"]
@@ -578,8 +578,8 @@
 {
 	"id": 65,
 	"name": "Alakazam",
-	"image": "public/assets/images/pokemon/Alakazam - 65.png",
-	"cry": "public/assets/audio/cries/alakazam.mp3",
+	"image": "/assets/images/pokemon/Alakazam - 65.png",
+	"cry": "/assets/audio/cries/alakazam.mp3",
 	"type": ["Psychc"],
 	"rarity": "legendary",
 	"evolutionMethod": []
@@ -587,8 +587,8 @@
 {
 	"id": 66,
 	"name": "Machop",
-	"image": "public/assets/images/pokemon/Machop - 66.png",
-	"cry": "public/assets/audio/cries/machop.mp3",
+	"image": "/assets/images/pokemon/Machop - 66.png",
+	"cry": "/assets/audio/cries/machop.mp3",
 	"type": ["Fight"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -596,8 +596,8 @@
 {
 	"id": 67,
 	"name": "Machoke",
-	"image": "public/assets/images/pokemon/Machoke - 67.png",
-	"cry": "public/assets/audio/cries/machoke.mp3",
+	"image": "/assets/images/pokemon/Machoke - 67.png",
+	"cry": "/assets/audio/cries/machoke.mp3",
 	"type": ["Fight"],
 	"rarity": "rare",
 	"evolutionMethod": ["Linking cord"]
@@ -605,8 +605,8 @@
 {
 	"id": 68,
 	"name": "Machamp",
-	"image": "public/assets/images/pokemon/Machamp - 68.png",
-	"cry": "public/assets/audio/cries/machamp.mp3",
+	"image": "/assets/images/pokemon/Machamp - 68.png",
+	"cry": "/assets/audio/cries/machamp.mp3",
 	"type": ["Fight"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -614,8 +614,8 @@
 {
 	"id": 69,
 	"name": "Bellsprout",
-	"image": "public/assets/images/pokemon/Bellsprout - 69.png",
-	"cry": "public/assets/audio/cries/bellsprout.mp3",
+	"image": "/assets/images/pokemon/Bellsprout - 69.png",
+	"cry": "/assets/audio/cries/bellsprout.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -623,8 +623,8 @@
 {
 	"id": 70,
 	"name": "Weepinbell",
-	"image": "public/assets/images/pokemon/Weepinbell - 70.png",
-	"cry": "public/assets/audio/cries/weepinbell.mp3",
+	"image": "/assets/images/pokemon/Weepinbell - 70.png",
+	"cry": "/assets/audio/cries/weepinbell.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": ["Leaf stone"]
@@ -632,8 +632,8 @@
 {
 	"id": 71,
 	"name": "Victreebel",
-	"image": "public/assets/images/pokemon/Victreebel - 71.png",
-	"cry": "public/assets/audio/cries/victreebel.mp3",
+	"image": "/assets/images/pokemon/Victreebel - 71.png",
+	"cry": "/assets/audio/cries/victreebel.mp3",
 	"type": ["Grass", "Poison"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -641,8 +641,8 @@
 {
 	"id": 72,
 	"name": "Tentacool",
-	"image": "public/assets/images/pokemon/Tentacool - 72.png",
-	"cry": "public/assets/audio/cries/tentacool.mp3",
+	"image": "/assets/images/pokemon/Tentacool - 72.png",
+	"cry": "/assets/audio/cries/tentacool.mp3",
 	"type": ["Water", "Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -650,8 +650,8 @@
 {
 	"id": 73,
 	"name": "Tentacruel",
-	"image": "public/assets/images/pokemon/Tentacruel - 73.png",
-	"cry": "public/assets/audio/cries/tentacruel.mp3",
+	"image": "/assets/images/pokemon/Tentacruel - 73.png",
+	"cry": "/assets/audio/cries/tentacruel.mp3",
 	"type": ["Water", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -659,8 +659,8 @@
 {
 	"id": 74,
 	"name": "Geodude",
-	"image": "public/assets/images/pokemon/Geodude - 74.png",
-	"cry": "public/assets/audio/cries/geodude.mp3",
+	"image": "/assets/images/pokemon/Geodude - 74.png",
+	"cry": "/assets/audio/cries/geodude.mp3",
 	"type": ["Rock", "Ground"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -668,8 +668,8 @@
 {
 	"id": 75,
 	"name": "Graveler",
-	"image": "public/assets/images/pokemon/Graveler - 75.png",
-	"cry": "public/assets/audio/cries/graveler.mp3",
+	"image": "/assets/images/pokemon/Graveler - 75.png",
+	"cry": "/assets/audio/cries/graveler.mp3",
 	"type": ["Rock", "Ground"],
 	"rarity": "rare",
 	"evolutionMethod": ["Linking cord"]
@@ -677,8 +677,8 @@
 {
 	"id": 76,
 	"name": "Golem",
-	"image": "public/assets/images/pokemon/Golem - 76.png",
-	"cry": "public/assets/audio/cries/golem.mp3",
+	"image": "/assets/images/pokemon/Golem - 76.png",
+	"cry": "/assets/audio/cries/golem.mp3",
 	"type": ["Rock", "Ground"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -686,8 +686,8 @@
 {
 	"id": 77,
 	"name": "Ponyta",
-	"image": "public/assets/images/pokemon/Ponyta - 77.png",
-	"cry": "public/assets/audio/cries/ponyta.mp3",
+	"image": "/assets/images/pokemon/Ponyta - 77.png",
+	"cry": "/assets/audio/cries/ponyta.mp3",
 	"type": ["Fire"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -695,8 +695,8 @@
 {
 	"id": 78,
 	"name": "Rapidash",
-	"image": "public/assets/images/pokemon/Rapidash - 78.png",
-	"cry": "public/assets/audio/cries/rapidash.mp3",
+	"image": "/assets/images/pokemon/Rapidash - 78.png",
+	"cry": "/assets/audio/cries/rapidash.mp3",
 	"type": ["Fire"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -704,8 +704,8 @@
 {
 	"id": 79,
 	"name": "Slowpoke",
-	"image": "public/assets/images/pokemon/Slowpoke - 79.png",
-	"cry": "public/assets/audio/cries/slowpoke.mp3",
+	"image": "/assets/images/pokemon/Slowpoke - 79.png",
+	"cry": "/assets/audio/cries/slowpoke.mp3",
 	"type": ["Water", "Psychc"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -713,8 +713,8 @@
 {
 	"id": 80,
 	"name": "Slowbro",
-	"image": "public/assets/images/pokemon/Slowbro - 80.png",
-	"cry": "public/assets/audio/cries/slowbro.mp3",
+	"image": "/assets/images/pokemon/Slowbro - 80.png",
+	"cry": "/assets/audio/cries/slowbro.mp3",
 	"type": ["Water", "Psychc"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -722,8 +722,8 @@
 {
 	"id": 81,
 	"name": "Magnemite",
-	"image": "public/assets/images/pokemon/Magnemite - 81.png",
-	"cry": "public/assets/audio/cries/magnemite.mp3",
+	"image": "/assets/images/pokemon/Magnemite - 81.png",
+	"cry": "/assets/audio/cries/magnemite.mp3",
 	"type": ["Electr", "Steel"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -731,8 +731,8 @@
 {
 	"id": 82,
 	"name": "Magneton",
-	"image": "public/assets/images/pokemon/Magneton - 82.png",
-	"cry": "public/assets/audio/cries/magneton.mp3",
+	"image": "/assets/images/pokemon/Magneton - 82.png",
+	"cry": "/assets/audio/cries/magneton.mp3",
 	"type": ["Electr", "Steel"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -740,8 +740,8 @@
 {
 	"id": 83,
 	"name": "Farfetch'd",
-	"image": "public/assets/images/pokemon/Farfetch'd - 83.png",
-	"cry": "public/assets/audio/cries/farfetch'd.mp3",
+	"image": "/assets/images/pokemon/Farfetch'd - 83.png",
+	"cry": "/assets/audio/cries/farfetch'd.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -749,8 +749,8 @@
 {
 	"id": 84,
 	"name": "Doduo",
-	"image": "public/assets/images/pokemon/Doduo - 84.png",
-	"cry": "public/assets/audio/cries/doduo.mp3",
+	"image": "/assets/images/pokemon/Doduo - 84.png",
+	"cry": "/assets/audio/cries/doduo.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -758,8 +758,8 @@
 {
 	"id": 85,
 	"name": "Dodrio",
-	"image": "public/assets/images/pokemon/Dodrio - 85.png",
-	"cry": "public/assets/audio/cries/dodrio.mp3",
+	"image": "/assets/images/pokemon/Dodrio - 85.png",
+	"cry": "/assets/audio/cries/dodrio.mp3",
 	"type": ["Normal", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -767,8 +767,8 @@
 {
 	"id": 86,
 	"name": "Seel",
-	"image": "public/assets/images/pokemon/Seel - 86.png",
-	"cry": "public/assets/audio/cries/seel.mp3",
+	"image": "/assets/images/pokemon/Seel - 86.png",
+	"cry": "/assets/audio/cries/seel.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -776,8 +776,8 @@
 {
 	"id": 87,
 	"name": "Dewgong",
-	"image": "public/assets/images/pokemon/Dewgong - 87.png",
-	"cry": "public/assets/audio/cries/dewgong.mp3",
+	"image": "/assets/images/pokemon/Dewgong - 87.png",
+	"cry": "/assets/audio/cries/dewgong.mp3",
 	"type": ["Water", "Ice"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -785,8 +785,8 @@
 {
 	"id": 88,
 	"name": "Grimer",
-	"image": "public/assets/images/pokemon/Grimer - 88.png",
-	"cry": "public/assets/audio/cries/grimer.mp3",
+	"image": "/assets/images/pokemon/Grimer - 88.png",
+	"cry": "/assets/audio/cries/grimer.mp3",
 	"type": ["Poison"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -794,8 +794,8 @@
 {
 	"id": 89,
 	"name": "Muk",
-	"image": "public/assets/images/pokemon/Muk - 89.png",
-	"cry": "public/assets/audio/cries/muk.mp3",
+	"image": "/assets/images/pokemon/Muk - 89.png",
+	"cry": "/assets/audio/cries/muk.mp3",
 	"type": ["Poison"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -803,8 +803,8 @@
 {
 	"id": 90,
 	"name": "Shellder",
-	"image": "public/assets/images/pokemon/Shellder - 90.png",
-	"cry": "public/assets/audio/cries/shellder.mp3",
+	"image": "/assets/images/pokemon/Shellder - 90.png",
+	"cry": "/assets/audio/cries/shellder.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["Water stone"]
@@ -812,8 +812,8 @@
 {
 	"id": 91,
 	"name": "Cloyster",
-	"image": "public/assets/images/pokemon/Cloyster - 91.png",
-	"cry": "public/assets/audio/cries/cloyster.mp3",
+	"image": "/assets/images/pokemon/Cloyster - 91.png",
+	"cry": "/assets/audio/cries/cloyster.mp3",
 	"type": ["Water", "Ice"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -821,8 +821,8 @@
 {
 	"id": 92,
 	"name": "Gastly",
-	"image": "public/assets/images/pokemon/Gastly - 92.png",
-	"cry": "public/assets/audio/cries/gastly.mp3",
+	"image": "/assets/images/pokemon/Gastly - 92.png",
+	"cry": "/assets/audio/cries/gastly.mp3",
 	"type": ["Ghost", "Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -830,8 +830,8 @@
 {
 	"id": 93,
 	"name": "Haunter",
-	"image": "public/assets/images/pokemon/Haunter - 93.png",
-	"cry": "public/assets/audio/cries/haunter.mp3",
+	"image": "/assets/images/pokemon/Haunter - 93.png",
+	"cry": "/assets/audio/cries/haunter.mp3",
 	"type": ["Ghost", "Poison"],
 	"rarity": "rare",
 	"evolutionMethod": ["Linking cord"]
@@ -839,8 +839,8 @@
 {
 	"id": 94,
 	"name": "Gengar",
-	"image": "public/assets/images/pokemon/Gengar - 94.png",
-	"cry": "public/assets/audio/cries/gengar.mp3",
+	"image": "/assets/images/pokemon/Gengar - 94.png",
+	"cry": "/assets/audio/cries/gengar.mp3",
 	"type": ["Ghost", "Poison"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -848,8 +848,8 @@
 {
 	"id": 95,
 	"name": "Onix",
-	"image": "public/assets/images/pokemon/Onix - 95.png",
-	"cry": "public/assets/audio/cries/onix.mp3",
+	"image": "/assets/images/pokemon/Onix - 95.png",
+	"cry": "/assets/audio/cries/onix.mp3",
 	"type": ["Rock", "Ground"],
 	"rarity": "uncommon",
 	"evolutionMethod": []
@@ -857,8 +857,8 @@
 {
 	"id": 96,
 	"name": "Drowzee",
-	"image": "public/assets/images/pokemon/Drowzee - 96.png",
-	"cry": "public/assets/audio/cries/drowzee.mp3",
+	"image": "/assets/images/pokemon/Drowzee - 96.png",
+	"cry": "/assets/audio/cries/drowzee.mp3",
 	"type": ["Psychc"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -866,8 +866,8 @@
 {
 	"id": 97,
 	"name": "Hypno",
-	"image": "public/assets/images/pokemon/Hypno - 97.png",
-	"cry": "public/assets/audio/cries/hypno.mp3",
+	"image": "/assets/images/pokemon/Hypno - 97.png",
+	"cry": "/assets/audio/cries/hypno.mp3",
 	"type": ["Psychc"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -875,8 +875,8 @@
 {
 	"id": 98,
 	"name": "Krabby",
-	"image": "public/assets/images/pokemon/Krabby - 98.png",
-	"cry": "public/assets/audio/cries/krabby.mp3",
+	"image": "/assets/images/pokemon/Krabby - 98.png",
+	"cry": "/assets/audio/cries/krabby.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -884,8 +884,8 @@
 {
 	"id": 99,
 	"name": "Kingler",
-	"image": "public/assets/images/pokemon/Kingler - 99.png",
-	"cry": "public/assets/audio/cries/kingler.mp3",
+	"image": "/assets/images/pokemon/Kingler - 99.png",
+	"cry": "/assets/audio/cries/kingler.mp3",
 	"type": ["Water"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -893,8 +893,8 @@
 {
 	"id": 100,
 	"name": "Voltorb",
-	"image": "public/assets/images/pokemon/Voltorb - 100.png",
-	"cry": "public/assets/audio/cries/voltorb.mp3",
+	"image": "/assets/images/pokemon/Voltorb - 100.png",
+	"cry": "/assets/audio/cries/voltorb.mp3",
 	"type": ["Electr"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -902,8 +902,8 @@
 {
 	"id": 101,
 	"name": "Electrode",
-	"image": "public/assets/images/pokemon/Electrode - 101.png",
-	"cry": "public/assets/audio/cries/electrode.mp3",
+	"image": "/assets/images/pokemon/Electrode - 101.png",
+	"cry": "/assets/audio/cries/electrode.mp3",
 	"type": ["Electr"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -911,8 +911,8 @@
 {
 	"id": 102,
 	"name": "Exeggcute",
-	"image": "public/assets/images/pokemon/Exeggcute - 102.png",
-	"cry": "public/assets/audio/cries/exeggcute.mp3",
+	"image": "/assets/images/pokemon/Exeggcute - 102.png",
+	"cry": "/assets/audio/cries/exeggcute.mp3",
 	"type": ["Grass", "Psychc"],
 	"rarity": "rare",
 	"evolutionMethod": ["Leaf stone"]
@@ -920,8 +920,8 @@
 {
 	"id": 103,
 	"name": "Exeggutor",
-	"image": "public/assets/images/pokemon/Exeggutor - 103.png",
-	"cry": "public/assets/audio/cries/exeggutor.mp3",
+	"image": "/assets/images/pokemon/Exeggutor - 103.png",
+	"cry": "/assets/audio/cries/exeggutor.mp3",
 	"type": ["Grass", "Psychc"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -929,8 +929,8 @@
 {
 	"id": 104,
 	"name": "Cubone",
-	"image": "public/assets/images/pokemon/Cubone - 104.png",
-	"cry": "public/assets/audio/cries/cubone.mp3",
+	"image": "/assets/images/pokemon/Cubone - 104.png",
+	"cry": "/assets/audio/cries/cubone.mp3",
 	"type": ["Ground"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -938,8 +938,8 @@
 {
 	"id": 105,
 	"name": "Marowak",
-	"image": "public/assets/images/pokemon/Marowak - 105.png",
-	"cry": "public/assets/audio/cries/marowak.mp3",
+	"image": "/assets/images/pokemon/Marowak - 105.png",
+	"cry": "/assets/audio/cries/marowak.mp3",
 	"type": ["Ground"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -947,8 +947,8 @@
 {
 	"id": 106,
 	"name": "Hitmonlee",
-	"image": "public/assets/images/pokemon/Hitmonlee - 106.png",
-	"cry": "public/assets/audio/cries/hitmonlee.mp3",
+	"image": "/assets/images/pokemon/Hitmonlee - 106.png",
+	"cry": "/assets/audio/cries/hitmonlee.mp3",
 	"type": ["Fight"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -956,8 +956,8 @@
 {
 	"id": 107,
 	"name": "Hitmonchan",
-	"image": "public/assets/images/pokemon/Hitmonchan - 107.png",
-	"cry": "public/assets/audio/cries/hitmonchan.mp3",
+	"image": "/assets/images/pokemon/Hitmonchan - 107.png",
+	"cry": "/assets/audio/cries/hitmonchan.mp3",
 	"type": ["Fight"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -965,8 +965,8 @@
 {
 	"id": 108,
 	"name": "Lickitung",
-	"image": "public/assets/images/pokemon/Lickitung - 108.png",
-	"cry": "public/assets/audio/cries/lickitung.mp3",
+	"image": "/assets/images/pokemon/Lickitung - 108.png",
+	"cry": "/assets/audio/cries/lickitung.mp3",
 	"type": ["Normal"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -974,8 +974,8 @@
 {
 	"id": 109,
 	"name": "Koffing",
-	"image": "public/assets/images/pokemon/Koffing - 109.png",
-	"cry": "public/assets/audio/cries/koffing.mp3",
+	"image": "/assets/images/pokemon/Koffing - 109.png",
+	"cry": "/assets/audio/cries/koffing.mp3",
 	"type": ["Poison"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -983,8 +983,8 @@
 {
 	"id": 110,
 	"name": "Weezing",
-	"image": "public/assets/images/pokemon/Weezing - 110.png",
-	"cry": "public/assets/audio/cries/weezing.mp3",
+	"image": "/assets/images/pokemon/Weezing - 110.png",
+	"cry": "/assets/audio/cries/weezing.mp3",
 	"type": ["Poison"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -992,8 +992,8 @@
 {
 	"id": 111,
 	"name": "Rhyhorn",
-	"image": "public/assets/images/pokemon/Rhyhorn - 111.png",
-	"cry": "public/assets/audio/cries/rhyhorn.mp3",
+	"image": "/assets/images/pokemon/Rhyhorn - 111.png",
+	"cry": "/assets/audio/cries/rhyhorn.mp3",
 	"type": ["Ground", "Rock"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -1001,8 +1001,8 @@
 {
 	"id": 112,
 	"name": "Rhydon",
-	"image": "public/assets/images/pokemon/Rhydon - 112.png",
-	"cry": "public/assets/audio/cries/rhydon.mp3",
+	"image": "/assets/images/pokemon/Rhydon - 112.png",
+	"cry": "/assets/audio/cries/rhydon.mp3",
 	"type": ["Ground", "Rock"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1010,8 +1010,8 @@
 {
 	"id": 113,
 	"name": "Chansey",
-	"image": "public/assets/images/pokemon/Chansey - 113.png",
-	"cry": "public/assets/audio/cries/chansey.mp3",
+	"image": "/assets/images/pokemon/Chansey - 113.png",
+	"cry": "/assets/audio/cries/chansey.mp3",
 	"type": ["Normal"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1019,8 +1019,8 @@
 {
 	"id": 114,
 	"name": "Tangela",
-	"image": "public/assets/images/pokemon/Tangela - 114.png",
-	"cry": "public/assets/audio/cries/tangela.mp3",
+	"image": "/assets/images/pokemon/Tangela - 114.png",
+	"cry": "/assets/audio/cries/tangela.mp3",
 	"type": ["Grass"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1028,8 +1028,8 @@
 {
 	"id": 115,
 	"name": "Kangaskhan",
-	"image": "public/assets/images/pokemon/Kangaskhan - 115.png",
-	"cry": "public/assets/audio/cries/kangaskhan.mp3",
+	"image": "/assets/images/pokemon/Kangaskhan - 115.png",
+	"cry": "/assets/audio/cries/kangaskhan.mp3",
 	"type": ["Normal"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1037,8 +1037,8 @@
 {
 	"id": 116,
 	"name": "Horsea",
-	"image": "public/assets/images/pokemon/Horsea - 116.png",
-	"cry": "public/assets/audio/cries/horsea.mp3",
+	"image": "/assets/images/pokemon/Horsea - 116.png",
+	"cry": "/assets/audio/cries/horsea.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["exp"]
@@ -1046,8 +1046,8 @@
 {
 	"id": 117,
 	"name": "Seadra",
-	"image": "public/assets/images/pokemon/Seadra - 117.png",
-	"cry": "public/assets/audio/cries/seadra.mp3",
+	"image": "/assets/images/pokemon/Seadra - 117.png",
+	"cry": "/assets/audio/cries/seadra.mp3",
 	"type": ["Water"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1055,8 +1055,8 @@
 {
 	"id": 118,
 	"name": "Goldeen",
-	"image": "public/assets/images/pokemon/Goldeen - 118.png",
-	"cry": "public/assets/audio/cries/goldeen.mp3",
+	"image": "/assets/images/pokemon/Goldeen - 118.png",
+	"cry": "/assets/audio/cries/goldeen.mp3",
 	"type": ["Water"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -1064,8 +1064,8 @@
 {
 	"id": 119,
 	"name": "Seaking",
-	"image": "public/assets/images/pokemon/Seaking - 119.png",
-	"cry": "public/assets/audio/cries/seaking.mp3",
+	"image": "/assets/images/pokemon/Seaking - 119.png",
+	"cry": "/assets/audio/cries/seaking.mp3",
 	"type": ["Water"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1073,8 +1073,8 @@
 {
 	"id": 120,
 	"name": "Staryu",
-	"image": "public/assets/images/pokemon/Staryu - 120.png",
-	"cry": "public/assets/audio/cries/staryu.mp3",
+	"image": "/assets/images/pokemon/Staryu - 120.png",
+	"cry": "/assets/audio/cries/staryu.mp3",
 	"type": ["Water"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["Water stone"]
@@ -1082,8 +1082,8 @@
 {
 	"id": 121,
 	"name": "Starmie",
-	"image": "public/assets/images/pokemon/Starmie - 121.png",
-	"cry": "public/assets/audio/cries/starmie.mp3",
+	"image": "/assets/images/pokemon/Starmie - 121.png",
+	"cry": "/assets/audio/cries/starmie.mp3",
 	"type": ["Water", "Psychc"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1091,8 +1091,8 @@
 {
 	"id": 122,
 	"name": "Mr. Mime",
-	"image": "public/assets/images/pokemon/Mr. Mime - 122.png",
-	"cry": "public/assets/audio/cries/mr. mime.mp3",
+	"image": "/assets/images/pokemon/Mr. Mime - 122.png",
+	"cry": "/assets/audio/cries/mr. mime.mp3",
 	"type": ["Psychc", "Fairy"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1100,8 +1100,8 @@
 {
 	"id": 123,
 	"name": "Scyther",
-	"image": "public/assets/images/pokemon/Scyther - 123.png",
-	"cry": "public/assets/audio/cries/scyther.mp3",
+	"image": "/assets/images/pokemon/Scyther - 123.png",
+	"cry": "/assets/audio/cries/scyther.mp3",
 	"type": ["Bug", "Flying"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1109,8 +1109,8 @@
 {
 	"id": 124,
 	"name": "Jynx",
-	"image": "public/assets/images/pokemon/Jynx - 124.png",
-	"cry": "public/assets/audio/cries/jynx.mp3",
+	"image": "/assets/images/pokemon/Jynx - 124.png",
+	"cry": "/assets/audio/cries/jynx.mp3",
 	"type": ["Ice", "Psychc"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1118,8 +1118,8 @@
 {
 	"id": 125,
 	"name": "Electabuzz",
-	"image": "public/assets/images/pokemon/Electabuzz - 125.png",
-	"cry": "public/assets/audio/cries/electabuzz.mp3",
+	"image": "/assets/images/pokemon/Electabuzz - 125.png",
+	"cry": "/assets/audio/cries/electabuzz.mp3",
 	"type": ["Electr"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1127,8 +1127,8 @@
 {
 	"id": 126,
 	"name": "Magmar",
-	"image": "public/assets/images/pokemon/Magmar - 126.png",
-	"cry": "public/assets/audio/cries/magmar.mp3",
+	"image": "/assets/images/pokemon/Magmar - 126.png",
+	"cry": "/assets/audio/cries/magmar.mp3",
 	"type": ["Fire"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1136,8 +1136,8 @@
 {
 	"id": 127,
 	"name": "Pinsir",
-	"image": "public/assets/images/pokemon/Pinsir - 127.png",
-	"cry": "public/assets/audio/cries/pinsir.mp3",
+	"image": "/assets/images/pokemon/Pinsir - 127.png",
+	"cry": "/assets/audio/cries/pinsir.mp3",
 	"type": ["Bug"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1145,8 +1145,8 @@
 {
 	"id": 128,
 	"name": "Tauros",
-	"image": "public/assets/images/pokemon/Tauros - 128.png",
-	"cry": "public/assets/audio/cries/tauros.mp3",
+	"image": "/assets/images/pokemon/Tauros - 128.png",
+	"cry": "/assets/audio/cries/tauros.mp3",
 	"type": ["Normal"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1154,8 +1154,8 @@
 {
 	"id": 129,
 	"name": "Magikarp",
-	"image": "public/assets/images/pokemon/Magikarp - 129.png",
-	"cry": "public/assets/audio/cries/magikarp.mp3",
+	"image": "/assets/images/pokemon/Magikarp - 129.png",
+	"cry": "/assets/audio/cries/magikarp.mp3",
 	"type": ["Water"],
 	"rarity": "common",
 	"evolutionMethod": ["exp"]
@@ -1163,8 +1163,8 @@
 {
 	"id": 130,
 	"name": "Gyarados",
-	"image": "public/assets/images/pokemon/Gyarados - 130.png",
-	"cry": "public/assets/audio/cries/gyarados.mp3",
+	"image": "/assets/images/pokemon/Gyarados - 130.png",
+	"cry": "/assets/audio/cries/gyarados.mp3",
 	"type": ["Water", "Flying"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1172,8 +1172,8 @@
 {
 	"id": 131,
 	"name": "Lapras",
-	"image": "public/assets/images/pokemon/Lapras - 131.png",
-	"cry": "public/assets/audio/cries/lapras.mp3",
+	"image": "/assets/images/pokemon/Lapras - 131.png",
+	"cry": "/assets/audio/cries/lapras.mp3",
 	"type": ["Water", "Ice"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1181,8 +1181,8 @@
 {
 	"id": 132,
 	"name": "Ditto",
-	"image": "public/assets/images/pokemon/Ditto - 132.png",
-	"cry": "public/assets/audio/cries/ditto.mp3",
+	"image": "/assets/images/pokemon/Ditto - 132.png",
+	"cry": "/assets/audio/cries/ditto.mp3",
 	"type": ["Normal"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1190,8 +1190,8 @@
 {
 	"id": 133,
 	"name": "Eevee",
-	"image": "public/assets/images/pokemon/Eevee - 133.png",
-	"cry": "public/assets/audio/cries/eevee.mp3",
+	"image": "/assets/images/pokemon/Eevee - 133.png",
+	"cry": "/assets/audio/cries/eevee.mp3",
 	"type": ["Normal"],
 	"rarity": "uncommon",
 	"evolutionMethod": ["Water stone", "Thunder stone", "Fire stone"]
@@ -1199,8 +1199,8 @@
 {
 	"id": 134,
 	"name": "Vaporeon",
-	"image": "public/assets/images/pokemon/Vaporeon - 134.png",
-	"cry": "public/assets/audio/cries/vaporeon.mp3",
+	"image": "/assets/images/pokemon/Vaporeon - 134.png",
+	"cry": "/assets/audio/cries/vaporeon.mp3",
 	"type": ["Water"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1208,8 +1208,8 @@
 {
 	"id": 135,
 	"name": "Jolteon",
-	"image": "public/assets/images/pokemon/Jolteon - 135.png",
-	"cry": "public/assets/audio/cries/jolteon.mp3",
+	"image": "/assets/images/pokemon/Jolteon - 135.png",
+	"cry": "/assets/audio/cries/jolteon.mp3",
 	"type": ["Electr"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1217,8 +1217,8 @@
 {
 	"id": 136,
 	"name": "Flareon",
-	"image": "public/assets/images/pokemon/Flareon - 136.png",
-	"cry": "public/assets/audio/cries/flareon.mp3",
+	"image": "/assets/images/pokemon/Flareon - 136.png",
+	"cry": "/assets/audio/cries/flareon.mp3",
 	"type": ["Fire"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1226,8 +1226,8 @@
 {
 	"id": 137,
 	"name": "Porygon",
-	"image": "public/assets/images/pokemon/Porygon - 137.png",
-	"cry": "public/assets/audio/cries/porygon.mp3",
+	"image": "/assets/images/pokemon/Porygon - 137.png",
+	"cry": "/assets/audio/cries/porygon.mp3",
 	"type": ["Normal"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1235,8 +1235,8 @@
 {
 	"id": 138,
 	"name": "Omanyte",
-	"image": "public/assets/images/pokemon/Omanyte - 138.png",
-	"cry": "public/assets/audio/cries/omanyte.mp3",
+	"image": "/assets/images/pokemon/Omanyte - 138.png",
+	"cry": "/assets/audio/cries/omanyte.mp3",
 	"type": ["Rock", "Water"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -1244,8 +1244,8 @@
 {
 	"id": 139,
 	"name": "Omastar",
-	"image": "public/assets/images/pokemon/Omastar - 139.png",
-	"cry": "public/assets/audio/cries/omastar.mp3",
+	"image": "/assets/images/pokemon/Omastar - 139.png",
+	"cry": "/assets/audio/cries/omastar.mp3",
 	"type": ["Rock", "Water"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1253,8 +1253,8 @@
 {
 	"id": 140,
 	"name": "Kabuto",
-	"image": "public/assets/images/pokemon/Kabuto - 140.png",
-	"cry": "public/assets/audio/cries/kabuto.mp3",
+	"image": "/assets/images/pokemon/Kabuto - 140.png",
+	"cry": "/assets/audio/cries/kabuto.mp3",
 	"type": ["Rock", "Water"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -1262,8 +1262,8 @@
 {
 	"id": 141,
 	"name": "Kabutops",
-	"image": "public/assets/images/pokemon/Kabutops - 141.png",
-	"cry": "public/assets/audio/cries/kabutops.mp3",
+	"image": "/assets/images/pokemon/Kabutops - 141.png",
+	"cry": "/assets/audio/cries/kabutops.mp3",
 	"type": ["Rock", "Water"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1271,8 +1271,8 @@
 {
 	"id": 142,
 	"name": "Aerodactyl",
-	"image": "public/assets/images/pokemon/Aerodactyl - 142.png",
-	"cry": "public/assets/audio/cries/aerodactyl.mp3",
+	"image": "/assets/images/pokemon/Aerodactyl - 142.png",
+	"cry": "/assets/audio/cries/aerodactyl.mp3",
 	"type": ["Rock", "Flying"],
 	"rarity": "epic",
 	"evolutionMethod": []
@@ -1280,8 +1280,8 @@
 {
 	"id": 143,
 	"name": "Snorlax",
-	"image": "public/assets/images/pokemon/Snorlax - 143.png",
-	"cry": "public/assets/audio/cries/snorlax.mp3",
+	"image": "/assets/images/pokemon/Snorlax - 143.png",
+	"cry": "/assets/audio/cries/snorlax.mp3",
 	"type": ["Normal"],
 	"rarity": "rare",
 	"evolutionMethod": []
@@ -1289,8 +1289,8 @@
 {
 	"id": 144,
 	"name": "Articuno",
-	"image": "public/assets/images/pokemon/Articuno - 144.png",
-	"cry": "public/assets/audio/cries/articuno.mp3",
+	"image": "/assets/images/pokemon/Articuno - 144.png",
+	"cry": "/assets/audio/cries/articuno.mp3",
 	"type": ["Ice", "Flying"],
 	"rarity": "legendary",
 	"evolutionMethod": []
@@ -1298,8 +1298,8 @@
 {
 	"id": 145,
 	"name": "Zapdos",
-	"image": "public/assets/images/pokemon/Zapdos - 145.png",
-	"cry": "public/assets/audio/cries/zapdos.mp3",
+	"image": "/assets/images/pokemon/Zapdos - 145.png",
+	"cry": "/assets/audio/cries/zapdos.mp3",
 	"type": ["Electr", "Flying"],
 	"rarity": "legendary",
 	"evolutionMethod": []
@@ -1307,8 +1307,8 @@
 {
 	"id": 146,
 	"name": "Moltres",
-	"image": "public/assets/images/pokemon/Moltres - 146.png",
-	"cry": "public/assets/audio/cries/moltres.mp3",
+	"image": "/assets/images/pokemon/Moltres - 146.png",
+	"cry": "/assets/audio/cries/moltres.mp3",
 	"type": ["Fire", "Flying"],
 	"rarity": "legendary",
 	"evolutionMethod": []
@@ -1316,8 +1316,8 @@
 {
 	"id": 147,
 	"name": "Dratini",
-	"image": "public/assets/images/pokemon/Dratini - 147.png",
-	"cry": "public/assets/audio/cries/dratini.mp3",
+	"image": "/assets/images/pokemon/Dratini - 147.png",
+	"cry": "/assets/audio/cries/dratini.mp3",
 	"type": ["Dragon"],
 	"rarity": "rare",
 	"evolutionMethod": ["exp"]
@@ -1325,8 +1325,8 @@
 {
 	"id": 148,
 	"name": "Dragonair",
-	"image": "public/assets/images/pokemon/Dragonair - 148.png",
-	"cry": "public/assets/audio/cries/dragonair.mp3",
+	"image": "/assets/images/pokemon/Dragonair - 148.png",
+	"cry": "/assets/audio/cries/dragonair.mp3",
 	"type": ["Dragon"],
 	"rarity": "epic",
 	"evolutionMethod": ["exp"]
@@ -1334,8 +1334,8 @@
 {
 	"id": 149,
 	"name": "Dragonite",
-	"image": "public/assets/images/pokemon/Dragonite - 149.png",
-	"cry": "public/assets/audio/cries/dragonite.mp3",
+	"image": "/assets/images/pokemon/Dragonite - 149.png",
+	"cry": "/assets/audio/cries/dragonite.mp3",
 	"type": ["Dragon", "Flying"],
 	"rarity": "legendary",
 	"evolutionMethod": []
@@ -1343,8 +1343,8 @@
 {
 	"id": 150,
 	"name": "Mewtwo",
-	"image": "public/assets/images/pokemon/Mewtwo - 150.png",
-	"cry": "public/assets/audio/cries/mewtwo.mp3",
+	"image": "/assets/images/pokemon/Mewtwo - 150.png",
+	"cry": "/assets/audio/cries/mewtwo.mp3",
 	"type": ["Psychc"],
 	"rarity": "legendary",
 	"evolutionMethod": []
@@ -1352,8 +1352,8 @@
 {
 	"id": 151,
 	"name": "Mew",
-	"image": "public/assets/images/pokemon/Mew - 151.png",
-	"cry": "public/assets/audio/cries/mew.mp3",
+	"image": "/assets/images/pokemon/Mew - 151.png",
+	"cry": "/assets/audio/cries/mew.mp3",
 	"type": ["Psychc"],
 	"rarity": "mew",
 	"evolutionMethod": []

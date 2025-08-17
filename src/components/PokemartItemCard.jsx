@@ -2,8 +2,6 @@ import React from 'react';
 import '../styles/ItemCard.css';
 
 export default function PokemartItemCard({ item, onClick, style, animate, owned }) {
-  const itemImage = item.image.replace('public/', '/');
-
   return (
     <section 
       className={`item-card ${animate ? 'animate-buy' : ''}`}
@@ -11,7 +9,7 @@ export default function PokemartItemCard({ item, onClick, style, animate, owned 
       role="button"
     >
         <img
-            src={itemImage}
+            src={item.image}
             alt={item.name}
             className={`item-image ${owned ? 'grayscale' : ''}`}
         />

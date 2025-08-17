@@ -3,7 +3,6 @@ import '../styles/PokemonCard.css';
 
 export default function PokemonCard({ pokemon, onSelect }) {
   const number = String(pokemon.id).padStart(3, '0');
-  const pokemonImage = pokemon.image.replace('public/', '/');
 
   return (
     <section
@@ -13,7 +12,7 @@ export default function PokemonCard({ pokemon, onSelect }) {
         }}
     >
         <img
-            src={pokemonImage}
+            src={pokemon.image}
             alt={pokemon.name}
             className="pokemon-image"
         />

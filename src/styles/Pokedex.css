@@ -67,7 +67,8 @@
 .pokedex-search input {
   width: 350px;
   padding: 8px;
-  font-size: 16px;
+  font-size: 12px;
   border: 2px solid var(--color-card-bg);
   border-radius: 10px;
+  font-family: 'Pokemon Classic';
 }

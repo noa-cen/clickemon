@@ -2,7 +2,7 @@
     "id": 1,
     "name": "Pokéball",
     "type": "ball",
-    "image": "public/assets/images/pokemart/pokeball.png",
+    "image": "/assets/images/pokemart/pokeball.png",
     "cost": 200,
     "description": "A standard Pokéball used to catch wild Pokémon",
     "captureRate": 0.25,
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Greatball",
     "type": "ball",
-    "image": "public/assets/images/pokemart/greatball.png",
+    "image": "/assets/images/pokemart/greatball.png",
     "cost": 600,
     "description": "A stronger version of the Pokéball with better odds",
     "captureRate": 0.5,
@@ -22,7 +22,7 @@
     "id": 3,
     "name": "Ultraball",
     "type": "ball",
-    "image": "public/assets/images/pokemart/ultraball.png",
+    "image": "/assets/images/pokemart/ultraball.png",
     "cost": 1200,
     "description": "A high-grade Pokéball with superior capture power",
     "captureRate": 0.75,
@@ -32,7 +32,7 @@
     "id": 4,
     "name": "Masterball",
     "type": "ball",
-    "image": "public/assets/images/pokemart/masterball.png",
+    "image": "/assets/images/pokemart/masterball.png",
     "description": "A unique ball developed by Sylphe SARL, it can't miss",
     "captureRate": 1.0,
     "shop": false
@@ -41,7 +41,7 @@
     "id": 5,
     "name": "Pokéflute",
     "type": "encounter",
-    "image": "public/assets/images/pokemart/pokeflute.png",
+    "image": "/assets/images/pokemart/pokeflute.png",
     "cost": 5000,
     "description": "Starts a wild encounter with a Pokémon",
     "shop": true
@@ -50,7 +50,7 @@
     "id": 6,
     "name": "Rod",
     "type": "encounter",
-    "image": "public/assets/images/pokemart/rod.png",
+    "image": "/assets/images/pokemart/rod.png",
     "cost": 5000,
     "description": "Starts a wild encounter with an aquatic Pokémon",
     "shop": true
@@ -59,7 +59,7 @@
     "id": 7,
     "name": "Potion",
     "type": "boost",
-    "image": "public/assets/images/pokemart/potion.png",
+    "image": "/assets/images/pokemart/potion.png",
     "cost": 200,
     "description": "Doubles XP gain for a short time",
     "boost": {
@@ -73,7 +73,7 @@
     "id": 8,
     "name": "Super potion",
     "type": "boost",
-    "image": "public/assets/images/pokemart/super-potion.png",
+    "image": "/assets/images/pokemart/super-potion.png",
     "cost": 600,
     "description": "Doubles XP gain for a medium time",
     "boost": {
@@ -87,7 +87,7 @@
     "id": 9,
     "name": "Hyper potion",
     "type": "boost",
-    "image": "public/assets/images/pokemart/hyper-potion.png",
+    "image": "/assets/images/pokemart/hyper-potion.png",
     "cost": 1200,
     "description": "Triples XP gain for a medium time",
     "boost": {
@@ -101,7 +101,7 @@
     "id": 10,
     "name": "Max potion",
     "type": "boost",
-    "image": "public/assets/images/pokemart/max-potion.png",
+    "image": "/assets/images/pokemart/max-potion.png",
     "cost": 2300,
     "description": "Triples XP gain for a long time",
     "boost": {
@@ -115,7 +115,7 @@
     "id": 11,
     "name": "Golden nugget",
     "type": "boost",
-    "image": "public/assets/images/pokemart/golden-nugget.png",
+    "image": "/assets/images/pokemart/golden-nugget.png",
     "description": "Golden nugget worth 5000$",
     "boost": {
         "type": "pokedollar",
@@ -127,7 +127,7 @@
     "id": 12,
     "name": "Rare candy",
     "type": "boost",
-    "image": "public/assets/images/pokemart/rare-candy.png",
+    "image": "/assets/images/pokemart/rare-candy.png",
     "description": "A mysterious candy that instantly boosts your Pokémon's XP",
     "boost": {
         "type": "exp",
@@ -139,7 +139,7 @@
     "id": 13,
     "name": "Leaf stone",
     "type": "stone",
-    "image": "public/assets/images/pokemart/leaf-stone.png",
+    "image": "/assets/images/pokemart/leaf-stone.png",
     "cost": 2100,
     "description": "A vibrant green stone used to evolve certain Pokémon",
     "shop": true
@@ -148,7 +148,7 @@
     "id": 14,
     "name": "Thunder stone",
     "type": "stone",
-    "image": "public/assets/images/pokemart/thunder-stone.png",
+    "image": "/assets/images/pokemart/thunder-stone.png",
     "cost": 2100,
     "description": "A stone with electrical energy used to evolve certain Pokémon",
     "shop": true
@@ -157,7 +157,7 @@
     "id": 15,
     "name": "Water stone",
     "type": "stone",
-    "image": "public/assets/images/pokemart/water-stone.png",
+    "image": "/assets/images/pokemart/water-stone.png",
     "cost": 2100,
     "description": "A stone with a watery aura used to evolve certain Pokémon",
     "shop": true
@@ -166,7 +166,7 @@
     "id": 16,
     "name": "Moon stone",
     "type": "stone",
-    "image": "public/assets/images/pokemart/moon-stone.png",
+    "image": "/assets/images/pokemart/moon-stone.png",
     "cost": 2100,
     "description": "A piece of the moon used to evolve certain Pokémon",
     "shop": true
@@ -175,7 +175,7 @@
     "id": 17,
     "name": "Fire stone",
     "type": "stone",
-    "image": "public/assets/images/pokemart/fire-stone.png",
+    "image": "/assets/images/pokemart/fire-stone.png",
     "cost": 2100,
     "description": "A blazing-hot stone used to evolve certain Pokémon",
     "shop": true
@@ -184,7 +184,7 @@
     "id": 18,
     "name": "Linking cord",
     "type": "stone",
-    "image": "public/assets/images/pokemart/linking-cord.png",
+    "image": "/assets/images/pokemart/linking-cord.png",
     "cost": 2100,
     "description": "A connecting cord used to evolve certain Pokémon",
     "shop": true
@@ -193,7 +193,7 @@
     "id": 19,
     "name": "Multi exp",
     "type": "autoclick",
-    "image": "public/assets/images/pokemart/multi-exp.png",
+    "image": "/assets/images/pokemart/multi-exp.png",
     "cost": 10000,
     "description": "Grants passive XP over time",
     "autoclick": {
@@ -207,7 +207,7 @@
     "id": 20,
     "name": "Coin case",
     "type": "autoclick",
-    "image": "public/assets/images/pokemart/coin-case.png",
+    "image": "/assets/images/pokemart/coin-case.png",
     "cost": 10000,
     "description": "Grants passive pokédollars over time",
     "autoclick": {
@@ -221,7 +221,7 @@
     "id": 21,
     "name": "Item finder",
     "type": "autoclick",
-    "image": "public/assets/images/pokemart/item-finder.png",
+    "image": "/assets/images/pokemart/item-finder.png",
     "cost": 10000,
     "description": "Grants surprise items hidden around you",
     "autoclick": {
@@ -315,7 +315,7 @@
     "id": 22,
     "name": "Bike voucher",
     "type": "voucher",
-    "image": "public/assets/images/pokemart/bike-voucher.png",
+    "image": "/assets/images/pokemart/bike-voucher.png",
     "description": "A voucher to redeem a bicycle",
     "shop": false
 },
@@ -323,7 +323,7 @@
     "id": 23,
     "name": "Bicycle",
     "type": "double",
-    "image": "public/assets/images/pokemart/bicycle.png",
+    "image": "/assets/images/pokemart/bicycle.png",
     "description": "Everything happens at double speed",
     "shop": false
 }]

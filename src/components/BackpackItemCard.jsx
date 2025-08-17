@@ -1,13 +1,11 @@
 import React from 'react';
 import '../styles/ItemCard.css';
 
-export default function BackpackItemCard({ item, quantity }) {
-    const itemImage = item.image.replace('public/', '/');
-    
+export default function BackpackItemCard({ item, quantity }) {    
     return (
         <section className="item-card">
             <img
-                src={itemImage}
+                src={item.image}
                 alt={item.name}
                 className="item-image"
             />

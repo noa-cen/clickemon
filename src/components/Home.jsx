@@ -4,7 +4,7 @@ import '../styles/Home.css';
 export default function Home({ onFinish }) {
   return (
     <section className="home">
-        <img src='public/assets/icons/logo.png' alt='logo' className='logo' />
+        <img src='/assets/icons/logo.png' alt='logo' className='logo' />
         <h1>Clickémon</h1>
         <button className="start-btn" onClick={onFinish}>
             Start

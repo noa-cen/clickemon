@@ -15,7 +15,7 @@ export default function Pokedex({ onClose, setActivePokemon }) {
   }, []);
 
   const handleSelectPokemon = (pokemon) => {
-    const cryAudio = new Audio(pokemon.cry.replace('public/', '/'));
+    const cryAudio = new Audio(pokemon.cry);
     cryAudio.play();
 
     setActivePokemon(pokemon);

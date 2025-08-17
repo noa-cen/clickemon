@@ -17,6 +17,10 @@ export function buyItem(itemName, itemCost) {
           const currentQty = inventory[itemName] || 0;
           inventory[itemName] = currentQty + 1;
           saveInventory(inventory);
+
+          // Trigger a custom event to notify other components
+        window.dispatchEvent(new Event('pokedollarsUpdate'));
+
           return { success: true, inventory };
     } else {
       return { success: false };

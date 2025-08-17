@@ -7,6 +7,11 @@ export default function ActivePokemon({ activePokemon }) {
   const gainExp = (id) => {
         const clicAudio = new Audio('/assets/audio/sounds/exp.mp3');
         clicAudio.play();
+
+        // Current number of clics, update and save
+        const currentClics = parseInt(localStorage.getItem('clic')) || 0;
+        const newClics = currentClics + 1;
+        localStorage.setItem('clic', newClics.toString());
   };
 
   // Classes for each pokemon

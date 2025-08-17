@@ -6,7 +6,7 @@ export default function Character() {
         const clicAudio = new Audio('/assets/audio/sounds/money.mp3');
         clicAudio.play();
 
-        // Current Pokédollars
+        // Current Pokédollars and clics
         const currentPokedollars = parseInt(localStorage.getItem('pokedollars')) || 0;
         const currentClics = parseInt(localStorage.getItem('clic')) || 0;
 

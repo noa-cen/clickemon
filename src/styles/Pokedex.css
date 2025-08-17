@@ -9,7 +9,7 @@
     right: 32px;
     transform: translateY(-50%);
     z-index: 10;
-    max-height: 600px;
+    height: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -57,4 +57,17 @@
     border: none;
     cursor: pointer;
     font-family: var(--font-family-main);
+}
+
+.pokedex-search {
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.pokedex-search input {
+  width: 350px;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid var(--color-card-bg);
+  border-radius: 10px;
 }

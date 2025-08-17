@@ -5,6 +5,7 @@ import '../styles/Pokedex.css';
 
 export default function Pokedex({ onClose, setActivePokemon }) {
   const [ownedIds, setOwnedIds] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     const stored = localStorage.getItem('ownedPokemons');
@@ -20,14 +21,29 @@ export default function Pokedex({ onClose, setActivePokemon }) {
     setActivePokemon(pokemon);
   };
 
+  const filteredPokemons = pokemonsData.filter((pokemon) =>
+    pokemon.name.toLowerCase().includes(search.toLowerCase())
+  );
+
   return (
     <section className="pokedex-container">
       <article className="pokedex-header">
         <h2>Pokédex</h2>
         <button className="close-button" onClick={onClose}>X</button>
       </article>
+
+      {/* Search bar */}
+      <article className="pokedex-search">
+        <input
+          type="text"
+          placeholder="Search for a Pokémon..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+      </article>
+
       <article className="pokedex-list">
-        {pokemonsData.map((pokemon) => {
+        {filteredPokemons.map((pokemon) => {
           const isOwned = ownedIds.includes(pokemon.id);
           return (
             <PokemonCard

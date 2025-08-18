@@ -6,6 +6,8 @@ export default function Header() {
         return parseInt(localStorage.getItem('pokedollars')) || 0;
     });
 
+    const [coins, setCoins] = useState([]);
+
     const activePokemon = JSON.parse(localStorage.getItem('activePokemon')) || {
         "id": 1,
         "name": "Bulbasaur",
@@ -17,17 +19,23 @@ export default function Header() {
     };
     const number = String(activePokemon.id).padStart(3, '0');
 
-    // Listen for changes in localStorage
+    // listen to updates pokédollars
     useEffect(() => {
         const handleStorageChange = () => {
             const updatedPokedollars = parseInt(localStorage.getItem('pokedollars')) || 0;
             setPokedollars(updatedPokedollars);
+
+            // add a coin
+            const id = Date.now() + Math.random();
+            setCoins(prev => [...prev, { id }]);
+
+            // take it off after 
+            setTimeout(() => {
+                setCoins(prev => prev.filter(c => c.id !== id));
+            }, 1500);
         };
 
-        // Listen to the storage event for changes in other tabs
         window.addEventListener('storage', handleStorageChange);
-
-        // Listen to a custom event for changes in the same tab
         window.addEventListener('pokedollarsUpdate', handleStorageChange);
 
         return () => {
@@ -40,7 +48,7 @@ export default function Header() {
         <section className='header'>
             <article className='header-pokedollars'>
                 <h3>Pokédollars</h3>
-                <p>{`${pokedollars}$`}</p>
+                <p id="pokedollars-count">{`${pokedollars}$`}</p>
             </article>
             <article className='header-exp'>
                 <article className='header-pokemon-name'>
@@ -50,6 +58,18 @@ export default function Header() {
                 <div className="xp-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
                     <span className="xp-bar__fill"></span>
                 </div>
+            </article>
+
+            <article className="coin-animations">
+                {coins.map(c => (
+                    <img 
+                        key={c.id}
+                        src="/assets/icons/coin.png"
+                        alt="coin"
+                        className="coin"
+                        style={{ left: `${c.left}%` }}
+                    />
+                ))}
             </article>
         </section>
     );

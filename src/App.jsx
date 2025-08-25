@@ -9,10 +9,12 @@ import Profile from './components/Profile';
 import OverlayModal from './components/OverlayModal';
 import Character from './components/Character';
 import ActivePokemon from './components/ActivePokemon';
+import { getPokedollar } from './services/pokedollar';
 
 export default function App() {
   const [activeMenu, setActiveMenu] = useState(null);
   const [activePokemon, setActivePokemon] = useState(null);
+  const [pokedollar, setPokedollar] = useState(getPokedollar());
 
   useEffect(() => {
     const storedActive = localStorage.getItem('activePokemon');
@@ -28,8 +30,8 @@ export default function App() {
   return (
     <section className="App">
       {/* <Home /> */}
-      <Header />
-      <Character />
+      <Header pokedollar={pokedollar} />
+      <Character setPokedollar={setPokedollar} />
       <ActivePokemon activePokemon={activePokemon} />
       
       <Menu active={activeMenu} onSelect={setActiveMenu} />
@@ -47,7 +49,7 @@ export default function App() {
 
         {activeMenu === 'pokemart' && (
           <OverlayModal onClose={handleClose}>
-            <Pokemart onClose={handleClose} />
+            <Pokemart onClose={handleClose} setPokedollar={setPokedollar} />
           </OverlayModal>
         )}
 

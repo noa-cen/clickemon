@@ -3,8 +3,9 @@ import pokemartData from '../data/pokemart.json';
 import PokemartItemCard from './PokemartItemCard';
 import '../styles/Pokemart.css';
 import { getInventory, buyItem } from '../services/pokemart';
+import { getPokedollar } from '../services/pokedollar';
 
-export default function Pokemart({ onClose }) {
+export default function Pokemart({ onClose, setPokedollar }) {
     const [inventory, setInventory] = useState({});
     const [animatedItem, setAnimatedItem] = useState(null);
 
@@ -24,6 +25,7 @@ export default function Pokemart({ onClose }) {
                 setAnimatedItem(null);
             }, 600);
 
+            setPokedollar(getPokedollar());
             setInventory(result.inventory);
         } else {
             const audio = new Audio('/assets/audio/sounds/error.mp3');

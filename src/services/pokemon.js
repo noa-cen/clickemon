@@ -1,3 +1,5 @@
+import PokemonEvolution from "../components/PokemonEvolution";
+
 export function getActivePokemon() {
     const defaultPokemon = {
         id: 1,
@@ -30,8 +32,17 @@ export function addExp(amount, id) {
         clicAudio.play();
         return setExpActivePokemon(getExpActivePokemon(id) + amount);
     } else if ((getExpActivePokemon(id) + amount) == 100 ) {
+        evolutionByExp();
+        return setExpActivePokemon(getExpActivePokemon(id) + amount);
+    }
+}
+
+export function evolutionByExp() {
+    if (getActivePokemon().evolutionMethod == 'exp') {
         const clicAudio = new Audio('/assets/audio/sounds/evolution.mp3');
         clicAudio.play();
-        return setExpActivePokemon(getExpActivePokemon(id) + amount);
+    } else {
+        const clicAudio = new Audio('/assets/audio/sounds/exp.mp3');
+        clicAudio.play();
     }
 }

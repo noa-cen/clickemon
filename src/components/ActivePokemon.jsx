@@ -4,11 +4,7 @@ import { getExpActivePokemon, addExp } from '../services/pokemon';
 import { addClic } from '../services/clic';
 
 export default function ActivePokemon({ activePokemon, setExp }) {
-  if (!activePokemon) return null;
-
   const gainExp = () => {
-        
-
         addExp(1, activePokemon.id);
         addClic(1);
         setExp(getExpActivePokemon(activePokemon.id));

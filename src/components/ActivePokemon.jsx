@@ -1,15 +1,17 @@
 import React from 'react';
 import '../styles/ActivePokemon.css';
+import { getExpActivePokemon, addExp } from '../services/pokemon';
 import { addClic } from '../services/clic';
 
-export default function ActivePokemon({ activePokemon }) {
+export default function ActivePokemon({ activePokemon, setExp }) {
   if (!activePokemon) return null;
 
-  const gainExp = (id) => {
-        const clicAudio = new Audio('/assets/audio/sounds/exp.mp3');
-        clicAudio.play();
+  const gainExp = () => {
+        
 
+        addExp(1, activePokemon.id);
         addClic(1);
+        setExp(getExpActivePokemon(activePokemon.id));
   };
 
   // Classes for each pokemon
@@ -22,7 +24,7 @@ export default function ActivePokemon({ activePokemon }) {
       src={activePokemon.image}
       alt={activePokemon.name}
       className={`pokemon ${classes}`}
-      onClick={() => gainExp(activePokemon.id)}
+      onClick={gainExp}
     />
   );
 }

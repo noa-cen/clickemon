@@ -10,16 +10,21 @@ import OverlayModal from './components/OverlayModal';
 import Character from './components/Character';
 import ActivePokemon from './components/ActivePokemon';
 import { getPokedollar } from './services/pokedollar';
+import { getActivePokemon, getExpActivePokemon } from "./services/pokemon";
 
 export default function App() {
   const [activeMenu, setActiveMenu] = useState(null);
-  const [activePokemon, setActivePokemon] = useState(null);
+  
+  const [activePokemon, setActivePokemon] = useState(() => getActivePokemon());
+
   const [pokedollar, setPokedollar] = useState(getPokedollar());
+  const [exp, setExp] = useState(getExpActivePokemon(activePokemon.id));
 
   useEffect(() => {
-    const storedActive = localStorage.getItem('activePokemon');
-    if (storedActive) setActivePokemon(JSON.parse(storedActive));
-  }, []);
+    if (activePokemon) {
+      setExp(getExpActivePokemon(activePokemon.id));
+    }
+  }, [activePokemon]);
 
   const handleClose = () => {
       const clicAudio = new Audio('/assets/audio/sounds/click.mp3');
@@ -30,9 +35,9 @@ export default function App() {
   return (
     <section className="App">
       {/* <Home /> */}
-      <Header pokedollar={pokedollar} />
+      <Header pokedollar={pokedollar} exp={exp} activePokemon={activePokemon} />
       <Character setPokedollar={setPokedollar} />
-      <ActivePokemon activePokemon={activePokemon} />
+      <ActivePokemon activePokemon={activePokemon} setExp={setExp} />
       
       <Menu active={activeMenu} onSelect={setActiveMenu} />
 

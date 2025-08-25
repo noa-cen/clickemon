@@ -45,7 +45,6 @@
 .xp-bar__fill {
     position: absolute;
     inset: 0 auto 0 0;
-    width: 25%; /* var(--value) */
     border-radius: var(--radius-medium);
     background: var(--color-green);
     transition: width 400ms ease;

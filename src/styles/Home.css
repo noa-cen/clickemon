@@ -10,17 +10,30 @@ h1 {
 }
 
 .logo {
-  width: 80%;
-  max-width: 900px;
+  max-width: 650px;
   margin-top: 24px;
+}
+
+.start-btn {
+    font-family: var(--font-family-main);
+    background-color: var(--color-white);
+    border-radius: var(--radius-small);
+    border: double 6px var(--color-black);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    transform: scale(1.05);
 }
 
 .home-pokemon {
     display: flex;
     justify-content: space-around;
-    width: 1000px;
+    width: 80%;
 }
 
-.home-pokemon .pokemon {
-    width: 200px;
+.pokemon-starter {
+    width: 300px;
+    height: auto;
 }

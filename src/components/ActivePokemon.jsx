@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ActivePokemon.css';
+import { addClic } from '../services/clic';
 
 export default function ActivePokemon({ activePokemon }) {
   if (!activePokemon) return null;
@@ -8,10 +9,7 @@ export default function ActivePokemon({ activePokemon }) {
         const clicAudio = new Audio('/assets/audio/sounds/exp.mp3');
         clicAudio.play();
 
-        // Current number of clics, update and save
-        const currentClics = parseInt(localStorage.getItem('clic')) || 0;
-        const newClics = currentClics + 1;
-        localStorage.setItem('clic', newClics.toString());
+        addClic(1);
   };
 
   // Classes for each pokemon
